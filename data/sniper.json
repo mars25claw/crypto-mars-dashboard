@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-03-01T16:40:13.057636+00:00",
+  "timestamp": "2026-03-01T16:40:58.163368+00:00",
   "coins": [
     {
       "symbol": "SOLUSDT",
       "score": 39,
       "direction": "LONG",
-      "price": 85.73,
-      "change_24h": 6.22
+      "price": 85.74,
+      "change_24h": 6.1
     },
     {
       "symbol": "XLMUSDT",
       "score": 37,
       "direction": "SHORT",
       "price": 0.1583,
-      "change_24h": 4.97
+      "change_24h": 4.9
     },
     {
       "symbol": "DOGEUSDT",
       "score": 35,
       "direction": "SHORT",
-      "price": 0.09423,
-      "change_24h": 4.08
+      "price": 0.09426,
+      "change_24h": 4.0
     },
     {
       "symbol": "NEARUSDT",
@@ -34,7 +34,7 @@
       "score": 27,
       "direction": "SHORT",
       "price": 1.553,
-      "change_24h": 3.4
+      "change_24h": 3.33
     }
   ],
   "count": 5
