@@ -969,6 +969,100 @@
           "direction": "?"
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-01T15:30:14.408571+00:00",
+      "triggers": 8,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "BTCUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "DOGEUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "AVAXUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "DOTUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "FILUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "XLMUSDT",
+          "score": 0,
+          "direction": "?"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T15:30:14.449005+00:00",
+      "triggers": 8,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "BTCUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "DOGEUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "AVAXUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "DOTUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "FILUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "XLMUSDT",
+          "score": 0,
+          "direction": "?"
+        }
+      ]
     }
   ]
 }
