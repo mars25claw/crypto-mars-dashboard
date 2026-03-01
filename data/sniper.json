@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-03-01T18:50:00.992512+00:00",
+  "timestamp": "2026-03-01T18:50:10.998347+00:00",
   "coins": [
     {
       "symbol": "HBARUSDT",
       "score": 54,
       "direction": "SHORT",
-      "price": 0.09818,
-      "change_24h": 0.54
+      "price": 0.09824,
+      "change_24h": 0.52
     },
     {
       "symbol": "SOLUSDT",
       "score": 34,
       "direction": "SHORT",
-      "price": 84.22,
-      "change_24h": 2.54
+      "price": 84.25,
+      "change_24h": 2.56
     },
     {
       "symbol": "NEARUSDT",
