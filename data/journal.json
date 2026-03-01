@@ -299,6 +299,31 @@
       "order_id": "3a9340e7-0b93-4e68-a728-5314a5f50c97",
       "timestamp": "2026-03-01T19:51:09.863599+00:00",
       "status": "open"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 866112.0,
+      "sl": 880608.6091145868,
+      "qty": 0.001,
+      "leverage": 3,
+      "score": 62,
+      "breakdown": {
+        "sr": 14,
+        "vol": 12,
+        "vol_ratio": 1.5,
+        "mcb": 8,
+        "mcb_sig": -23.5,
+        "div": "none",
+        "ema": 20,
+        "trend": 8,
+        "fib": 0,
+        "breakout": 0
+      },
+      "order_id": "447a0113-4fb6-4340-a75a-27cc9813b657",
+      "timestamp": "2026-03-01T22:40:11.927696+00:00",
+      "status": "open"
     }
   ]
 }
