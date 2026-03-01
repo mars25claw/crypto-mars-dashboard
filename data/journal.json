@@ -99,6 +99,31 @@
       "order_id": "de26bca7-63b4-409e-9f81-2763af7fd80e",
       "timestamp": "2026-03-01T15:55:21.516409+00:00",
       "status": "open"
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 0.3159,
+      "sl": 0.324462996,
+      "qty": 1167.8,
+      "leverage": 5,
+      "score": 71,
+      "breakdown": {
+        "sr": 14,
+        "vol": 3,
+        "vol_ratio": 0.4,
+        "mcb": 11,
+        "mcb_sig": -49.5,
+        "div": "none",
+        "ema": 20,
+        "trend": 15,
+        "fib": 8,
+        "breakout": 0
+      },
+      "order_id": "2586eae8-f00d-4742-8926-a4b6fb72e491",
+      "timestamp": "2026-03-01T15:55:49.820210+00:00",
+      "status": "open"
     }
   ]
 }
