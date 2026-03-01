@@ -1485,6 +1485,38 @@
           "direction": "SHORT"
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-01T16:32:09.780449+00:00",
+      "triggers": 5,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "DOGEUSDT",
+          "score": 35,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "DOTUSDT",
+          "score": 24,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 28,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SOLUSDT",
+          "score": 39,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "XLMUSDT",
+          "score": 37,
+          "direction": "SHORT"
+        }
+      ]
     }
   ]
 }
