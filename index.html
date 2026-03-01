@@ -221,15 +221,20 @@ async function load(){
       }).join('')+'</table>';
   }else{$('pos-body').innerHTML='<div class="empty">No active positions — waiting for confluence ⏳</div>'}
 
-  // Scan
+  // Scan — table format like Telegram
   if(sniper){
     $('scan-time').textContent=fmtT(sniper.timestamp);
-    const trig=sniper.triggers||[];
-    if(trig.length){
-      $('scan-chips').innerHTML=trig.map(t=>typeof t==='string'?
-        `<div class="chip"><span class="sym">${t}</span><span class="score">⚡ Triggered</span></div>`:
-        `<div class="chip ${(t.score||0)>=55?'hot':''}"><span class="sym">${t.symbol||t}</span><span class="score">Score: <b>${t.score||'?'}</b>/100 ${t.direction||''}</span></div>`
-      ).join('');
+    const coins=sniper.coins||sniper.triggers||[];
+    if(coins.length){
+      const rows=coins.map(c=>{
+        if(typeof c==='string') return`<tr><td><b>${c}</b></td><td>—</td><td>—</td></tr>`;
+        const s=c.score||0;
+        const emoji=s>=60?'🟢':s>=40?'🟡':'⚪';
+        const dir=c.direction||'—';
+        const dCls=dir==='LONG'?'long':dir==='SHORT'?'short':'';
+        return`<tr><td><b>${c.symbol||'—'}</b></td><td>${emoji} ${s}/100</td><td class="${dCls}">${dir}</td></tr>`;
+      }).join('');
+      $('scan-chips').innerHTML=`<table><tr><th>Coin</th><th>Score</th><th>Direction</th></tr>${rows}</table>`;
     }else{$('scan-chips').innerHTML='<div class="empty">No triggers — market quiet 🔇</div>'}
   }
 

@@ -671,6 +671,66 @@
         "ATOMUSDT",
         "XLMUSDT"
       ]
+    },
+    {
+      "timestamp": "2026-03-01T15:00:13.339144+00:00",
+      "triggers": 8,
+      "tradeable": 0,
+      "coins": [
+        "SOLUSDT",
+        "HBARUSDT",
+        "DOGEUSDT",
+        "AVAXUSDT",
+        "NEARUSDT",
+        "FILUSDT",
+        "ATOMUSDT",
+        "XLMUSDT"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T15:00:20.173531+00:00",
+      "triggers": 8,
+      "tradeable": 0,
+      "coins": [
+        "SOLUSDT",
+        "HBARUSDT",
+        "DOGEUSDT",
+        "AVAXUSDT",
+        "NEARUSDT",
+        "FILUSDT",
+        "ATOMUSDT",
+        "XLMUSDT"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T15:04:47.602596+00:00",
+      "triggers": 8,
+      "tradeable": 0,
+      "coins": [
+        "SOLUSDT",
+        "HBARUSDT",
+        "DOGEUSDT",
+        "AVAXUSDT",
+        "NEARUSDT",
+        "FILUSDT",
+        "ATOMUSDT",
+        "XLMUSDT"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T15:05:41.109729+00:00",
+      "triggers": 8,
+      "tradeable": 0,
+      "coins": [
+        "SOLUSDT",
+        "HBARUSDT",
+        "DOGEUSDT",
+        "AVAXUSDT",
+        "NEARUSDT",
+        "FILUSDT",
+        "ATOMUSDT",
+        "XLMUSDT"
+      ]
     }
   ]
 }
