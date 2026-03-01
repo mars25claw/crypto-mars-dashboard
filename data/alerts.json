@@ -1,28 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-01T18:31:22.360290+00:00",
-      "triggers": 3,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 54,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 28,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SOLUSDT",
-          "score": 34,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-01T18:40:07.406037+00:00",
       "triggers": 3,
       "tradeable": 0,
@@ -3143,6 +3121,28 @@
           "score": 34,
           "direction": "SHORT"
         },
+        {
+          "symbol": "HBARUSDT",
+          "score": 50,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XRPUSDT",
+          "score": 49,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "LINKUSDT",
+          "score": 43,
+          "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T22:20:14.179493+00:00",
+      "triggers": 3,
+      "tradeable": 0,
+      "coins": [
         {
           "symbol": "HBARUSDT",
           "score": 50,
