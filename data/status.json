@@ -1,29 +1,8 @@
 {
-  "equity": 76845.97,
-  "available": 9845.76,
+  "equity": 76954.28,
+  "available": 9974.44,
   "soft_cap": 100,
   "max_positions": 3,
-  "positions": [
-    {
-      "symbol": "NEARUSDT",
-      "side": "Sell",
-      "size": 159.4,
-      "entry": 1.114522,
-      "mark": 1.1224,
-      "pnl": -1.2558,
-      "leverage": "3",
-      "sl": 1.1966
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "Sell",
-      "size": 3075.0,
-      "entry": 0.08111,
-      "mark": 0.08153,
-      "pnl": -1.2915,
-      "leverage": "3",
-      "sl": 0.09623
-    }
-  ],
-  "updated": "2026-03-01T16:01:02.489330+00:00"
+  "positions": [],
+  "updated": "2026-03-01T16:10:00.466680+00:00"
 }

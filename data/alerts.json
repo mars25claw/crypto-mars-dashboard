@@ -772,6 +772,75 @@
           "direction": "SHORT"
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-01T16:01:13.700475+00:00",
+      "triggers": 5,
+      "tradeable": 1,
+      "coins": [
+        {
+          "symbol": "AGLDUSDT",
+          "score": 61,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SOLUSDT",
+          "score": 39,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "HBARUSDT",
+          "score": 43,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 28,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XLMUSDT",
+          "score": 41,
+          "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T16:09:21.464652+00:00",
+      "triggers": 6,
+      "tradeable": 1,
+      "coins": [
+        {
+          "symbol": "DOGEUSDT",
+          "score": 35,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "DOTUSDT",
+          "score": 27,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "AGLDUSDT",
+          "score": 64,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SOLUSDT",
+          "score": 39,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 28,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XLMUSDT",
+          "score": 37,
+          "direction": "SHORT"
+        }
+      ]
     }
   ]
 }
