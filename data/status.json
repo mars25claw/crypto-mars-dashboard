@@ -1,8 +1,19 @@
 {
-  "equity": 75417.05,
-  "available": 9921.09,
+  "equity": 75080.52,
+  "available": 9629.95,
   "soft_cap": 100,
   "max_positions": 3,
-  "positions": [],
-  "updated": "2026-03-01T22:42:02.662672+00:00"
+  "positions": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "Sell",
+      "size": 0.001,
+      "entry": 866112.0,
+      "mark": 865042.45,
+      "pnl": 1.0696,
+      "leverage": "3",
+      "sl": 885864.7
+    }
+  ],
+  "updated": "2026-03-01T22:50:00.797824+00:00"
 }
