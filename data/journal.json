@@ -199,6 +199,56 @@
       "order_id": "821b2cfd-2c49-4343-99db-9bde3e179bc8",
       "timestamp": "2026-03-01T19:41:06.637695+00:00",
       "status": "open"
+    },
+    {
+      "symbol": "INJUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 5.061,
+      "sl": 5.192314483505498,
+      "qty": 45.6,
+      "leverage": 3,
+      "score": 58,
+      "breakdown": {
+        "sr": 9,
+        "vol": 9,
+        "vol_ratio": 0.6,
+        "mcb": 12,
+        "mcb_sig": -41.3,
+        "div": "bearish",
+        "ema": 20,
+        "trend": 8,
+        "fib": 0,
+        "breakout": 0
+      },
+      "order_id": "5a6144ee-ff61-44cf-bec8-67ac91426d56",
+      "timestamp": "2026-03-01T19:50:12.472303+00:00",
+      "status": "open"
+    },
+    {
+      "symbol": "INJUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 5.061,
+      "sl": 5.192314483505498,
+      "qty": 45.6,
+      "leverage": 3,
+      "score": 58,
+      "breakdown": {
+        "sr": 9,
+        "vol": 9,
+        "vol_ratio": 0.6,
+        "mcb": 12,
+        "mcb_sig": -41.3,
+        "div": "bearish",
+        "ema": 20,
+        "trend": 8,
+        "fib": 0,
+        "breakout": 0
+      },
+      "order_id": "15266252-ab55-4aba-a912-84e32ff71b5d",
+      "timestamp": "2026-03-01T19:50:12.549476+00:00",
+      "status": "open"
     }
   ]
 }
