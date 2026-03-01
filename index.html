@@ -48,7 +48,26 @@ td{padding:8px;border-bottom:1px solid #1a1a1a}
 .tag{display:inline-block;padding:2px 6px;border-radius:4px;font-size:.7rem;font-weight:600}
 .tag-s{background:#00ff8820;color:#00ff88}
 .tag-r{background:#ff444420;color:#ff4444}
-@media(max-width:600px){.cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){
+  #dash{padding:10px}
+  .hdr{flex-direction:column;gap:8px;text-align:center}
+  .hdr h1{font-size:1.1rem}
+  .hdr-right{flex-wrap:wrap;justify-content:center;gap:8px}
+  .cards{grid-template-columns:repeat(2,1fr);gap:8px}
+  .card{padding:12px}
+  .card .val{font-size:1.2rem}
+  .card .label{font-size:.65rem}
+  .sec-body{padding:12px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table{min-width:400px}
+  .mkt{grid-template-columns:repeat(2,1fr);gap:8px}
+  .near-row{flex-direction:column;gap:4px;font-size:.78rem}
+  .alert-coins{font-size:.7rem}
+}
+@media(max-width:380px){
+  .cards{grid-template-columns:1fr 1fr;gap:6px}
+  .card .val{font-size:1rem}
+  .mkt{grid-template-columns:1fr 1fr}
+}
 </style>
 </head>
 <body>
