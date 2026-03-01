@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-01T15:10:00.596259+00:00",
+  "timestamp": "2026-03-01T15:10:31.267861+00:00",
   "coins": [
     {
       "symbol": "ATOMUSDT",
@@ -9,6 +9,11 @@
     {
       "symbol": "HBARUSDT",
       "score": 34,
+      "direction": "LONG"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "score": 33,
       "direction": "LONG"
     },
     {
@@ -42,5 +47,5 @@
       "direction": "SHORT"
     }
   ],
-  "count": 8
+  "count": 9
 }

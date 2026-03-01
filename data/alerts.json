@@ -746,6 +746,36 @@
         "ATOMUSDT",
         "XLMUSDT"
       ]
+    },
+    {
+      "timestamp": "2026-03-01T15:10:14.982084+00:00",
+      "triggers": 8,
+      "tradeable": 0,
+      "coins": [
+        "HBARUSDT",
+        "DOGEUSDT",
+        "AVAXUSDT",
+        "DOTUSDT",
+        "NEARUSDT",
+        "FILUSDT",
+        "ATOMUSDT",
+        "XLMUSDT"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T15:10:15.938313+00:00",
+      "triggers": 8,
+      "tradeable": 0,
+      "coins": [
+        "HBARUSDT",
+        "DOGEUSDT",
+        "AVAXUSDT",
+        "DOTUSDT",
+        "NEARUSDT",
+        "FILUSDT",
+        "ATOMUSDT",
+        "XLMUSDT"
+      ]
     }
   ]
 }

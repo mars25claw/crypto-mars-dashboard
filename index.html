@@ -272,13 +272,22 @@ async function load(){
     }).join('');
   }
 
-  // Alerts
-  const al=(alerts?.alerts||[]).slice(-10).reverse();
+  // Alerts with scores
+  const al=(alerts?.alerts||[]).slice(-5).reverse();
   $('al-n').textContent=al.length+' recent';
   if(al.length){
-    $('al-body').innerHTML=al.map(a=>
-      `<div class="alert-row"><span>⚡ ${a.triggers||0} triggers</span><span>${fmtT(a.timestamp)}</span><div class="alert-coins">${(a.coins||[]).join(', ')}</div></div>`
-    ).join('');
+    $('al-body').innerHTML=al.map(a=>{
+      const coins=a.coins||[];
+      let coinHtml='';
+      if(coins.length&&typeof coins[0]==='object'){
+        coinHtml=coins.sort((a,b)=>(b.score||0)-(a.score||0)).map(c=>{
+          const s=c.score||0;const e=s>=60?'🟢':s>=40?'🟡':'⚪';
+          const d=c.direction||'';const dc=d==='LONG'?'long':d==='SHORT'?'short':'';
+          return`<span style="margin-right:12px">${c.symbol} ${e}${s} <span class="${dc}">${d}</span></span>`;
+        }).join('');
+      }else{coinHtml=coins.join(', ')}
+      return`<div class="alert-row" style="flex-direction:column;gap:4px"><div style="display:flex;justify-content:space-between"><span>⚡ ${a.triggers||0} triggered</span><span style="color:#888">${fmtT(a.timestamp)}</span></div><div class="alert-coins" style="font-size:.78rem;line-height:1.6">${coinHtml}</div></div>`;
+    }).join('');
   }else{$('al-body').innerHTML='<div class="empty">No alerts yet</div>'}
 }
 
