@@ -2,74 +2,65 @@
   "nearest": [
     {
       "symbol": "HBARUSDT",
-      "price": 0.09816,
-      "change_24h": 1.85,
+      "price": 0.09825,
+      "change_24h": 1.92,
       "nearest_type": "R",
       "nearest_price": 0.09825,
-      "distance_pct": 0.09,
-      "touches": 1
-    },
-    {
-      "symbol": "BTCUSDT",
-      "price": 66052.03,
-      "change_24h": 1.45,
-      "nearest_type": "S",
-      "nearest_price": 65118.0,
-      "distance_pct": 1.41,
+      "distance_pct": 0.0,
       "touches": 1
     },
     {
       "symbol": "ACEUSDT",
-      "price": 0.147,
-      "change_24h": 1.38,
+      "price": 0.149,
+      "change_24h": 2.06,
       "nearest_type": "S",
       "nearest_price": 0.15,
-      "distance_pct": 2.04,
+      "distance_pct": 0.67,
+      "touches": 1
+    },
+    {
+      "symbol": "BTCUSDT",
+      "price": 66043.8,
+      "change_24h": 1.48,
+      "nearest_type": "S",
+      "nearest_price": 65118.0,
+      "distance_pct": 1.4,
       "touches": 1
     },
     {
       "symbol": "INJUSDT",
-      "price": 3.025,
-      "change_24h": 2.68,
+      "price": 3.026,
+      "change_24h": 2.92,
       "nearest_type": "S",
       "nearest_price": 2.957,
-      "distance_pct": 2.25,
+      "distance_pct": 2.28,
       "touches": 1
     },
     {
       "symbol": "AGLDUSDT",
-      "price": 0.221,
-      "change_24h": -2.21,
+      "price": 0.22,
+      "change_24h": -2.22,
       "nearest_type": "S",
       "nearest_price": 0.226,
-      "distance_pct": 2.26,
+      "distance_pct": 2.73,
       "touches": 1
     },
     {
       "symbol": "ACXUSDT",
       "price": 0.0329,
-      "change_24h": 2.81,
+      "change_24h": 3.13,
       "nearest_type": "S",
       "nearest_price": 0.032,
       "distance_pct": 2.74,
       "touches": 1
     },
     {
-      "symbol": "NEARUSDT",
-      "price": 1.138,
-      "change_24h": 6.26,
-      "nearest_type": "R",
-      "nearest_price": 1.102,
-      "distance_pct": 3.16,
-      "touches": 1
-    },
-    {
       "symbol": "APTUSDT",
-      "price": 0.93,
-      "change_24h": 4.49,
+      "price": 0.931,
+      "change_24h": 4.61,
       "nearest_type": "S",
       "nearest_price": 0.9,
-      "distance_pct": 3.23,
+      "distance_pct": 3.33,
       "touches": 1
     },
     {
@@ -83,11 +74,20 @@
     },
     {
       "symbol": "BCHUSDT",
-      "price": 438.3,
-      "change_24h": -1.48,
+      "price": 438.1,
+      "change_24h": -1.04,
       "nearest_type": "S",
       "nearest_price": 423.0,
-      "distance_pct": 3.49,
+      "distance_pct": 3.45,
+      "touches": 1
+    },
+    {
+      "symbol": "BNBUSDT",
+      "price": 620.64,
+      "change_24h": 2.99,
+      "nearest_type": "R",
+      "nearest_price": 642.49,
+      "distance_pct": 3.52,
       "touches": 1
     }
   ],
