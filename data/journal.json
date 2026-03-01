@@ -1,3 +1,104 @@
 {
-  "trades": []
+  "trades": [
+    {
+      "symbol": "DOGEUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 0.09428,
+      "sl": 0.096231,
+      "qty": 3075.0,
+      "leverage": 3,
+      "score": 35,
+      "breakdown": {
+        "sr": 0,
+        "vol": 3,
+        "vol_ratio": 0.4,
+        "mcb": 4,
+        "mcb_sig": -0.7,
+        "div": "none",
+        "ema": 12,
+        "trend": 8,
+        "fib": 8,
+        "breakout": 0
+      },
+      "order_id": "dfa51e6a-aeea-4011-9f09-8005a9ff3236",
+      "timestamp": "2026-03-01T15:54:39.886722+00:00",
+      "status": "open"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 1.159,
+      "sl": 1.196619,
+      "qty": 159.4,
+      "leverage": 3,
+      "score": 28,
+      "breakdown": {
+        "sr": 0,
+        "vol": 3,
+        "vol_ratio": 0.4,
+        "mcb": 12,
+        "mcb_sig": 33.5,
+        "div": "bearish",
+        "ema": 5,
+        "trend": 8,
+        "fib": 0,
+        "breakout": 0
+      },
+      "order_id": "2d03e949-2f93-4dc1-afb5-26c24528ae4b",
+      "timestamp": "2026-03-01T15:54:46.784846+00:00",
+      "status": "open"
+    },
+    {
+      "symbol": "DOTUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 1.555,
+      "sl": 1.602903,
+      "qty": 125.2,
+      "leverage": 3,
+      "score": 27,
+      "breakdown": {
+        "sr": 0,
+        "vol": 3,
+        "vol_ratio": 0.4,
+        "mcb": 0,
+        "mcb_sig": -15.0,
+        "div": "none",
+        "ema": 8,
+        "trend": 8,
+        "fib": 8,
+        "breakout": 0
+      },
+      "order_id": "65380d25-a84b-4aa2-837a-89720401db18",
+      "timestamp": "2026-03-01T15:54:49.875008+00:00",
+      "status": "open"
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 0.3159,
+      "sl": 0.32442510663716817,
+      "qty": 1173.0,
+      "leverage": 5,
+      "score": 71,
+      "breakdown": {
+        "sr": 14,
+        "vol": 3,
+        "vol_ratio": 0.4,
+        "mcb": 11,
+        "mcb_sig": -47.9,
+        "div": "none",
+        "ema": 20,
+        "trend": 15,
+        "fib": 8,
+        "breakout": 0
+      },
+      "order_id": "de26bca7-63b4-409e-9f81-2763af7fd80e",
+      "timestamp": "2026-03-01T15:55:21.516409+00:00",
+      "status": "open"
+    }
+  ]
 }
