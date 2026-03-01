@@ -163,6 +163,8 @@ function fmtT(t){if(!t)return'';try{return new Date(t).toLocaleString('en-IN',{t
 function chg(v){const n=+v;if(isNaN(n))return'<span class="muted">—</span>';return`<span class="${n>=0?'green':'red'}">${n>=0?'+':''}${n.toFixed(1)}%</span>`}
 
 let prevTrades=null;
+let prevTopCoin=null;
+let prevUpdateTime=null;
 
 async function load(){
   const[meta,status,stats,journal,sniper,corr,levels,alerts]=await Promise.all(
@@ -191,6 +193,21 @@ async function load(){
     if(prevTrades!==null&&t>prevTrades&&'Notification'in window&&Notification.permission==='granted')
       new Notification('🪙 New Trade!',{body:`Trades:${t} PnL:${fmt(pnl)}`});
     prevTrades=t;
+  }
+
+  // Notify on data refresh + scan changes
+  if(meta?.last_update&&meta.last_update!==prevUpdateTime){
+    if(prevUpdateTime!==null){
+      const coins=sniper?.coins||[];
+      const topCoin=coins.length?coins[0].symbol+' '+coins[0].score:'none';
+      if('Notification'in window&&Notification.permission==='granted'){
+        const msg=coins.length?coins.slice(0,3).map(c=>`${c.symbol.replace('USDT','')} ${c.score}`).join(' · '):'No triggers';
+        new Notification('🪙 Dashboard Updated',{body:msg,tag:'cm-update',renotify:true});
+      }
+    }
+    prevUpdateTime=meta.last_update;
+  }
+  if(false){
   }
 
   // Positions
