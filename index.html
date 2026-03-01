@@ -7,8 +7,6 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0a0a;color:#fff;min-height:100vh}
-
-/* Login */
 #login{display:flex;align-items:center;justify-content:center;min-height:100vh}
 .login-box{text-align:center;padding:40px}
 .login-box h1{font-size:3rem;margin-bottom:4px}
@@ -17,77 +15,51 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .login-box input:focus{border-color:#00ff88}
 .login-box button{margin-left:8px;background:#00ff88;color:#000;border:none;border-radius:8px;padding:12px 20px;font-weight:700;cursor:pointer;font-size:1rem}
 #login-err{color:#ff4444;font-size:.8rem;margin-top:12px;display:none}
-
-/* Dashboard */
 #dash{display:none;max-width:800px;margin:0 auto;padding:16px}
-
-/* Header */
 .hdr{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid #222;margin-bottom:20px}
 .hdr h1{font-size:1.3rem}
 .hdr-right{display:flex;align-items:center;gap:12px;font-size:.8rem;color:#888}
 .dot{width:8px;height:8px;border-radius:50%;background:#00ff88;display:inline-block;box-shadow:0 0 6px #00ff88}
 .dot.stale{background:#f0c040;box-shadow:0 0 6px #f0c040}
 #logout{background:none;border:1px solid #333;color:#888;border-radius:4px;padding:2px 8px;cursor:pointer;font-size:.75rem}
-
-/* Cards */
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px}
 .card{background:#141414;border-radius:10px;padding:16px;text-align:center}
 .card .label{font-size:.7rem;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
 .card .val{font-size:1.5rem;font-weight:700}
-.card .val.green{color:#00ff88}
-.card .val.red{color:#ff4444}
-.card .val.blue{color:#58a6ff}
-
-/* Sections */
+.green{color:#00ff88}.red{color:#ff4444}.blue{color:#58a6ff}.yellow{color:#f0c040}.muted{color:#888}
 .sec{background:#141414;border-radius:10px;margin-bottom:16px;overflow:hidden}
 .sec-hdr{padding:12px 16px;border-bottom:1px solid #222;font-weight:600;font-size:.9rem;display:flex;justify-content:space-between;align-items:center}
 .sec-hdr .badge{font-size:.7rem;color:#888;font-weight:400}
 .sec-body{padding:16px}
-
-/* Coin chips */
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{background:#1a1a1a;border-radius:6px;padding:8px 12px;font-size:.85rem;display:flex;flex-direction:column;gap:2px;min-width:120px}
-.chip .sym{font-weight:700}
-.chip .score{font-size:.75rem;color:#888}
-.chip .score b{color:#fff}
-.chip.hot .score b{color:#00ff88}
-
-/* Table */
-table{width:100%;font-size:.8rem;border-collapse:collapse}
+table{width:100%;font-size:.82rem;border-collapse:collapse}
 th{text-align:left;padding:8px;color:#666;font-size:.7rem;text-transform:uppercase;border-bottom:1px solid #222}
 td{padding:8px;border-bottom:1px solid #1a1a1a}
-.long{color:#00ff88}
-.short{color:#ff4444}
-.empty{color:#555;text-align:center;padding:24px;font-size:.85rem}
-
-/* Market bar */
-.mkt{display:flex;gap:16px;flex-wrap:wrap}
-.mkt-item{font-size:.85rem}
-.mkt-item .lbl{color:#888;font-size:.7rem}
-
-/* Alerts */
-.alert-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #1a1a1a;font-size:.8rem}
+.empty{color:#555;text-align:center;padding:20px;font-size:.85rem}
+.mkt{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px}
+.mkt-item{background:#0a0a0a;border-radius:8px;padding:10px;text-align:center}
+.mkt-item .lbl{color:#666;font-size:.68rem;text-transform:uppercase;margin-bottom:4px}
+.mkt-item .v{font-weight:700;font-size:1rem}
+.alert-row{padding:8px 0;border-bottom:1px solid #1a1a1a;font-size:.8rem}
 .alert-row:last-child{border:none}
-.alert-coins{color:#888;font-size:.75rem}
-
-/* Responsive */
-@media(max-width:600px){.cards{grid-template-columns:repeat(2,1fr)}.chips{flex-direction:column}}
+.alert-top{display:flex;justify-content:space-between;margin-bottom:4px}
+.alert-coins{color:#888;font-size:.75rem;line-height:1.5}
+.near-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #1a1a1a;font-size:.82rem}
+.near-row:last-child{border:none}
+.tag{display:inline-block;padding:2px 6px;border-radius:4px;font-size:.7rem;font-weight:600}
+.tag-s{background:#00ff8820;color:#00ff88}
+.tag-r{background:#ff444420;color:#ff4444}
+@media(max-width:600px){.cards{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
-
 <div id="login">
   <div class="login-box">
     <h1>🪙</h1>
     <p>Crypto Mars Dashboard</p>
-    <div>
-      <input id="pwd" type="password" placeholder="Password" autofocus>
-      <button onclick="doLogin()">→</button>
-    </div>
+    <div><input id="pwd" type="password" placeholder="Password" autofocus><button onclick="doLogin()">→</button></div>
     <div id="login-err">Wrong password</div>
   </div>
 </div>
-
 <div id="dash">
   <div class="hdr">
     <h1>🪙 Crypto Mars</h1>
@@ -99,68 +71,58 @@ td{padding:8px;border-bottom:1px solid #1a1a1a}
     </div>
   </div>
 
-  <!-- Overview Cards -->
   <div class="cards">
-    <div class="card"><div class="label">💰 Balance</div><div class="val blue" id="c-equity">—</div></div>
+    <div class="card"><div class="label">💰 Trading Cap</div><div class="val green" id="c-cap">—</div></div>
     <div class="card"><div class="label">📊 Trades</div><div class="val" id="c-trades">—</div></div>
-    <div class="card"><div class="label">💹 P&L</div><div class="val" id="c-pnl">—</div></div>
+    <div class="card"><div class="label">💹 Total P&L</div><div class="val" id="c-pnl">—</div></div>
     <div class="card"><div class="label">🎯 Win Rate</div><div class="val" id="c-wr">—</div></div>
-    <div class="card"><div class="label">🏆 Best</div><div class="val green" id="c-best">—</div></div>
-    <div class="card"><div class="label">💀 Worst</div><div class="val red" id="c-worst">—</div></div>
+    <div class="card"><div class="label">🏆 Best Trade</div><div class="val green" id="c-best">—</div></div>
+    <div class="card"><div class="label">💀 Worst Trade</div><div class="val red" id="c-worst">—</div></div>
   </div>
 
-  <!-- Active Positions -->
   <div class="sec">
-    <div class="sec-hdr">📈 Positions <span class="badge" id="pos-n">0 open</span></div>
-    <div class="sec-body" id="pos-body"><div class="empty">No active positions — waiting for confluence ⏳</div></div>
+    <div class="sec-hdr">📈 Active Positions <span class="badge" id="pos-n">0 open</span></div>
+    <div class="sec-body" id="pos-body"><div class="empty">No positions — waiting for score ≥60 ⏳</div></div>
   </div>
 
-  <!-- Latest Scan -->
   <div class="sec">
-    <div class="sec-hdr">🎯 Latest Scan <span class="badge" id="scan-time"></span></div>
-    <div class="sec-body"><div class="chips" id="scan-chips"><div class="empty">No triggers yet</div></div></div>
+    <div class="sec-hdr">🎯 Confluence Scanner <span class="badge" id="scan-time"></span></div>
+    <div class="sec-body" id="scan-body"><div class="empty">Loading...</div></div>
   </div>
 
-  <!-- Market -->
   <div class="sec">
-    <div class="sec-hdr">🌐 Market</div>
+    <div class="sec-hdr">🌐 Market Overview</div>
     <div class="sec-body"><div class="mkt" id="mkt"></div></div>
   </div>
 
-  <!-- Trade Journal -->
   <div class="sec">
-    <div class="sec-hdr">📒 Journal <span class="badge" id="j-n">0 trades</span></div>
-    <div class="sec-body" id="j-body"><div class="empty">No trades yet — engine is scanning 24/7 🔍</div></div>
+    <div class="sec-hdr">📐 Nearest S/R Levels <span class="badge" id="lv-n"></span></div>
+    <div class="sec-body" id="lv-body"></div>
   </div>
 
-  <!-- Coins Near Levels -->
   <div class="sec">
-    <div class="sec-hdr">📐 Coins Near Key Levels <span class="badge" id="lv-n"></span></div>
-    <div class="sec-body"><div class="chips" id="lv-chips"></div></div>
+    <div class="sec-hdr">📒 Trade Journal <span class="badge" id="j-n">0 trades</span></div>
+    <div class="sec-body" id="j-body"><div class="empty">No trades yet — scanning 24/7 🔍</div></div>
   </div>
 
-  <!-- Recent Alerts -->
   <div class="sec">
-    <div class="sec-hdr">🔔 Recent Alerts <span class="badge" id="al-n"></span></div>
+    <div class="sec-hdr">🔔 Alert History <span class="badge" id="al-n"></span></div>
     <div class="sec-body" id="al-body"></div>
   </div>
 
-  <!-- Schedule -->
   <div class="sec">
     <div class="sec-hdr">⏰ Auto Schedule</div>
-    <div class="sec-body" style="font-size:.8rem;color:#aaa;line-height:1.8">
-      ⚡ Every 10 min — Sniper scan (price vs S/R levels)<br>
-      🧠 Every 2 hrs — Smart trade review (Sonnet AI)<br>
-      👁️ Every 30 min — Trail stop updates<br>
-      📐 Every 12 hrs — Recompute all levels + find new coins<br>
-      📊 Daily 10 PM — P&L report<br>
-      📅 Sunday 10 AM — Weekly review
+    <div class="sec-body" style="font-size:.82rem;color:#aaa;line-height:2">
+      ⚡ <b>Every 10 min</b> — Sniper scan<br>
+      🧠 <b>Every 2 hrs</b> — AI trade review (Sonnet)<br>
+      👁️ <b>Every 30 min</b> — Trailing stop updates<br>
+      📐 <b>Every 12 hrs</b> — Full level recompute<br>
+      📊 <b>Daily 10 PM</b> — P&L report<br>
+      📅 <b>Sunday 10 AM</b> — Weekly review
     </div>
   </div>
 
-  <div style="text-align:center;padding:20px;color:#333;font-size:.7rem">
-    Crypto Mars 🪙 AJ's Confluence Engine v2 — Auto-refreshes every 60s
-  </div>
+  <div style="text-align:center;padding:16px;color:#333;font-size:.7rem">🪙 AJ's Confluence Engine v2 — Refreshes every 60s</div>
 </div>
 
 <script>
@@ -171,20 +133,21 @@ document.getElementById('pwd').addEventListener('keydown',e=>{if(e.key==='Enter'
 function show(){document.getElementById('login').style.display='none';document.getElementById('dash').style.display='block';init()}
 if(localStorage.getItem('cm')===H)show();
 
-function clock(){const d=new Date().toLocaleString('en-IN',{timeZone:'Asia/Calcutta',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});document.getElementById('clock').textContent=d+' IST'}
+function clock(){document.getElementById('clock').textContent=new Date().toLocaleString('en-IN',{timeZone:'Asia/Calcutta',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false})+' IST'}
 setInterval(clock,1000);clock();
 
 async function F(p){try{const r=await fetch(`data/${p}?t=${Date.now()}`);return r.ok?await r.json():null}catch{return null}}
-function $(id){return document.getElementById(id)}
+const $=id=>document.getElementById(id);
 function fmt(v,d=2){if(v==null)return'—';const n=+v;return isNaN(n)?'—':'$'+n.toFixed(d)}
+function fmtP(v){if(v==null)return'—';const n=+v;return isNaN(n)?'—':n<0.01?n.toExponential(2):n<1?n.toFixed(4):n<100?n.toFixed(2):n.toFixed(0)}
 function fmtT(t){if(!t)return'';try{return new Date(t).toLocaleString('en-IN',{timeZone:'Asia/Calcutta',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false})}catch{return''}}
+function chg(v){const n=+v;if(isNaN(n))return'<span class="muted">—</span>';return`<span class="${n>=0?'green':'red'}">${n>=0?'+':''}${n.toFixed(1)}%</span>`}
 
 let prevTrades=null;
 
 async function load(){
   const[meta,status,stats,journal,sniper,corr,levels,alerts]=await Promise.all(
-    ['meta.json','status.json','stats.json','journal.json','sniper.json','correlation.json','levels.json','alerts.json'].map(F)
-  );
+    ['meta.json','status.json','stats.json','journal.json','sniper.json','correlation.json','levels.json','alerts.json'].map(F));
 
   // Meta
   if(meta?.last_update){
@@ -193,21 +156,21 @@ async function load(){
     $('dot').className=age>30?'dot stale':'dot';
   }
 
-  // Overview
-  if(status){
-    $('c-equity').textContent=fmt(status.equity);
-  }
-  if(stats){
+  // Overview — show soft cap, not full testnet balance
+  if(status&&stats){
+    const cap=status.soft_cap||100;
+    const used=status.positions?.reduce((s,p)=>s+Math.abs(p.pnl||0),0)||0;
+    $('c-cap').textContent=`$${cap}`;
     const t=(stats.wins||0)+(stats.losses||0);
     $('c-trades').textContent=t;
-    const pnl=stats.total_pnl||0;
+    const pnl=+(stats.total_pnl||0);
     $('c-pnl').textContent=(pnl>=0?'+':'')+fmt(pnl);
     $('c-pnl').className='val '+(pnl>=0?'green':'red');
-    $('c-wr').textContent=t>0?((stats.wins/t)*100).toFixed(0)+'%':'—';
-    $('c-best').textContent=fmt(stats.best_trade);
-    $('c-worst').textContent=fmt(stats.worst_trade);
+    $('c-wr').textContent=t>0?Math.round(stats.wins/t*100)+'%':'—';
+    $('c-best').textContent=stats.best_trade?fmt(stats.best_trade):'—';
+    $('c-worst').textContent=stats.worst_trade?fmt(stats.worst_trade):'—';
     if(prevTrades!==null&&t>prevTrades&&'Notification'in window&&Notification.permission==='granted')
-      new Notification('🪙 New Trade!',{body:`Trades: ${t} | PnL: ${fmt(pnl)}`});
+      new Notification('🪙 New Trade!',{body:`Trades:${t} PnL:${fmt(pnl)}`});
     prevTrades=t;
   }
 
@@ -215,65 +178,76 @@ async function load(){
   const pos=status?.positions||[];
   $('pos-n').textContent=pos.length+' open';
   if(pos.length){
-    $('pos-body').innerHTML='<table><tr><th>Coin</th><th>Side</th><th>Entry</th><th>PnL</th><th>Lev</th></tr>'+
-      pos.map(p=>{const s=p.side==='Buy'?'LONG':'SHORT';const c=s==='LONG'?'long':'short';
-        return`<tr><td><b>${p.symbol}</b></td><td class="${c}">${s}</td><td>${fmt(p.entry,4)}</td><td class="${(p.pnl||0)>=0?'long':'short'}">${(p.pnl>=0?'+':'')+(p.pnl||0).toFixed(4)}</td><td>${p.leverage}x</td></tr>`
-      }).join('')+'</table>';
-  }else{$('pos-body').innerHTML='<div class="empty">No active positions — waiting for confluence ⏳</div>'}
+    $('pos-body').innerHTML=`<table><tr><th>Coin</th><th>Side</th><th>Entry</th><th>Mark</th><th>PnL</th><th>Lev</th><th>SL</th></tr>`+
+      pos.map(p=>{const dir=p.side==='Buy'?'LONG':'SHORT';const c=dir==='LONG'?'green':'red';
+        return`<tr><td><b>${p.symbol}</b></td><td class="${c}">${dir}</td><td>${fmtP(p.entry)}</td><td>${fmtP(p.mark)}</td><td class="${(p.pnl||0)>=0?'green':'red'}">${(p.pnl>=0?'+':'')+(p.pnl||0).toFixed(4)}</td><td>${p.leverage}x</td><td>${p.sl||'—'}</td></tr>`}).join('')+'</table>';
+  } else {
+    $('pos-body').innerHTML='<div class="empty">No positions — waiting for score ≥60 ⏳</div>';
+  }
 
-  // Scan — table format like Telegram
+  // Scanner — table with price + 24h change
   if(sniper){
     $('scan-time').textContent=fmtT(sniper.timestamp);
-    const coins=sniper.coins||sniper.triggers||[];
+    const coins=sniper.coins||[];
     if(coins.length){
-      const rows=coins.map(c=>{
-        if(typeof c==='string') return`<tr><td><b>${c}</b></td><td>—</td><td>—</td></tr>`;
-        const s=c.score||0;
-        const emoji=s>=60?'🟢':s>=40?'🟡':'⚪';
-        const dir=c.direction||'—';
-        const dCls=dir==='LONG'?'long':dir==='SHORT'?'short':'';
-        return`<tr><td><b>${c.symbol||'—'}</b></td><td>${emoji} ${s}/100</td><td class="${dCls}">${dir}</td></tr>`;
-      }).join('');
-      $('scan-chips').innerHTML=`<table><tr><th>Coin</th><th>Score</th><th>Direction</th></tr>${rows}</table>`;
-    }else{$('scan-chips').innerHTML='<div class="empty">No triggers — market quiet 🔇</div>'}
+      $('scan-body').innerHTML=`<table><tr><th>Coin</th><th>Price</th><th>24h</th><th>Score</th><th>Direction</th></tr>`+
+        coins.map(c=>{
+          const s=c.score||0;
+          const emoji=s>=60?'🟢':s>=40?'🟡':'⚪';
+          const dir=c.direction||'—';
+          const dc=dir==='LONG'?'green':dir==='SHORT'?'red':'';
+          return`<tr><td><b>${(c.symbol||'').replace('USDT','')}</b></td><td>${fmtP(c.price)}</td><td>${chg(c.change_24h)}</td><td>${emoji} <b>${s}</b>/100</td><td class="${dc}">${dir}</td></tr>`;
+        }).join('')+'</table>';
+    } else {
+      $('scan-body').innerHTML='<div class="empty">No triggers — market quiet 🔇</div>';
+    }
   }
 
   // Market
   if(corr){
     const btc=+(corr.btc_change||0);
     const bias=corr.market_bias||'—';
-    const bc=bias.includes('BULL')?'green':bias.includes('BEAR')?'red':'';
     $('mkt').innerHTML=`
-      <div class="mkt-item"><div class="lbl">BTC 24h</div><div class="${btc>=0?'long':'short'}" style="font-weight:700">${btc>=0?'+':''}${btc.toFixed(1)}%</div></div>
-      <div class="mkt-item"><div class="lbl">Bias</div><div class="${bc}" style="font-weight:700">${bias}</div></div>
-      <div class="mkt-item"><div class="lbl">Green/Red</div><div><span class="long">${corr.green||0}</span> / <span class="short">${corr.red||0}</span></div></div>
-      <div class="mkt-item"><div class="lbl">At Support</div><div class="long">${(corr.at_support||[]).join(', ')||'None'}</div></div>
-      <div class="mkt-item"><div class="lbl">At Resistance</div><div class="short">${(corr.at_resistance||[]).join(', ')||'None'}</div></div>`;
+      <div class="mkt-item"><div class="lbl">BTC 24h</div><div class="v ${btc>=0?'green':'red'}">${btc>=0?'+':''}${btc.toFixed(1)}%</div></div>
+      <div class="mkt-item"><div class="lbl">Bias</div><div class="v ${bias.includes('BULL')?'green':bias.includes('BEAR')?'red':'yellow'}">${bias}</div></div>
+      <div class="mkt-item"><div class="lbl">🟢 Green</div><div class="v green">${corr.green||0}</div></div>
+      <div class="mkt-item"><div class="lbl">🔴 Red</div><div class="v red">${corr.red||0}</div></div>
+      <div class="mkt-item"><div class="lbl">At Support</div><div class="v green" style="font-size:.8rem">${(corr.at_support||[]).map(s=>s.replace('USDT','')).join(', ')||'None'}</div></div>
+      <div class="mkt-item"><div class="lbl">At Resistance</div><div class="v red" style="font-size:.8rem">${(corr.at_resistance||[]).map(s=>s.replace('USDT','')).join(', ')||'None'}</div></div>`;
+  }
+
+  // Nearest S/R Levels — top 10
+  if(levels){
+    const near=levels.nearest||[];
+    $('lv-n').textContent=(near.length||0)+' / '+(levels.total_coins||0)+' coins';
+    if(near.length){
+      $('lv-body').innerHTML=near.map(n=>{
+        const typ=n.nearest_type;
+        return`<div class="near-row"><div><b>${n.symbol.replace('USDT','')}</b> <span class="muted">${fmtP(n.price)}</span> ${chg(n.change_24h)}</div><div><span class="tag ${typ==='S'?'tag-s':'tag-r'}">${typ==='S'?'🟢 Support':'🔴 Resistance'}</span> ${fmtP(n.nearest_price)} <span class="muted">(${n.distance_pct}% away, ${n.touches}×)</span></div></div>`;
+      }).join('');
+    } else {
+      $('lv-body').innerHTML='<div class="empty">No coins near key levels</div>';
+    }
   }
 
   // Journal
   const trades=journal?.trades||[];
   $('j-n').textContent=trades.length+' trades';
   if(trades.length){
-    $('j-body').innerHTML='<table><tr><th>Time</th><th>Coin</th><th>Side</th><th>Lev</th><th>Score</th><th>PnL</th></tr>'+
-      [...trades].reverse().slice(0,20).map(t=>{const s=(t.direction||'').toUpperCase();const c=s==='LONG'?'long':'short';
-        return`<tr><td>${fmtT(t.timestamp)}</td><td><b>${t.symbol}</b></td><td class="${c}">${s}</td><td>${t.leverage||'?'}x</td><td>${t.score||'?'}</td><td class="${(t.pnl||0)>=0?'long':'short'}">${t.pnl!=null?fmt(t.pnl):'Open'}</td></tr>`
+    $('j-body').innerHTML=`<table><tr><th>Time</th><th>Coin</th><th>Side</th><th>Lev</th><th>Score</th><th>PnL</th><th>Status</th></tr>`+
+      [...trades].reverse().slice(0,20).map(t=>{
+        const dir=(t.direction||t.side||'').toUpperCase();
+        const dc=dir.includes('LONG')?'green':'red';
+        const st=(t.status||'OPEN').toUpperCase();
+        const sc=st==='WIN'?'green':st==='LOSS'?'red':'yellow';
+        return`<tr><td>${fmtT(t.timestamp)}</td><td><b>${(t.symbol||'').replace('USDT','')}</b></td><td class="${dc}">${dir}</td><td>${t.leverage||'?'}x</td><td>${t.score||'?'}</td><td class="${(t.pnl||0)>=0?'green':'red'}">${t.pnl!=null?fmt(t.pnl):'—'}</td><td class="${sc}">${st}</td></tr>`;
       }).join('')+'</table>';
-  }else{$('j-body').innerHTML='<div class="empty">No trades yet — engine is scanning 24/7 🔍</div>'}
-
-  // Levels — show coins that have S/R levels, skip _meta
-  if(levels){
-    const coins=Object.keys(levels).filter(k=>k!=='_meta'&&levels[k].sr?.length);
-    $('lv-n').textContent=coins.length+' coins';
-    $('lv-chips').innerHTML=coins.slice(0,20).map(c=>{
-      const sr=levels[c].sr||[];
-      const top=sr.slice(0,2).map(s=>`${s.type==='S'?'🟢':'🔴'} ${s.price<0.01?s.price.toExponential(2):s.price.toFixed(4)} (${s.touches}×)`).join('<br>');
-      return`<div class="chip"><span class="sym">${c}</span><span class="score">${top}</span></div>`
-    }).join('');
+  } else {
+    $('j-body').innerHTML='<div class="empty">No trades yet — scanning 24/7 🔍</div>';
   }
 
-  // Alerts with scores
-  const al=(alerts?.alerts||[]).slice(-5).reverse();
+  // Alerts
+  const al=(alerts?.alerts||[]).slice(-8).reverse();
   $('al-n').textContent=al.length+' recent';
   if(al.length){
     $('al-body').innerHTML=al.map(a=>{
@@ -282,13 +256,17 @@ async function load(){
       if(coins.length&&typeof coins[0]==='object'){
         coinHtml=coins.sort((a,b)=>(b.score||0)-(a.score||0)).map(c=>{
           const s=c.score||0;const e=s>=60?'🟢':s>=40?'🟡':'⚪';
-          const d=c.direction||'';const dc=d==='LONG'?'long':d==='SHORT'?'short':'';
-          return`<span style="margin-right:12px">${c.symbol} ${e}${s} <span class="${dc}">${d}</span></span>`;
-        }).join('');
-      }else{coinHtml=coins.join(', ')}
-      return`<div class="alert-row" style="flex-direction:column;gap:4px"><div style="display:flex;justify-content:space-between"><span>⚡ ${a.triggers||0} triggered</span><span style="color:#888">${fmtT(a.timestamp)}</span></div><div class="alert-coins" style="font-size:.78rem;line-height:1.6">${coinHtml}</div></div>`;
+          const dc=c.direction==='LONG'?'green':c.direction==='SHORT'?'red':'';
+          return`${c.symbol.replace('USDT','')} ${e}${s} <span class="${dc}">${c.direction||''}</span>`;
+        }).join(' · ');
+      } else {
+        coinHtml=coins.map(c=>typeof c==='string'?c.replace('USDT',''):c).join(', ');
+      }
+      return`<div class="alert-row"><div class="alert-top"><span>⚡ ${a.triggers||0} triggered${a.tradeable?' · <span class="green">'+a.tradeable+' tradeable</span>':''}</span><span class="muted">${fmtT(a.timestamp)}</span></div><div class="alert-coins">${coinHtml}</div></div>`;
     }).join('');
-  }else{$('al-body').innerHTML='<div class="empty">No alerts yet</div>'}
+  } else {
+    $('al-body').innerHTML='<div class="empty">No alerts yet</div>';
+  }
 }
 
 async function init(){

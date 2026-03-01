@@ -776,6 +776,58 @@
         "ATOMUSDT",
         "XLMUSDT"
       ]
+    },
+    {
+      "timestamp": "2026-03-01T15:10:48.135375+00:00",
+      "triggers": 9,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "SOLUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "HBARUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "DOGEUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "AVAXUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "DOTUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "FILUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 0,
+          "direction": "?"
+        },
+        {
+          "symbol": "XLMUSDT",
+          "score": 0,
+          "direction": "?"
+        }
+      ]
     }
   ]
 }
