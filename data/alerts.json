@@ -2888,6 +2888,28 @@
           "direction": "SHORT"
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-01T18:11:03.149306+00:00",
+      "triggers": 3,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 48,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 28,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SOLUSDT",
+          "score": 28,
+          "direction": "SHORT"
+        }
+      ]
     }
   ]
 }
