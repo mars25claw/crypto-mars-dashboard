@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🪙 Crypto Mars Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--green:#00ff88;--red:#ff4444;--blue:#58a6ff;--yellow:#f0c040;--text:#e6edf3;--muted:#8b949e}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'JetBrains Mono','Courier New',monospace;background:var(--bg);color:var(--text);min-height:100vh}
+#login-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;background:var(--bg);animation:fadeIn .5s ease}
+.login-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:48px;width:360px;text-align:center}
+.login-box h1{font-size:3rem;margin-bottom:8px}
+.login-box h2{font-size:1.2rem;margin-bottom:6px}
+.login-box p{color:var(--muted);font-size:.85rem;margin-bottom:32px}
+.login-box input{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px 16px;color:var(--text);font-family:inherit;font-size:1rem;margin-bottom:16px;outline:none;transition:border-color .2s}
+.login-box input:focus{border-color:var(--blue)}
+.login-box button{width:100%;background:var(--green);color:#000;border:none;border-radius:8px;padding:12px;font-family:inherit;font-size:1rem;font-weight:700;cursor:pointer;transition:opacity .2s}
+.login-box button:hover{opacity:.85}
+#login-error{color:var(--red);font-size:.8rem;margin-top:12px;display:none}
+#dashboard{display:none;animation:fadeIn .6s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+header{background:var(--card);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:60px;position:sticky;top:0;z-index:100}
+.header-title{font-size:1.2rem;font-weight:700}
+.header-right{display:flex;align-items:center;gap:20px}
+#clock{color:var(--muted);font-size:.85rem}
+.status-dot{display:flex;align-items:center;gap:6px;font-size:.75rem;color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:pulse 2s infinite}
+.dot.stale{background:var(--yellow);box-shadow:0 0 6px var(--yellow)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+#logout-btn{background:transparent;border:1px solid var(--border);color:var(--muted);border-radius:6px;padding:4px 12px;font-family:inherit;font-size:.75rem;cursor:pointer;transition:color .2s,border-color .2s}
+#logout-btn:hover{color:var(--text);border-color:var(--text)}
+main{padding:24px;max-width:1600px;margin:0 auto;display:grid;gap:20px;padding-bottom:60px}
+.section{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.section-header{padding:14px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.section-title{font-size:.9rem;font-weight:600}
+.section-body{padding:20px}
+.overview-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px}
+.stat-card{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:16px;text-align:center}
+.stat-label{font-size:.72rem;color:var(--muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
+.stat-value{font-size:1.4rem;font-weight:700}
+.stat-value.green{color:var(--green)}
+.stat-value.red{color:var(--red)}
+.stat-value.blue{color:var(--blue)}
+.stat-value.yellow{color:var(--yellow)}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+th{text-align:left;padding:10px 12px;border-bottom:1px solid var(--border);color:var(--muted);font-weight:500;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em}
+td{padding:10px 12px;border-bottom:1px solid rgba(48,54,61,.5)}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.02)}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.72rem;font-weight:600}
+.badge.long{background:rgba(0,255,136,.1);color:var(--green)}
+.badge.short{background:rgba(255,68,68,.1);color:var(--red)}
+.badge.win{background:rgba(0,255,136,.1);color:var(--green)}
+.badge.loss{background:rgba(255,68,68,.1);color:var(--red)}
+.badge.open{background:rgba(88,166,255,.1);color:var(--blue)}
+.pnl-pos{color:var(--green)}
+.pnl-neg{color:var(--red)}
+.sniper-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.sniper-card{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:border-color .2s}
+.sniper-card:hover{border-color:var(--blue)}
+.sniper-symbol{font-size:1rem;font-weight:700;margin-bottom:6px}
+.sniper-score{font-size:.75rem;color:var(--muted);margin-bottom:4px}
+.sniper-reasons{font-size:.72rem;color:var(--muted);line-height:1.5}
+.corr-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px}
+.corr-card{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:16px}
+.corr-label{font-size:.72rem;color:var(--muted);margin-bottom:8px;text-transform:uppercase}
+.corr-value{font-size:1.1rem;font-weight:600}
+.levels-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.level-card{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px 14px}
+.level-symbol{font-size:.9rem;font-weight:700;margin-bottom:8px}
+.level-row{display:flex;justify-content:space-between;font-size:.75rem;margin-bottom:3px}
+.level-type-R{color:var(--red)}
+.level-type-S{color:var(--green)}
+.alert-item{display:flex;align-items:flex-start;gap:12px;padding:10px 0;border-bottom:1px solid rgba(48,54,61,.5)}
+.alert-item:last-child{border-bottom:none}
+.alert-time{font-size:.72rem;color:var(--muted);white-space:nowrap;min-width:130px}
+.alert-count{font-size:.78rem;color:var(--yellow);font-weight:600;min-width:70px}
+.alert-coins{font-size:.75rem;color:var(--muted);flex:1}
+.cron-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+.cron-row{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:10px 14px;display:flex;justify-content:space-between;font-size:.78rem}
+.cron-schedule{color:var(--yellow);font-size:.72rem}
+.empty{color:var(--muted);font-size:.82rem;text-align:center;padding:24px}
+#refresh-bar{position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--border);padding:6px 24px;display:flex;align-items:center;justify-content:space-between;font-size:.72rem;color:var(--muted);z-index:100}
+#progress-bar{position:absolute;top:0;left:0;height:2px;background:var(--green)}
+@media(max-width:768px){main{padding:12px;padding-bottom:50px}.overview-grid{grid-template-columns:repeat(2,1fr)}.stat-value{font-size:1rem}header{padding:0 12px}.header-title{font-size:.95rem}#clock{display:none}table{font-size:.75rem}th,td{padding:8px}}
+</style>
+</head>
+<body>
+
+<div id="login-screen">
+  <div class="login-box">
+    <h1>🪙</h1>
+    <h2>Crypto Mars</h2>
+    <p>Trading Dashboard — Private</p>
+    <input type="password" id="pwd-input" placeholder="Password" autocomplete="current-password">
+    <button onclick="doLogin()">Access Dashboard →</button>
+    <div id="login-error">❌ Wrong password. Try again.</div>
+  </div>
+</div>
+
+<div id="dashboard">
+  <header>
+    <div class="header-title">🪙 Crypto Mars Dashboard</div>
+    <div class="header-right">
+      <div class="status-dot">
+        <div class="dot" id="status-dot"></div>
+        <span id="last-update">Loading…</span>
+      </div>
+      <div id="clock">--:--:-- IST</div>
+      <button id="logout-btn" onclick="logout()">Logout</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ACCOUNT OVERVIEW -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">📊 Account Overview</div>
+      </div>
+      <div class="section-body">
+        <div class="overview-grid">
+          <div class="stat-card"><div class="stat-label">Equity</div><div class="stat-value blue" id="ov-equity">—</div></div>
+          <div class="stat-card"><div class="stat-label">Available</div><div class="stat-value" id="ov-available">—</div></div>
+          <div class="stat-card"><div class="stat-label">Soft Cap</div><div class="stat-value yellow">$100</div></div>
+          <div class="stat-card"><div class="stat-label">Trades</div><div class="stat-value" id="ov-trades">—</div></div>
+          <div class="stat-card"><div class="stat-label">Win Rate</div><div class="stat-value green" id="ov-winrate">—</div></div>
+          <div class="stat-card"><div class="stat-label">Total PnL</div><div class="stat-value" id="ov-pnl">—</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACTIVE POSITIONS -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">⚡ Active Positions</div>
+        <span id="positions-count" style="font-size:.78rem;color:var(--muted)">0 open</span>
+      </div>
+      <div class="section-body" style="padding:0">
+        <div style="overflow-x:auto">
+          <table>
+            <thead><tr><th>Symbol</th><th>Side</th><th>Entry</th><th>Mark Price</th><th>PnL</th><th>Leverage</th><th>Stop Loss</th></tr></thead>
+            <tbody id="positions-table"><tr><td colspan="7" class="empty">No active positions</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONFLUENCE SCANNER -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">🎯 Confluence Scanner</div>
+        <span id="sniper-time" style="font-size:.72rem;color:var(--muted)"></span>
+      </div>
+      <div class="section-body">
+        <div class="sniper-grid" id="sniper-grid"><div class="empty">No scan data</div></div>
+      </div>
+    </div>
+
+    <!-- MARKET CORRELATION -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">🌐 Market Correlation</div>
+        <span id="corr-time" style="font-size:.72rem;color:var(--muted)"></span>
+      </div>
+      <div class="section-body">
+        <div class="corr-grid" id="corr-grid"><div class="empty">No data</div></div>
+      </div>
+    </div>
+
+    <!-- TRADE JOURNAL -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">📓 Trade Journal</div>
+        <span id="journal-count" style="font-size:.78rem;color:var(--muted)">0 trades</span>
+      </div>
+      <div class="section-body" style="padding:0">
+        <div style="overflow-x:auto">
+          <table>
+            <thead><tr><th>Time (IST)</th><th>Symbol</th><th>Side</th><th>Lev</th><th>Score</th><th>Entry</th><th>Exit</th><th>PnL</th><th>Status</th></tr></thead>
+            <tbody id="journal-table"><tr><td colspan="9" class="empty">No trades yet</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- S/R LEVEL MAP -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">📐 S/R Level Map</div>
+        <span id="levels-count" style="font-size:.78rem;color:var(--muted)"></span>
+      </div>
+      <div class="section-body">
+        <div class="levels-grid" id="levels-grid"><div class="empty">No level data</div></div>
+      </div>
+    </div>
+
+    <!-- ALERT HISTORY -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">🔔 Alert History</div>
+        <span id="alerts-count" style="font-size:.78rem;color:var(--muted)"></span>
+      </div>
+      <div class="section-body">
+        <div id="alerts-list"><div class="empty">No alerts</div></div>
+      </div>
+    </div>
+
+    <!-- CRON SCHEDULE -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">⏰ Cron Schedule</div>
+      </div>
+      <div class="section-body">
+        <div class="cron-grid">
+          <div class="cron-row"><span>📊 Dashboard Update</span><span class="cron-schedule">*/10 * * * *</span></div>
+          <div class="cron-row"><span>🎯 Sniper Scan</span><span class="cron-schedule">*/15 * * * *</span></div>
+          <div class="cron-row"><span>🌐 Market Correlation</span><span class="cron-schedule">0 * * * *</span></div>
+          <div class="cron-row"><span>📐 S/R Level Refresh</span><span class="cron-schedule">0 */4 * * *</span></div>
+          <div class="cron-row"><span>🔔 Alert Monitor</span><span class="cron-schedule">*/5 * * * *</span></div>
+          <div class="cron-row"><span>💰 Position Check</span><span class="cron-schedule">*/3 * * * *</span></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <div id="refresh-bar">
+    <div id="progress-bar" style="width:0%"></div>
+    <span>🔄 Auto-refresh: 60s</span>
+    <span id="next-refresh">Next: 60s</span>
+  </div>
+</div>
+
+<script>
+// SHA-256 of "mars100"
+const PASS_HASH = '2494779c4e10907b11ad7d943256863d528d7678a67c88e2cc4c76f2d631edda';
+
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+
+async function doLogin() {
+  const pwd = document.getElementById('pwd-input').value;
+  const hash = await sha256(pwd);
+  if (hash === PASS_HASH) {
+    localStorage.setItem('cm_auth', hash);
+    showDashboard();
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+    document.getElementById('pwd-input').value = '';
+    document.getElementById('pwd-input').focus();
+  }
+}
+
+document.getElementById('pwd-input').addEventListener('keydown', e => { if(e.key==='Enter') doLogin(); });
+
+function logout() { localStorage.removeItem('cm_auth'); location.reload(); }
+
+async function checkAuth() {
+  const stored = localStorage.getItem('cm_auth');
+  if (stored === PASS_HASH) showDashboard();
+}
+
+function showDashboard() {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('dashboard').style.display = 'block';
+  initDashboard();
+}
+
+function updateClock() {
+  const ist = new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Calcutta'}));
+  const h=String(ist.getHours()).padStart(2,'0');
+  const m=String(ist.getMinutes()).padStart(2,'0');
+  const s=String(ist.getSeconds()).padStart(2,'0');
+  document.getElementById('clock').textContent = `${h}:${m}:${s} IST`;
+}
+
+const BASE = '.';
+let prevTradeCount = null;
+
+async function fetchJSON(path) {
+  try {
+    const r = await fetch(`${BASE}/${path}?t=${Date.now()}`);
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
+function fmt(val, dec=2, prefix='$') {
+  if (val===undefined||val===null) return '—';
+  const n = parseFloat(val);
+  if (isNaN(n)) return '—';
+  return prefix + n.toFixed(dec);
+}
+
+function fmtPnl(val) {
+  if (val===undefined||val===null) return '—';
+  const n = parseFloat(val);
+  if (isNaN(n)) return '—';
+  return `<span class="${n>=0?'pnl-pos':'pnl-neg'}">${n>=0?'+':''}$${n.toFixed(2)}</span>`;
+}
+
+function fmtTime(ts) {
+  if (!ts) return '—';
+  try {
+    return new Date(ts).toLocaleString('en-IN',{timeZone:'Asia/Calcutta',dateStyle:'short',timeStyle:'short'});
+  } catch { return ts; }
+}
+
+async function loadAll() {
+  const [meta,status,stats,journal,sniper,corr,levels,alerts] = await Promise.all([
+    fetchJSON('data/meta.json'),fetchJSON('data/status.json'),fetchJSON('data/stats.json'),
+    fetchJSON('data/journal.json'),fetchJSON('data/sniper.json'),fetchJSON('data/correlation.json'),
+    fetchJSON('data/levels.json'),fetchJSON('data/alerts.json')
+  ]);
+  updateMeta(meta); updateOverview(status,stats); updatePositions(status);
+  updateSniper(sniper); updateCorrelation(corr); updateJournal(journal);
+  updateLevels(levels); updateAlerts(alerts);
+}
+
+function updateMeta(meta) {
+  if (!meta) return;
+  const ts = meta.last_update||meta.timestamp;
+  if (ts) {
+    document.getElementById('last-update').textContent = 'Updated: '+fmtTime(ts);
+    const age = (Date.now()-new Date(ts))/60000;
+    document.getElementById('status-dot').className = age>30 ? 'dot stale' : 'dot';
+  }
+}
+
+function updateOverview(status, stats) {
+  if (status) {
+    document.getElementById('ov-equity').textContent = status.equity ? fmt(status.equity) : '—';
+    document.getElementById('ov-available').textContent = status.available ? fmt(status.available) : '—';
+  }
+  if (stats) {
+    const t = (stats.wins||0)+(stats.losses||0);
+    document.getElementById('ov-trades').textContent = t;
+    document.getElementById('ov-winrate').textContent = t>0 ? ((stats.wins/t)*100).toFixed(1)+'%' : '—';
+    document.getElementById('ov-pnl').innerHTML = fmtPnl(stats.total_pnl||0);
+    if (prevTradeCount!==null && t>prevTradeCount) notify('🪙 New Trade!',`Trades: ${t} | PnL: $${parseFloat(stats.total_pnl||0).toFixed(2)}`);
+    prevTradeCount = t;
+  }
+}
+
+function updatePositions(status) {
+  const tbody = document.getElementById('positions-table');
+  const positions = status?.positions||[];
+  document.getElementById('positions-count').textContent = positions.length+' open';
+  if (!positions.length) { tbody.innerHTML='<tr><td colspan="7" class="empty">No active positions</td></tr>'; return; }
+  tbody.innerHTML = positions.map(p => {
+    const side=(p.side||'').toUpperCase();
+    const cls = side==='BUY'||side==='LONG' ? 'long' : 'short';
+    const label = side==='BUY'?'LONG':side==='SELL'?'SHORT':side;
+    return `<tr><td><strong>${p.symbol||'—'}</strong></td><td><span class="badge ${cls}">${label}</span></td><td>${fmt(p.avgPrice||p.entry_price,4)}</td><td>${fmt(p.markPrice||p.mark_price,4)}</td><td>${fmtPnl(p.unrealisedPnl??p.pnl)}</td><td>${p.leverage||'—'}x</td><td>${p.stopLoss||p.stop_loss||'—'}</td></tr>`;
+  }).join('');
+}
+
+function updateSniper(sniper) {
+  const grid = document.getElementById('sniper-grid');
+  if (!sniper) { grid.innerHTML='<div class="empty">No scan data</div>'; return; }
+  const triggers = sniper.triggers||sniper.coins||[];
+  if (sniper.timestamp||sniper.scan_time) document.getElementById('sniper-time').textContent = fmtTime(sniper.timestamp||sniper.scan_time);
+  if (!triggers.length) { grid.innerHTML='<div class="empty">No triggered coins in last scan</div>'; return; }
+  grid.innerHTML = triggers.map(t => {
+    if (typeof t==='string') return `<div class="sniper-card"><div class="sniper-symbol">${t}</div><div class="sniper-score">Triggered</div></div>`;
+    const dir=(t.direction||t.side||'').toUpperCase();
+    const dirCls = dir.includes('LONG')||dir==='BUY' ? 'long' : dir.includes('SHORT')||dir==='SELL' ? 'short' : '';
+    return `<div class="sniper-card"><div class="sniper-symbol">${t.symbol||t.coin||'—'} ${dir?`<span class="${dirCls}" style="font-size:.75rem">${dir}</span>`:''}</div><div class="sniper-score">Score: ${t.score??'—'}</div><div class="sniper-reasons">${(t.reasons||[]).join(' · ')}</div></div>`;
+  }).join('');
+}
+
+function updateCorrelation(corr) {
+  const grid = document.getElementById('corr-grid');
+  if (!corr) { grid.innerHTML='<div class="empty">No data</div>'; return; }
+  if (corr.timestamp) document.getElementById('corr-time').textContent = fmtTime(corr.timestamp);
+  const btc = parseFloat(corr.btc_change??0);
+  const btcCls = btc>=0?'green':'red';
+  const biasCls = (corr.market_bias||'').includes('BULL')?'green':(corr.market_bias||'').includes('BEAR')?'red':'yellow';
+  grid.innerHTML = `
+    <div class="corr-card"><div class="corr-label">BTC 24h</div><div class="corr-value ${btcCls}">${btc>=0?'+':''}${btc.toFixed(2)}%</div></div>
+    <div class="corr-card"><div class="corr-label">Market Bias</div><div class="corr-value ${biasCls}">${corr.market_bias||'—'}</div></div>
+    <div class="corr-card"><div class="corr-label">🟢 / 🔴 Coins</div><div class="corr-value"><span style="color:var(--green)">${corr.green??'—'}</span> / <span style="color:var(--red)">${corr.red??'—'}</span></div></div>
+    <div class="corr-card"><div class="corr-label">At Support</div><div class="corr-value" style="font-size:.85rem;color:var(--green)">${(corr.at_support||[]).join(', ')||'None'}</div></div>
+    <div class="corr-card"><div class="corr-label">At Resistance</div><div class="corr-value" style="font-size:.85rem;color:var(--red)">${(corr.at_resistance||[]).join(', ')||'None'}</div></div>`;
+}
+
+function updateJournal(journal) {
+  const tbody = document.getElementById('journal-table');
+  const trades = journal?.trades||[];
+  document.getElementById('journal-count').textContent = trades.length+' trades';
+  if (!trades.length) { tbody.innerHTML='<tr><td colspan="9" class="empty">No trades yet</td></tr>'; return; }
+  tbody.innerHTML = [...trades].reverse().map(t => {
+    const side=(t.side||t.direction||'').toUpperCase();
+    const sCls=side.includes('LONG')||side==='BUY'?'long':'short';
+    const sLabel=side==='BUY'?'LONG':side==='SELL'?'SHORT':side;
+    const stCls=(t.status||'').toLowerCase()==='win'?'win':(t.status||'').toLowerCase()==='loss'?'loss':'open';
+    return `<tr><td style="white-space:nowrap">${fmtTime(t.timestamp||t.time)}</td><td><strong>${t.symbol||'—'}</strong></td><td><span class="badge ${sCls}">${sLabel}</span></td><td>${t.leverage||'—'}x</td><td>${t.score??'—'}</td><td>${fmt(t.entry||t.entry_price,4)}</td><td>${t.exit||t.exit_price?fmt(t.exit||t.exit_price,4):'—'}</td><td>${fmtPnl(t.pnl)}</td><td><span class="badge ${stCls}">${t.status||'OPEN'}</span></td></tr>`;
+  }).join('');
+}
+
+function updateLevels(levels) {
+  const grid = document.getElementById('levels-grid');
+  if (!levels||!Object.keys(levels).length) { grid.innerHTML='<div class="empty">No level data</div>'; return; }
+  const coins = Object.keys(levels);
+  document.getElementById('levels-count').textContent = coins.length+' coins';
+  grid.innerHTML = coins.map(coin => {
+    const d = levels[coin];
+    const sr = (d.sr||[]).sort((a,b)=>b.price-a.price).slice(0,6);
+    return `<div class="level-card"><div class="level-symbol">${coin}</div>${sr.map(l=>`<div class="level-row"><span class="level-type-${l.type}">${l.type}</span><span>${l.price<0.01?l.price.toExponential(3):l.price.toFixed(4)}</span><span style="color:var(--muted)">${l.touches}×</span></div>`).join('')||'<div style="font-size:.72rem;color:var(--muted)">No levels</div>'}</div>`;
+  }).join('');
+}
+
+function updateAlerts(alerts) {
+  const list = document.getElementById('alerts-list');
+  const items = alerts?.alerts||[];
+  document.getElementById('alerts-count').textContent = items.length+' alerts';
+  if (!items.length) { list.innerHTML='<div class="empty">No alerts</div>'; return; }
+  list.innerHTML = [...items].reverse().slice(0,20).map(a=>
+    `<div class="alert-item"><div class="alert-time">${fmtTime(a.timestamp)}</div><div class="alert-count">⚡ ${a.triggers||0} triggers</div><div class="alert-coins">${(a.coins||[]).join(', ')}</div></div>`
+  ).join('');
+}
+
+function requestNotifPermission() {
+  if ('Notification' in window && Notification.permission==='default') Notification.requestPermission();
+}
+
+function notify(title, body) {
+  if ('Notification' in window && Notification.permission==='granted') new Notification(title, {body});
+}
+
+let refreshTimer, countdownInterval;
+const INTERVAL = 60000;
+
+function startRefresh() {
+  clearTimeout(refreshTimer); clearInterval(countdownInterval);
+  const start = Date.now();
+  countdownInterval = setInterval(()=>{
+    const e = Date.now()-start;
+    const r = Math.max(0,INTERVAL-e);
+    document.getElementById('progress-bar').style.width=(e/INTERVAL*100)+'%';
+    document.getElementById('next-refresh').textContent='Next: '+Math.ceil(r/1000)+'s';
+  },500);
+  refreshTimer = setTimeout(async()=>{
+    clearInterval(countdownInterval);
+    await loadAll();
+    startRefresh();
+  }, INTERVAL);
+}
+
+async function initDashboard() {
+  requestNotifPermission();
+  setInterval(updateClock, 1000);
+  updateClock();
+  await loadAll();
+  startRefresh();
+}
+
+checkAuth();
+</script>
+</body>
+</html>
