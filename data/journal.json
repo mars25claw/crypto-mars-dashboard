@@ -24,6 +24,56 @@
       "order_id": "1217516e-8d3c-4003-a4ca-a2b6addcb1b6",
       "timestamp": "2026-03-01T16:09:21.462293+00:00",
       "status": "open"
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 0.3159,
+      "sl": 0.324151308,
+      "qty": 727.1,
+      "leverage": 3,
+      "score": 64,
+      "breakdown": {
+        "sr": 14,
+        "vol": 3,
+        "vol_ratio": 0.2,
+        "mcb": 11,
+        "mcb_sig": -47.5,
+        "div": "none",
+        "ema": 20,
+        "trend": 8,
+        "fib": 8,
+        "breakout": 0
+      },
+      "order_id": "6bae30ad-06fa-4ba4-8516-f86cdaa1c190",
+      "timestamp": "2026-03-01T16:10:14.960571+00:00",
+      "status": "open"
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 0.3159,
+      "sl": 0.324151308,
+      "qty": 727.1,
+      "leverage": 3,
+      "score": 64,
+      "breakdown": {
+        "sr": 14,
+        "vol": 3,
+        "vol_ratio": 0.2,
+        "mcb": 11,
+        "mcb_sig": -47.5,
+        "div": "none",
+        "ema": 20,
+        "trend": 8,
+        "fib": 8,
+        "breakout": 0
+      },
+      "order_id": "84f21ea4-7b43-4eaf-9a53-d778bcd5a442",
+      "timestamp": "2026-03-01T16:10:17.366549+00:00",
+      "status": "open"
     }
   ]
 }
