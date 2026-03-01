@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-03-01T20:50:16.010557+00:00",
+  "timestamp": "2026-03-01T20:50:57.773980+00:00",
   "coins": [
     {
       "symbol": "ETHUSDT",
       "score": 54,
       "direction": "SHORT",
-      "price": 1911.63,
-      "change_24h": -2.78
+      "price": 1913.3,
+      "change_24h": -2.73
     },
     {
       "symbol": "BTCUSDT",
       "score": 47,
       "direction": "SHORT",
-      "price": 65242.85,
-      "change_24h": -2.65
+      "price": 65257.99,
+      "change_24h": -2.62
     },
     {
       "symbol": "AAVEUSDT",
       "score": 47,
       "direction": "SHORT",
-      "price": 110.79,
-      "change_24h": -1.35
+      "price": 110.86,
+      "change_24h": -1.14
     },
     {
       "symbol": "XRPUSDT",
       "score": 47,
       "direction": "SHORT",
-      "price": 1.3401,
-      "change_24h": -2.91
+      "price": 1.3405,
+      "change_24h": -2.87
     },
     {
       "symbol": "APTUSDT",
@@ -41,7 +41,7 @@
       "score": 42,
       "direction": "SHORT",
       "price": 1.115,
-      "change_24h": -2.88
+      "change_24h": -3.21
     }
   ],
   "count": 6
