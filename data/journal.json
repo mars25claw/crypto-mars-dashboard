@@ -349,6 +349,56 @@
       "order_id": "11132879-894c-4fa7-b0b7-d77868df5ef8",
       "timestamp": "2026-03-01T22:42:12.219401+00:00",
       "status": "open"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 850663.0,
+      "sl": 865223.6811708305,
+      "qty": 0.001,
+      "leverage": 3,
+      "score": 55,
+      "breakdown": {
+        "sr": 14,
+        "vol": 9,
+        "vol_ratio": 0.6,
+        "mcb": 4,
+        "mcb_sig": -9.5,
+        "div": "none",
+        "ema": 20,
+        "trend": 8,
+        "fib": 0,
+        "breakout": 0
+      },
+      "order_id": "45854e13-e412-4099-8e10-01ed05dfb406",
+      "timestamp": "2026-03-01T23:30:10.073368+00:00",
+      "status": "open"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 850663.0,
+      "sl": 865223.6811708305,
+      "qty": 0.001,
+      "leverage": 3,
+      "score": 55,
+      "breakdown": {
+        "sr": 14,
+        "vol": 9,
+        "vol_ratio": 0.6,
+        "mcb": 4,
+        "mcb_sig": -9.5,
+        "div": "none",
+        "ema": 20,
+        "trend": 8,
+        "fib": 0,
+        "breakout": 0
+      },
+      "order_id": "239c7a82-3ac9-4c7a-9b5f-f1af6f0be905",
+      "timestamp": "2026-03-01T23:30:10.434030+00:00",
+      "status": "open"
     }
   ]
 }
