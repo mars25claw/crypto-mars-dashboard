@@ -1,10 +1,12 @@
 {
-  "timestamp": "2026-03-01T16:31:40.129051+00:00",
-  "btc_change": 3.215,
+  "timestamp": "2026-03-01T17:00:39.437514+00:00",
+  "btc_change": 1.659,
   "market_bias": "BULLISH",
   "green": 17,
-  "red": 1,
-  "at_support": [],
+  "red": 2,
+  "at_support": [
+    "BTCUSDT"
+  ],
   "at_resistance": [
     "HBARUSDT"
   ]
