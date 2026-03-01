@@ -149,6 +149,31 @@
       "order_id": "8f4e9a8a-73f4-455c-b830-77386e3a4d2b",
       "timestamp": "2026-03-01T19:31:07.627377+00:00",
       "status": "open"
+    },
+    {
+      "symbol": "HBARUSDT",
+      "direction": "SHORT",
+      "side": "Sell",
+      "entry_price": 0.09748,
+      "sl": 0.099454,
+      "qty": 3039.0,
+      "leverage": 3,
+      "score": 55,
+      "breakdown": {
+        "sr": 14,
+        "vol": 9,
+        "vol_ratio": 0.5,
+        "mcb": 4,
+        "mcb_sig": -19.9,
+        "div": "none",
+        "ema": 20,
+        "trend": 8,
+        "fib": 0,
+        "breakout": 0
+      },
+      "order_id": "4dae25eb-cd96-47f8-98f8-e5478d150cc4",
+      "timestamp": "2026-03-01T19:40:18.545752+00:00",
+      "status": "open"
     }
   ]
 }
