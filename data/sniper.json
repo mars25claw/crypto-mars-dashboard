@@ -1,1 +1,24 @@
-{"timestamp": "2026-03-01T14:03:36+05:30", "triggers": [], "coins": []}
+{
+  "timestamp": "2026-03-01T14:30:34.666827+00:00",
+  "triggers": [
+    "SOLUSDT",
+    "HBARUSDT",
+    "DOGEUSDT",
+    "AVAXUSDT",
+    "NEARUSDT",
+    "FILUSDT",
+    "ATOMUSDT",
+    "XLMUSDT"
+  ],
+  "coins": [
+    "SOLUSDT",
+    "HBARUSDT",
+    "DOGEUSDT",
+    "AVAXUSDT",
+    "NEARUSDT",
+    "FILUSDT",
+    "ATOMUSDT",
+    "XLMUSDT"
+  ],
+  "tradeable": 0
+}
