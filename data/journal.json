@@ -1,5 +1,5 @@
-{
-  "trades": [
+[
+  [
     {
       "symbol": "BTCUSDT",
       "direction": "LONG",
@@ -105,5 +105,18 @@
       "timestamp": "2026-03-02T20:00:18.954261+00:00",
       "status": "open"
     }
-  ]
-}
+  ],
+  {
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 1.3286,
+    "exit": 1.3781,
+    "qty": 17.0,
+    "leverage": 3,
+    "pnl_usd": 2.5245,
+    "pnl_pct": 3.726,
+    "result": "WIN",
+    "reason": "manual_close",
+    "closed_at": "2026-03-02T22:10:21.461705"
+  }
+]

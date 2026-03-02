@@ -1,8 +1,10 @@
 {
-  "wins": 0,
+  "wins": 1,
   "losses": 0,
-  "total_pnl": 0,
+  "total_pnl": 2.5245,
   "best_trade": 0,
   "worst_trade": 0,
-  "trades": 4
+  "trades": 5,
+  "best": 2.5245,
+  "win_rate": 20.0
 }
