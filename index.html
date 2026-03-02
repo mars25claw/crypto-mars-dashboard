@@ -215,7 +215,7 @@ async function load(){
   $('pos-n').textContent=pos.length+' open';
   if(pos.length){
     $('pos-body').innerHTML=`<table><tr><th>Coin</th><th>Side</th><th>Entry</th><th>Mark</th><th>PnL</th><th>Lev</th><th>SL</th></tr>`+
-      pos.map(p=>{const dir=p.side==='Buy'?'LONG':'SHORT';const c=dir==='LONG'?'green':'red';
+      pos.map(p=>{const dir=(p.side==='Buy'||p.side==='long')?'LONG':'SHORT';const c=dir==='LONG'?'green':'red';
         return`<tr><td><b>${p.symbol}</b></td><td class="${c}">${dir}</td><td>${fmtP(p.entry)}</td><td>${fmtP(p.mark)}</td><td class="${(p.pnl||0)>=0?'green':'red'}">${(p.pnl>=0?'+':'')+(p.pnl||0).toFixed(4)}</td><td>${p.leverage}x</td><td>${p.sl||'—'}</td></tr>`}).join('')+'</table>';
   } else {
     $('pos-body').innerHTML='<div class="empty">No positions — waiting for score ≥60 ⏳</div>';
