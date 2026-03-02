@@ -3,7 +3,7 @@
     {
       "symbol": "HBARUSDT",
       "price": 0.09868,
-      "change_24h": -2.88,
+      "change_24h": -2.92,
       "nearest_type": "R",
       "nearest_price": 0.09825,
       "distance_pct": 0.44,
@@ -11,8 +11,8 @@
     },
     {
       "symbol": "BTCUSDT",
-      "price": 66749.58,
-      "change_24h": -1.0,
+      "price": 66746.55,
+      "change_24h": -1.09,
       "nearest_type": "S",
       "nearest_price": 65118.0,
       "distance_pct": 2.44,
@@ -20,11 +20,11 @@
     },
     {
       "symbol": "BNBUSDT",
-      "price": 622.99,
+      "price": 623.06,
       "change_24h": -1.06,
       "nearest_type": "R",
       "nearest_price": 642.49,
-      "distance_pct": 3.13,
+      "distance_pct": 3.12,
       "touches": 1
     },
     {
@@ -38,17 +38,17 @@
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1970.09,
-      "change_24h": -2.29,
+      "price": 1970.48,
+      "change_24h": -2.33,
       "nearest_type": "S",
       "nearest_price": 1897.24,
-      "distance_pct": 3.7,
+      "distance_pct": 3.72,
       "touches": 1
     },
     {
       "symbol": "XLMUSDT",
       "price": 0.1551,
-      "change_24h": -4.2,
+      "change_24h": -4.32,
       "nearest_type": "S",
       "nearest_price": 0.1474,
       "distance_pct": 4.96,
@@ -65,29 +65,29 @@
     },
     {
       "symbol": "LINKUSDT",
-      "price": 8.8,
-      "change_24h": -2.87,
+      "price": 8.79,
+      "change_24h": -2.98,
       "nearest_type": "R",
       "nearest_price": 9.25,
-      "distance_pct": 5.11,
+      "distance_pct": 5.23,
       "touches": 1
     },
     {
       "symbol": "PEPEUSDT",
-      "price": 3.43e-06,
-      "change_24h": -6.28,
+      "price": 3.44e-06,
+      "change_24h": -6.01,
       "nearest_type": "S",
       "nearest_price": 3.63e-06,
-      "distance_pct": 5.83,
+      "distance_pct": 5.52,
       "touches": 1
     },
     {
       "symbol": "DOTUSDT",
-      "price": 1.546,
-      "change_24h": -3.25,
+      "price": 1.545,
+      "change_24h": -3.38,
       "nearest_type": "R",
       "nearest_price": 1.44,
-      "distance_pct": 6.86,
+      "distance_pct": 6.8,
       "touches": 1
     }
   ],
