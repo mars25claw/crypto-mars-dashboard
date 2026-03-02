@@ -2,29 +2,29 @@
   "nearest": [
     {
       "symbol": "HBARUSDT",
-      "price": 0.0982,
-      "change_24h": -4.22,
+      "price": 0.09818,
+      "change_24h": -4.24,
       "nearest_type": "R",
       "nearest_price": 0.09825,
-      "distance_pct": 0.05,
+      "distance_pct": 0.07,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 66202.5,
-      "change_24h": -2.3,
+      "price": 66213.04,
+      "change_24h": -2.32,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 1.64,
+      "distance_pct": 1.65,
       "touches": 1
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1948.96,
-      "change_24h": -4.09,
+      "price": 1949.38,
+      "change_24h": -4.16,
       "nearest_type": "S",
       "nearest_price": 1897.24,
-      "distance_pct": 2.65,
+      "distance_pct": 2.67,
       "touches": 1
     },
     {
@@ -38,26 +38,17 @@
     },
     {
       "symbol": "BNBUSDT",
-      "price": 620.01,
-      "change_24h": -1.52,
+      "price": 620.06,
+      "change_24h": -1.56,
       "nearest_type": "R",
       "nearest_price": 642.49,
-      "distance_pct": 3.63,
-      "touches": 1
-    },
-    {
-      "symbol": "PEPEUSDT",
-      "price": 3.46e-06,
-      "change_24h": -7.49,
-      "nearest_type": "S",
-      "nearest_price": 3.63e-06,
-      "distance_pct": 4.91,
+      "distance_pct": 3.62,
       "touches": 1
     },
     {
       "symbol": "XLMUSDT",
       "price": 0.1551,
-      "change_24h": -5.2,
+      "change_24h": -5.37,
       "nearest_type": "S",
       "nearest_price": 0.1474,
       "distance_pct": 4.96,
@@ -73,9 +64,18 @@
       "touches": 1
     },
     {
+      "symbol": "PEPEUSDT",
+      "price": 3.45e-06,
+      "change_24h": -7.75,
+      "nearest_type": "S",
+      "nearest_price": 3.63e-06,
+      "distance_pct": 5.22,
+      "touches": 1
+    },
+    {
       "symbol": "NEARUSDT",
       "price": 1.167,
-      "change_24h": -1.35,
+      "change_24h": -1.52,
       "nearest_type": "R",
       "nearest_price": 1.102,
       "distance_pct": 5.57,
