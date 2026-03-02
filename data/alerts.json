@@ -1773,6 +1773,33 @@
           "direction": "LONG"
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-02T10:41:05.645296+00:00",
+      "triggers": 4,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 45,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XRPUSDT",
+          "score": 43,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "LINKUSDT",
+          "score": 35,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SOLUSDT",
+          "score": 31,
+          "direction": "LONG"
+        }
+      ]
     }
   ]
 }
