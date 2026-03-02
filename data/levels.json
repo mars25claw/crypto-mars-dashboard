@@ -2,29 +2,29 @@
   "nearest": [
     {
       "symbol": "HBARUSDT",
-      "price": 0.0974,
-      "change_24h": -2.85,
+      "price": 0.09737,
+      "change_24h": -2.88,
       "nearest_type": "R",
       "nearest_price": 0.09825,
-      "distance_pct": 0.87,
+      "distance_pct": 0.9,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 65800.01,
+      "price": 65790.36,
       "change_24h": -1.77,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 1.04,
+      "distance_pct": 1.02,
       "touches": 1
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1936.31,
+      "price": 1936.15,
       "change_24h": -3.18,
       "nearest_type": "S",
       "nearest_price": 1897.24,
-      "distance_pct": 2.02,
+      "distance_pct": 2.01,
       "touches": 1
     },
     {
@@ -47,26 +47,26 @@
     },
     {
       "symbol": "XLMUSDT",
-      "price": 0.153,
-      "change_24h": -4.43,
+      "price": 0.1529,
+      "change_24h": -4.5,
       "nearest_type": "S",
       "nearest_price": 0.1474,
-      "distance_pct": 3.66,
+      "distance_pct": 3.6,
       "touches": 1
     },
     {
       "symbol": "BNBUSDT",
-      "price": 615.27,
-      "change_24h": -1.4,
+      "price": 615.26,
+      "change_24h": -1.42,
       "nearest_type": "R",
       "nearest_price": 642.49,
-      "distance_pct": 4.42,
+      "distance_pct": 4.43,
       "touches": 1
     },
     {
       "symbol": "DOTUSDT",
       "price": 1.514,
-      "change_24h": -5.73,
+      "change_24h": -5.79,
       "nearest_type": "R",
       "nearest_price": 1.44,
       "distance_pct": 4.89,
@@ -75,7 +75,7 @@
     {
       "symbol": "ADAUSDT",
       "price": 0.2707,
-      "change_24h": -4.14,
+      "change_24h": -4.18,
       "nearest_type": "S",
       "nearest_price": 0.2536,
       "distance_pct": 6.32,
@@ -84,7 +84,7 @@
     {
       "symbol": "PEPEUSDT",
       "price": 3.4e-06,
-      "change_24h": -5.82,
+      "change_24h": -6.08,
       "nearest_type": "S",
       "nearest_price": 3.63e-06,
       "distance_pct": 6.76,
