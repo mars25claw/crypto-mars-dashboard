@@ -2,26 +2,26 @@
   "nearest": [
     {
       "symbol": "HBARUSDT",
-      "price": 0.09732,
-      "change_24h": -2.72,
+      "price": 0.0973,
+      "change_24h": -2.74,
       "nearest_type": "R",
       "nearest_price": 0.09825,
-      "distance_pct": 0.96,
+      "distance_pct": 0.98,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 65922.98,
-      "change_24h": -1.41,
+      "price": 65934.41,
+      "change_24h": -1.39,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 1.22,
+      "distance_pct": 1.24,
       "touches": 1
     },
     {
       "symbol": "ETHUSDT",
       "price": 1945.1,
-      "change_24h": -0.81,
+      "change_24h": -0.8,
       "nearest_type": "S",
       "nearest_price": 1897.24,
       "distance_pct": 2.46,
@@ -39,7 +39,7 @@
     {
       "symbol": "APTUSDT",
       "price": 0.935,
-      "change_24h": -1.58,
+      "change_24h": -1.68,
       "nearest_type": "S",
       "nearest_price": 0.9,
       "distance_pct": 3.74,
@@ -47,8 +47,8 @@
     },
     {
       "symbol": "BNBUSDT",
-      "price": 616.08,
-      "change_24h": -0.14,
+      "price": 616.06,
+      "change_24h": -0.16,
       "nearest_type": "R",
       "nearest_price": 642.49,
       "distance_pct": 4.29,
@@ -65,26 +65,26 @@
     },
     {
       "symbol": "XLMUSDT",
-      "price": 0.1541,
-      "change_24h": -3.14,
+      "price": 0.1542,
+      "change_24h": -3.08,
       "nearest_type": "S",
       "nearest_price": 0.1474,
-      "distance_pct": 4.35,
+      "distance_pct": 4.41,
       "touches": 1
     },
     {
       "symbol": "NEARUSDT",
-      "price": 1.166,
+      "price": 1.167,
       "change_24h": 0.78,
       "nearest_type": "R",
       "nearest_price": 1.102,
-      "distance_pct": 5.49,
+      "distance_pct": 5.57,
       "touches": 1
     },
     {
       "symbol": "DOTUSDT",
       "price": 1.537,
-      "change_24h": -6.34,
+      "change_24h": -6.39,
       "nearest_type": "R",
       "nearest_price": 1.44,
       "distance_pct": 6.31,
