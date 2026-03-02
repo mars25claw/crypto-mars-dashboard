@@ -2,29 +2,29 @@
   "nearest": [
     {
       "symbol": "HBARUSDT",
-      "price": 0.09685,
-      "change_24h": -2.36,
+      "price": 0.09688,
+      "change_24h": -2.33,
       "nearest_type": "R",
       "nearest_price": 0.09825,
-      "distance_pct": 1.45,
+      "distance_pct": 1.41,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 66096.53,
+      "price": 66106.55,
       "change_24h": -0.62,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 1.48,
+      "distance_pct": 1.5,
       "touches": 1
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1937.34,
-      "change_24h": -2.5,
+      "price": 1938.39,
+      "change_24h": -2.44,
       "nearest_type": "S",
       "nearest_price": 1897.24,
-      "distance_pct": 2.07,
+      "distance_pct": 2.12,
       "touches": 1
     },
     {
@@ -47,11 +47,11 @@
     },
     {
       "symbol": "BNBUSDT",
-      "price": 619.57,
-      "change_24h": -0.62,
+      "price": 619.44,
+      "change_24h": -0.61,
       "nearest_type": "R",
       "nearest_price": 641.52,
-      "distance_pct": 3.54,
+      "distance_pct": 3.56,
       "touches": 2
     },
     {
@@ -83,11 +83,11 @@
     },
     {
       "symbol": "NEARUSDT",
-      "price": 1.197,
-      "change_24h": 4.09,
+      "price": 1.195,
+      "change_24h": 3.91,
       "nearest_type": "R",
       "nearest_price": 1.26,
-      "distance_pct": 5.26,
+      "distance_pct": 5.44,
       "touches": 1
     }
   ],
