@@ -1,53 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T15:41:10.130225+00:00",
-      "triggers": 8,
-      "tradeable": 3,
-      "coins": [
-        {
-          "symbol": "DOGEUSDT",
-          "score": 44,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "DOTUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "HBARUSDT",
-          "score": 59,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "BTCUSDT",
-          "score": 77,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 46,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 40,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "PEPEUSDT",
-          "score": 50,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "UNIUSDT",
-          "score": 72,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T15:50:13.064250+00:00",
       "triggers": 9,
       "tradeable": 4,
@@ -4187,6 +4140,48 @@
           "symbol": "PEPEUSDT",
           "score": 44,
           "direction": "SHORT"
+        },
+        {
+          "symbol": "AVAXUSDT",
+          "score": 60,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 58,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "BNBUSDT",
+          "score": 78,
+          "direction": "LONG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-02T22:16:09.615818+00:00",
+      "triggers": 7,
+      "tradeable": 2,
+      "coins": [
+        {
+          "symbol": "DOGEUSDT",
+          "score": 0,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "HBARUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "UNIUSDT",
+          "score": 58,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 55,
+          "direction": "LONG"
         },
         {
           "symbol": "AVAXUSDT",
