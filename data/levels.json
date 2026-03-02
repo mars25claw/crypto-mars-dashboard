@@ -12,7 +12,7 @@
     {
       "symbol": "ATOMUSDT",
       "price": 1.855,
-      "change_24h": 4.86,
+      "change_24h": 4.8,
       "nearest_type": "S",
       "nearest_price": 1.832,
       "distance_pct": 1.24,
@@ -20,35 +20,35 @@
     },
     {
       "symbol": "HBARUSDT",
-      "price": 0.09953,
-      "change_24h": 3.56,
+      "price": 0.09955,
+      "change_24h": 3.58,
       "nearest_type": "R",
       "nearest_price": 0.09825,
-      "distance_pct": 1.29,
+      "distance_pct": 1.31,
       "touches": 1
     },
     {
       "symbol": "BNBUSDT",
-      "price": 633.79,
-      "change_24h": 3.3,
+      "price": 633.76,
+      "change_24h": 3.29,
       "nearest_type": "R",
       "nearest_price": 642.49,
-      "distance_pct": 1.37,
+      "distance_pct": 1.38,
       "touches": 1
     },
     {
       "symbol": "PEPEUSDT",
-      "price": 3.55e-06,
-      "change_24h": 4.41,
+      "price": 3.56e-06,
+      "change_24h": 4.71,
       "nearest_type": "S",
       "nearest_price": 3.63e-06,
-      "distance_pct": 2.25,
+      "distance_pct": 1.97,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 69178.08,
-      "change_24h": 5.86,
+      "price": 69174.79,
+      "change_24h": 5.83,
       "nearest_type": "R",
       "nearest_price": 70983.0,
       "distance_pct": 2.61,
@@ -57,7 +57,7 @@
     {
       "symbol": "LINKUSDT",
       "price": 8.99,
-      "change_24h": 5.02,
+      "change_24h": 5.15,
       "nearest_type": "R",
       "nearest_price": 9.25,
       "distance_pct": 2.89,
@@ -66,7 +66,7 @@
     {
       "symbol": "LTCUSDT",
       "price": 54.77,
-      "change_24h": 3.93,
+      "change_24h": 3.95,
       "nearest_type": "R",
       "nearest_price": 56.68,
       "distance_pct": 3.49,
@@ -83,11 +83,11 @@
     },
     {
       "symbol": "SOLUSDT",
-      "price": 87.36,
-      "change_24h": 6.34,
+      "price": 87.42,
+      "change_24h": 6.39,
       "nearest_type": "R",
       "nearest_price": 91.26,
-      "distance_pct": 4.46,
+      "distance_pct": 4.39,
       "touches": 1
     }
   ],
