@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-03-02T07:50:01.020020+00:00",
+  "timestamp": "2026-03-02T07:50:13.930030+00:00",
   "coins": [
     {
       "symbol": "XRPUSDT",
       "score": 49,
       "direction": "SHORT",
-      "price": 1.3484,
-      "change_24h": -3.55
+      "price": 1.3485,
+      "change_24h": -3.53
     },
     {
       "symbol": "BTCUSDT",
       "score": 47,
       "direction": "LONG",
-      "price": 65951.95,
-      "change_24h": -1.7
+      "price": 65954.06,
+      "change_24h": -1.73
     },
     {
       "symbol": "HBARUSDT",
       "score": 45,
       "direction": "SHORT",
-      "price": 0.09751,
-      "change_24h": -2.98
+      "price": 0.09754,
+      "change_24h": -2.96
     },
     {
       "symbol": "LINKUSDT",
       "score": 37,
       "direction": "SHORT",
       "price": 8.67,
-      "change_24h": -3.45
+      "change_24h": -3.34
     }
   ],
   "count": 4
