@@ -11,39 +11,39 @@
     },
     {
       "symbol": "BTCUSDT",
-      "price": 66349.73,
-      "change_24h": -0.28,
+      "price": 66359.9,
+      "change_24h": -0.26,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 1.86,
+      "distance_pct": 1.87,
       "touches": 1
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1946.9,
-      "change_24h": -2.04,
+      "price": 1947.36,
+      "change_24h": -2.02,
       "nearest_type": "S",
       "nearest_price": 1897.24,
-      "distance_pct": 2.55,
-      "touches": 1
-    },
-    {
-      "symbol": "APTUSDT",
-      "price": 0.928,
-      "change_24h": -1.8,
-      "nearest_type": "S",
-      "nearest_price": 0.9,
-      "distance_pct": 3.02,
+      "distance_pct": 2.57,
       "touches": 1
     },
     {
       "symbol": "BNBUSDT",
-      "price": 622.5,
-      "change_24h": 0.01,
+      "price": 622.59,
+      "change_24h": 0.02,
       "nearest_type": "R",
       "nearest_price": 641.52,
-      "distance_pct": 3.06,
+      "distance_pct": 3.04,
       "touches": 2
+    },
+    {
+      "symbol": "APTUSDT",
+      "price": 0.929,
+      "change_24h": -1.69,
+      "nearest_type": "S",
+      "nearest_price": 0.9,
+      "distance_pct": 3.12,
+      "touches": 1
     },
     {
       "symbol": "MATICUSDT",
@@ -65,11 +65,11 @@
     },
     {
       "symbol": "NEARUSDT",
-      "price": 1.206,
-      "change_24h": 5.05,
+      "price": 1.205,
+      "change_24h": 4.96,
       "nearest_type": "R",
       "nearest_price": 1.26,
-      "distance_pct": 4.48,
+      "distance_pct": 4.56,
       "touches": 1
     },
     {
