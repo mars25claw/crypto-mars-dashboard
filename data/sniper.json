@@ -1,34 +1,41 @@
 {
-  "timestamp": "2026-03-02T17:50:59.280099+00:00",
+  "timestamp": "2026-03-02T17:52:57.985599+00:00",
   "coins": [
     {
       "symbol": "BTCUSDT",
       "score": 72,
       "direction": "LONG",
-      "price": 68931.67,
-      "change_24h": 4.43
+      "price": 69059.31,
+      "change_24h": 4.51
     },
     {
       "symbol": "DOGEUSDT",
       "score": 51,
       "direction": "LONG",
-      "price": 0.09485,
-      "change_24h": 2.47
+      "price": 0.09517,
+      "change_24h": 2.74
     },
     {
       "symbol": "PEPEUSDT",
       "score": 44,
       "direction": "LONG",
       "price": 4e-06,
-      "change_24h": 2.88
+      "change_24h": 3.17
+    },
+    {
+      "symbol": "XLMUSDT",
+      "score": 39,
+      "direction": "LONG",
+      "price": 0.1578,
+      "change_24h": 1.28
     },
     {
       "symbol": "NEARUSDT",
       "score": 30,
       "direction": "SHORT",
-      "price": 1.301,
-      "change_24h": 13.92
+      "price": 1.308,
+      "change_24h": 14.44
     }
   ],
-  "count": 4
+  "count": 5
 }
