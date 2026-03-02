@@ -1,53 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T15:31:08.927275+00:00",
-      "triggers": 8,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "DOGEUSDT",
-          "score": 44,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "DOTUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "HBARUSDT",
-          "score": 59,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "BTCUSDT",
-          "score": 67,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 37,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "PEPEUSDT",
-          "score": 50,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "UNIUSDT",
-          "score": 49,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T15:31:29.030638+00:00",
       "triggers": 8,
       "tradeable": 2,
@@ -4251,6 +4204,43 @@
         {
           "symbol": "NEARUSDT",
           "score": 55,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "AVAXUSDT",
+          "score": 59,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 53,
+          "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-02T21:30:11.997436+00:00",
+      "triggers": 6,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "DOGEUSDT",
+          "score": 41,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "HBARUSDT",
+          "score": 47,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 55,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "XLMUSDT",
+          "score": 41,
           "direction": "LONG"
         },
         {
