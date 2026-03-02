@@ -2,29 +2,29 @@
   "nearest": [
     {
       "symbol": "HBARUSDT",
-      "price": 0.09841,
-      "change_24h": -1.31,
+      "price": 0.09839,
+      "change_24h": -1.39,
       "nearest_type": "R",
       "nearest_price": 0.09825,
-      "distance_pct": 0.16,
+      "distance_pct": 0.14,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 66508.46,
-      "change_24h": -0.29,
+      "price": 66502.66,
+      "change_24h": -0.36,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 2.09,
+      "distance_pct": 2.08,
       "touches": 1
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1956.4,
-      "change_24h": -0.02,
+      "price": 1956.84,
+      "change_24h": -0.05,
       "nearest_type": "S",
       "nearest_price": 1897.24,
-      "distance_pct": 3.02,
+      "distance_pct": 3.05,
       "touches": 1
     },
     {
@@ -38,8 +38,8 @@
     },
     {
       "symbol": "BNBUSDT",
-      "price": 619.55,
-      "change_24h": 0.54,
+      "price": 619.56,
+      "change_24h": 0.51,
       "nearest_type": "R",
       "nearest_price": 642.49,
       "distance_pct": 3.7,
@@ -47,11 +47,11 @@
     },
     {
       "symbol": "PEPEUSDT",
-      "price": 3.49e-06,
-      "change_24h": -3.59,
+      "price": 3.5e-06,
+      "change_24h": -3.31,
       "nearest_type": "S",
       "nearest_price": 3.63e-06,
-      "distance_pct": 4.01,
+      "distance_pct": 3.71,
       "touches": 1
     },
     {
@@ -65,20 +65,20 @@
     },
     {
       "symbol": "XLMUSDT",
-      "price": 0.1555,
-      "change_24h": -2.26,
+      "price": 0.1554,
+      "change_24h": -2.39,
       "nearest_type": "S",
       "nearest_price": 0.1474,
-      "distance_pct": 5.21,
+      "distance_pct": 5.15,
       "touches": 1
     },
     {
       "symbol": "NEARUSDT",
-      "price": 1.167,
-      "change_24h": 1.21,
+      "price": 1.166,
+      "change_24h": 1.13,
       "nearest_type": "R",
       "nearest_price": 1.102,
-      "distance_pct": 5.57,
+      "distance_pct": 5.49,
       "touches": 1
     },
     {
