@@ -971,6 +971,60 @@
           "direction": "LONG"
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-02T09:40:07.630714+00:00",
+      "triggers": 4,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 47,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XRPUSDT",
+          "score": 43,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "LINKUSDT",
+          "score": 33,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SOLUSDT",
+          "score": 33,
+          "direction": "LONG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-02T09:40:07.708043+00:00",
+      "triggers": 4,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 47,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XRPUSDT",
+          "score": 43,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "LINKUSDT",
+          "score": 33,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SOLUSDT",
+          "score": 33,
+          "direction": "LONG"
+        }
+      ]
     }
   ]
 }
