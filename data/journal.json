@@ -74,6 +74,36 @@
       "order_id": "1412438655262924801",
       "timestamp": "2026-03-02T18:52:20.164740+00:00",
       "status": "open"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "side": "Buy",
+      "entry_price": 1.329,
+      "sl": 1.2809,
+      "qty": 17.0,
+      "leverage": 3,
+      "score": 65,
+      "breakdown": {
+        "sr": 0,
+        "vol": 3,
+        "vol_ratio": 0.0,
+        "mcb": 18,
+        "mcb_sig": 71.4,
+        "div": "none",
+        "ema": 20,
+        "trend": 8,
+        "fib": 3,
+        "breakout": 0,
+        "candle": "hammer(bullish)",
+        "fear_greed": "Extreme Fear(10) \u2014 buy zone \ud83d\udd25",
+        "funding": "Funding 0.000% \u2014 neutral",
+        "oi": "OI neutral (+0.0%)",
+        "macro": "BTC sideways \u2014 neutral"
+      },
+      "order_id": "1412455761744371717",
+      "timestamp": "2026-03-02T20:00:18.954261+00:00",
+      "status": "open"
     }
   ]
 }
