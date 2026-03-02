@@ -2,20 +2,20 @@
   "nearest": [
     {
       "symbol": "HBARUSDT",
-      "price": 0.09737,
+      "price": 0.09739,
       "change_24h": -1.9,
       "nearest_type": "R",
       "nearest_price": 0.09825,
-      "distance_pct": 0.9,
+      "distance_pct": 0.88,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 66259.7,
-      "change_24h": -0.48,
+      "price": 66291.0,
+      "change_24h": -0.45,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 1.72,
+      "distance_pct": 1.77,
       "touches": 1
     },
     {
@@ -29,11 +29,11 @@
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1952.41,
-      "change_24h": -1.63,
+      "price": 1953.52,
+      "change_24h": -1.58,
       "nearest_type": "S",
       "nearest_price": 1897.24,
-      "distance_pct": 2.83,
+      "distance_pct": 2.88,
       "touches": 1
     },
     {
@@ -47,12 +47,21 @@
     },
     {
       "symbol": "BNBUSDT",
-      "price": 619.31,
-      "change_24h": -0.39,
+      "price": 619.58,
+      "change_24h": -0.35,
       "nearest_type": "R",
       "nearest_price": 641.52,
-      "distance_pct": 3.59,
+      "distance_pct": 3.54,
       "touches": 2
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "price": 3.48e-06,
+      "change_24h": -2.25,
+      "nearest_type": "S",
+      "nearest_price": 3.63e-06,
+      "distance_pct": 4.31,
+      "touches": 1
     },
     {
       "symbol": "DOTUSDT",
@@ -73,21 +82,12 @@
       "touches": 1
     },
     {
-      "symbol": "PEPEUSDT",
-      "price": 3.47e-06,
-      "change_24h": -2.53,
-      "nearest_type": "S",
-      "nearest_price": 3.63e-06,
-      "distance_pct": 4.61,
-      "touches": 1
-    },
-    {
-      "symbol": "NEARUSDT",
-      "price": 1.185,
-      "change_24h": 2.69,
+      "symbol": "LINKUSDT",
+      "price": 8.7,
+      "change_24h": -2.14,
       "nearest_type": "R",
-      "nearest_price": 1.26,
-      "distance_pct": 6.33,
+      "nearest_price": 9.25,
+      "distance_pct": 6.32,
       "touches": 1
     }
   ],
