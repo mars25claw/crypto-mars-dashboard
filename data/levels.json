@@ -2,26 +2,26 @@
   "nearest": [
     {
       "symbol": "BTCUSDT",
-      "price": 65735.49,
-      "change_24h": -2.22,
+      "price": 65727.89,
+      "change_24h": -2.24,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 0.94,
+      "distance_pct": 0.93,
       "touches": 1
     },
     {
       "symbol": "HBARUSDT",
-      "price": 0.09687,
-      "change_24h": -3.77,
+      "price": 0.09683,
+      "change_24h": -3.74,
       "nearest_type": "R",
       "nearest_price": 0.09825,
-      "distance_pct": 1.42,
+      "distance_pct": 1.47,
       "touches": 1
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1926.96,
-      "change_24h": -4.0,
+      "price": 1926.83,
+      "change_24h": -4.01,
       "nearest_type": "S",
       "nearest_price": 1897.24,
       "distance_pct": 1.54,
@@ -56,38 +56,38 @@
     },
     {
       "symbol": "DOTUSDT",
-      "price": 1.501,
-      "change_24h": -5.83,
+      "price": 1.502,
+      "change_24h": -5.71,
       "nearest_type": "R",
       "nearest_price": 1.44,
-      "distance_pct": 4.06,
+      "distance_pct": 4.13,
       "touches": 1
     },
     {
       "symbol": "BNBUSDT",
-      "price": 613.42,
-      "change_24h": -1.86,
+      "price": 613.32,
+      "change_24h": -1.87,
       "nearest_type": "R",
       "nearest_price": 642.49,
-      "distance_pct": 4.74,
+      "distance_pct": 4.76,
       "touches": 1
     },
     {
       "symbol": "ADAUSDT",
-      "price": 0.2691,
+      "price": 0.269,
       "change_24h": -4.91,
       "nearest_type": "S",
       "nearest_price": 0.2536,
-      "distance_pct": 5.76,
+      "distance_pct": 5.72,
       "touches": 1
     },
     {
-      "symbol": "LINKUSDT",
-      "price": 8.61,
-      "change_24h": -4.12,
-      "nearest_type": "S",
-      "nearest_price": 8.05,
-      "distance_pct": 6.5,
+      "symbol": "NEARUSDT",
+      "price": 1.177,
+      "change_24h": -2.24,
+      "nearest_type": "R",
+      "nearest_price": 1.102,
+      "distance_pct": 6.37,
       "touches": 1
     }
   ],
