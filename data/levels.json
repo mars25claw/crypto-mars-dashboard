@@ -2,20 +2,20 @@
   "nearest": [
     {
       "symbol": "HBARUSDT",
-      "price": 0.09739,
-      "change_24h": -1.9,
+      "price": 0.09733,
+      "change_24h": -1.95,
       "nearest_type": "R",
       "nearest_price": 0.09825,
-      "distance_pct": 0.88,
+      "distance_pct": 0.95,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 66291.0,
-      "change_24h": -0.45,
+      "price": 66266.59,
+      "change_24h": -0.5,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 1.77,
+      "distance_pct": 1.73,
       "touches": 1
     },
     {
@@ -29,11 +29,11 @@
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1953.52,
-      "change_24h": -1.58,
+      "price": 1952.17,
+      "change_24h": -1.71,
       "nearest_type": "S",
       "nearest_price": 1897.24,
-      "distance_pct": 2.88,
+      "distance_pct": 2.81,
       "touches": 1
     },
     {
@@ -47,11 +47,11 @@
     },
     {
       "symbol": "BNBUSDT",
-      "price": 619.58,
-      "change_24h": -0.35,
+      "price": 619.4,
+      "change_24h": -0.41,
       "nearest_type": "R",
       "nearest_price": 641.52,
-      "distance_pct": 3.54,
+      "distance_pct": 3.57,
       "touches": 2
     },
     {
@@ -64,15 +64,6 @@
       "touches": 1
     },
     {
-      "symbol": "DOTUSDT",
-      "price": 1.505,
-      "change_24h": -4.26,
-      "nearest_type": "R",
-      "nearest_price": 1.44,
-      "distance_pct": 4.32,
-      "touches": 1
-    },
-    {
       "symbol": "XLMUSDT",
       "price": 0.1541,
       "change_24h": -2.16,
@@ -82,12 +73,21 @@
       "touches": 1
     },
     {
+      "symbol": "DOTUSDT",
+      "price": 1.506,
+      "change_24h": -4.32,
+      "nearest_type": "R",
+      "nearest_price": 1.44,
+      "distance_pct": 4.38,
+      "touches": 1
+    },
+    {
       "symbol": "LINKUSDT",
-      "price": 8.7,
+      "price": 8.69,
       "change_24h": -2.14,
       "nearest_type": "R",
       "nearest_price": 9.25,
-      "distance_pct": 6.32,
+      "distance_pct": 6.44,
       "touches": 1
     }
   ],
