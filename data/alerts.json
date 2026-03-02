@@ -1,38 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T14:40:21.348444+00:00",
-      "triggers": 5,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 50,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XRPUSDT",
-          "score": 41,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "LINKUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SOLUSDT",
-          "score": 42,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T14:41:08.778620+00:00",
       "triggers": 5,
       "tradeable": 0,
@@ -4255,6 +4223,43 @@
     },
     {
       "timestamp": "2026-03-02T18:29:49.825254+00:00",
+      "triggers": 6,
+      "tradeable": 1,
+      "coins": [
+        {
+          "symbol": "BTCUSDT",
+          "score": 68,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "DOGEUSDT",
+          "score": 44,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "AAVEUSDT",
+          "score": 58,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 21,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XLMUSDT",
+          "score": 37,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "PEPEUSDT",
+          "score": 35,
+          "direction": "LONG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-02T18:30:13.992469+00:00",
       "triggers": 6,
       "tradeable": 1,
       "coins": [
