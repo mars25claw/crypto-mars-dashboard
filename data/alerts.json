@@ -191,6 +191,38 @@
           "direction": "LONG"
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-02T08:30:52.121267+00:00",
+      "triggers": 5,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "AAVEUSDT",
+          "score": 57,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "HBARUSDT",
+          "score": 40,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XRPUSDT",
+          "score": 47,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "LINKUSDT",
+          "score": 39,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "BTCUSDT",
+          "score": 30,
+          "direction": "LONG"
+        }
+      ]
     }
   ]
 }
