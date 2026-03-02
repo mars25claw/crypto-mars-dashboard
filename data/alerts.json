@@ -1,33 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T04:21:06.815353+00:00",
-      "triggers": 4,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "DOTUSDT",
-          "score": 41,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "HBARUSDT",
-          "score": 37,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "LINKUSDT",
-          "score": 37,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SOLUSDT",
-          "score": 31,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T04:30:07.987280+00:00",
       "triggers": 4,
       "tradeable": 0,
@@ -2585,6 +2558,33 @@
     },
     {
       "timestamp": "2026-03-02T08:00:20.635471+00:00",
+      "triggers": 4,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 45,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XRPUSDT",
+          "score": 47,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "LINKUSDT",
+          "score": 37,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "BTCUSDT",
+          "score": 28,
+          "direction": "LONG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-02T08:00:44.128018+00:00",
       "triggers": 4,
       "tradeable": 0,
       "coins": [
