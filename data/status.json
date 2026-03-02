@@ -1,8 +1,19 @@
 {
-  "equity": 0,
-  "available": 0,
+  "equity": 75688.69,
+  "available": 9902.13,
   "soft_cap": 100,
   "max_positions": 3,
-  "positions": [],
-  "updated": "2026-03-02T08:30:13.194569+00:00"
+  "positions": [
+    {
+      "symbol": "NEARUSDT",
+      "side": "Sell",
+      "size": 9.8,
+      "entry": 1.114522,
+      "mark": 1.1873,
+      "pnl": -0.7132,
+      "leverage": "3",
+      "sl": 0.0
+    }
+  ],
+  "updated": "2026-03-02T08:30:45.509611+00:00"
 }
