@@ -1,8 +1,29 @@
 {
-  "equity": 207.28,
+  "equity": 208.37,
   "available": 0.45,
   "soft_cap": 200,
   "max_positions": 3,
-  "positions": [],
-  "updated": "2026-03-02T21:30:57.683339+00:00"
+  "positions": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "long",
+      "size": 0.014,
+      "entry": 68935.3493,
+      "mark": 69404.7,
+      "pnl": 6.5709,
+      "leverage": "5",
+      "sl": 0.0
+    },
+    {
+      "symbol": "NEARUSDT",
+      "side": "long",
+      "size": 17.0,
+      "entry": 1.3286,
+      "mark": 1.3762,
+      "pnl": 0.8092,
+      "leverage": "3",
+      "sl": 0.0
+    }
+  ],
+  "updated": "2026-03-02T21:40:00.246011+00:00"
 }
