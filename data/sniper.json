@@ -1,40 +1,40 @@
 {
-  "timestamp": "2026-03-02T02:20:58.230918+00:00",
+  "timestamp": "2026-03-02T02:30:01.156511+00:00",
   "coins": [
-    {
-      "symbol": "HBARUSDT",
-      "score": 48,
-      "direction": "SHORT",
-      "price": 0.09793,
-      "change_24h": -4.44
-    },
     {
       "symbol": "DOTUSDT",
       "score": 45,
       "direction": "LONG",
-      "price": 1.561,
-      "change_24h": -5.16
+      "price": 1.563,
+      "change_24h": -4.81
     },
     {
       "symbol": "XRPUSDT",
       "score": 43,
       "direction": "SHORT",
-      "price": 1.3559,
-      "change_24h": -4.41
+      "price": 1.362,
+      "change_24h": -4.68
+    },
+    {
+      "symbol": "HBARUSDT",
+      "score": 37,
+      "direction": "LONG",
+      "price": 0.0982,
+      "change_24h": -4.22
     },
     {
       "symbol": "LINKUSDT",
       "score": 33,
       "direction": "LONG",
-      "price": 8.72,
-      "change_24h": -4.7
+      "price": 8.75,
+      "change_24h": -4.48
     },
     {
       "symbol": "SOLUSDT",
       "score": 31,
       "direction": "LONG",
-      "price": 83.94,
-      "change_24h": -4.4
+      "price": 84.15,
+      "change_24h": -4.62
     }
   ],
   "count": 5
