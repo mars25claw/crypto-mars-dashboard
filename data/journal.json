@@ -1,3 +1,29 @@
 {
-  "trades": []
+  "trades": [
+    {
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "side": "Buy",
+      "entry_price": 68909.92,
+      "sl": 67564.1,
+      "qty": 0.014,
+      "leverage": 5,
+      "score": 72,
+      "breakdown": {
+        "sr": 4,
+        "vol": 8,
+        "vol_ratio": 1.1,
+        "mcb": 12,
+        "mcb_sig": 39.8,
+        "div": "bullish",
+        "ema": 20,
+        "trend": 15,
+        "fib": 8,
+        "breakout": 5
+      },
+      "order_id": "1412422265692889089",
+      "timestamp": "2026-03-02T17:47:10.422083+00:00",
+      "status": "open"
+    }
+  ]
 }
