@@ -1,68 +1,68 @@
 {
-  "timestamp": "2026-03-02T16:20:20.444008+00:00",
+  "timestamp": "2026-03-02T16:30:01.214048+00:00",
   "coins": [
     {
       "symbol": "BTCUSDT",
-      "score": 77,
+      "score": 81,
       "direction": "LONG",
-      "price": 69516.45,
-      "change_24h": 3.83
+      "price": 69415.52,
+      "change_24h": 3.49
+    },
+    {
+      "symbol": "UNIUSDT",
+      "score": 70,
+      "direction": "LONG",
+      "price": 3.999,
+      "change_24h": 4.39
+    },
+    {
+      "symbol": "HBARUSDT",
+      "score": 66,
+      "direction": "LONG",
+      "price": 0.10211,
+      "change_24h": 2.35
     },
     {
       "symbol": "AAVEUSDT",
       "score": 64,
       "direction": "LONG",
-      "price": 125.04,
-      "change_24h": 8.03
+      "price": 125.16,
+      "change_24h": 7.7
     },
     {
-      "symbol": "HBARUSDT",
-      "score": 63,
+      "symbol": "PEPEUSDT",
+      "score": 51,
       "direction": "LONG",
-      "price": 0.10239,
-      "change_24h": 2.92
-    },
-    {
-      "symbol": "UNIUSDT",
-      "score": 60,
-      "direction": "LONG",
-      "price": 4.018,
-      "change_24h": 5.29
+      "price": 4e-06,
+      "change_24h": 3.68
     },
     {
       "symbol": "DOTUSDT",
       "score": 50,
       "direction": "LONG",
-      "price": 1.59,
-      "change_24h": 2.38
-    },
-    {
-      "symbol": "PEPEUSDT",
-      "score": 48,
-      "direction": "LONG",
-      "price": 4e-06,
-      "change_24h": 4.26
+      "price": 1.576,
+      "change_24h": 1.09
     },
     {
       "symbol": "XLMUSDT",
-      "score": 41,
+      "score": 39,
       "direction": "LONG",
-      "price": 0.1616,
-      "change_24h": 2.09
+      "price": 0.1608,
+      "change_24h": 1.39
     },
     {
       "symbol": "LINKUSDT",
-      "score": 39,
+      "score": 37,
       "direction": "SHORT",
-      "price": 9.16,
-      "change_24h": 2.57
+      "price": 9.14,
+      "change_24h": 2.01
     },
     {
       "symbol": "NEARUSDT",
-      "score": 33,
+      "score": 35,
       "direction": "SHORT",
-      "price": 1.334,
-      "change_24h": 15.2
+      "price": 1.307,
+      "change_24h": 12.96
     }
   ],
   "count": 9
