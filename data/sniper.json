@@ -1,69 +1,76 @@
 {
-  "timestamp": "2026-03-02T16:30:20.749911+00:00",
+  "timestamp": "2026-03-02T16:31:30.139459+00:00",
   "coins": [
     {
       "symbol": "BTCUSDT",
       "score": 81,
       "direction": "LONG",
-      "price": 69501.9,
-      "change_24h": 3.71
+      "price": 69337.0,
+      "change_24h": 3.5
     },
     {
       "symbol": "UNIUSDT",
       "score": 70,
       "direction": "LONG",
-      "price": 4.003,
-      "change_24h": 4.63
+      "price": 3.984,
+      "change_24h": 4.05
     },
     {
       "symbol": "HBARUSDT",
-      "score": 66,
+      "score": 68,
       "direction": "LONG",
-      "price": 0.10225,
-      "change_24h": 2.55
+      "price": 0.10185,
+      "change_24h": 2.12
     },
     {
       "symbol": "AAVEUSDT",
-      "score": 64,
+      "score": 65,
       "direction": "LONG",
-      "price": 125.37,
-      "change_24h": 7.95
+      "price": 124.24,
+      "change_24h": 6.85
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "score": 56,
+      "direction": "LONG",
+      "price": 0.09641,
+      "change_24h": 2.15
     },
     {
       "symbol": "PEPEUSDT",
       "score": 56,
       "direction": "LONG",
       "price": 4e-06,
-      "change_24h": 4.54
+      "change_24h": 3.12
     },
     {
       "symbol": "DOTUSDT",
-      "score": 50,
+      "score": 54,
       "direction": "LONG",
-      "price": 1.579,
-      "change_24h": 1.48
-    },
-    {
-      "symbol": "LINKUSDT",
-      "score": 42,
-      "direction": "SHORT",
-      "price": 9.16,
-      "change_24h": 2.23
+      "price": 1.568,
+      "change_24h": 1.03
     },
     {
       "symbol": "XLMUSDT",
       "score": 39,
       "direction": "LONG",
-      "price": 0.161,
-      "change_24h": 1.58
+      "price": 0.1604,
+      "change_24h": 1.14
+    },
+    {
+      "symbol": "LINKUSDT",
+      "score": 37,
+      "direction": "SHORT",
+      "price": 9.13,
+      "change_24h": 1.9
     },
     {
       "symbol": "NEARUSDT",
       "score": 35,
       "direction": "SHORT",
-      "price": 1.31,
-      "change_24h": 13.22
+      "price": 1.304,
+      "change_24h": 12.79
     }
   ],
-  "count": 9
+  "count": 10
 }
