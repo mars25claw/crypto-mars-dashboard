@@ -3,7 +3,7 @@
     {
       "symbol": "HBARUSDT",
       "price": 0.09764,
-      "change_24h": -2.3,
+      "change_24h": -2.31,
       "nearest_type": "R",
       "nearest_price": 0.09825,
       "distance_pct": 0.62,
@@ -11,20 +11,20 @@
     },
     {
       "symbol": "BTCUSDT",
-      "price": 65999.04,
-      "change_24h": -1.19,
+      "price": 66016.1,
+      "change_24h": -1.17,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 1.33,
+      "distance_pct": 1.36,
       "touches": 1
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1947.97,
+      "price": 1948.02,
       "change_24h": -0.62,
       "nearest_type": "S",
       "nearest_price": 1897.24,
-      "distance_pct": 2.6,
+      "distance_pct": 2.61,
       "touches": 1
     },
     {
@@ -39,7 +39,7 @@
     {
       "symbol": "APTUSDT",
       "price": 0.935,
-      "change_24h": -1.58,
+      "change_24h": -1.48,
       "nearest_type": "S",
       "nearest_price": 0.9,
       "distance_pct": 3.74,
@@ -47,11 +47,20 @@
     },
     {
       "symbol": "BNBUSDT",
-      "price": 616.29,
-      "change_24h": -0.07,
+      "price": 616.16,
+      "change_24h": -0.1,
       "nearest_type": "R",
       "nearest_price": 642.49,
-      "distance_pct": 4.25,
+      "distance_pct": 4.27,
+      "touches": 1
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "price": 3.48e-06,
+      "change_24h": -4.4,
+      "nearest_type": "S",
+      "nearest_price": 3.63e-06,
+      "distance_pct": 4.31,
       "touches": 1
     },
     {
@@ -61,15 +70,6 @@
       "nearest_type": "S",
       "nearest_price": 0.1474,
       "distance_pct": 4.53,
-      "touches": 1
-    },
-    {
-      "symbol": "PEPEUSDT",
-      "price": 3.47e-06,
-      "change_24h": -4.41,
-      "nearest_type": "S",
-      "nearest_price": 3.63e-06,
-      "distance_pct": 4.61,
       "touches": 1
     },
     {
@@ -83,11 +83,11 @@
     },
     {
       "symbol": "LINKUSDT",
-      "price": 8.68,
+      "price": 8.69,
       "change_24h": -1.59,
       "nearest_type": "R",
       "nearest_price": 9.25,
-      "distance_pct": 6.57,
+      "distance_pct": 6.44,
       "touches": 1
     }
   ],
