@@ -1,6 +1,6 @@
 {
-  "equity": 76808.08,
-  "available": 9901.58,
+  "equity": 76804.6,
+  "available": 9901.43,
   "soft_cap": 100,
   "max_positions": 3,
   "positions": [
@@ -9,11 +9,11 @@
       "side": "Sell",
       "size": 9.8,
       "entry": 1.114522,
-      "mark": 1.1933,
-      "pnl": -0.772,
+      "mark": 1.1929,
+      "pnl": -0.7681,
       "leverage": "3",
       "sl": 0.0
     }
   ],
-  "updated": "2026-03-02T03:40:57.923250+00:00"
+  "updated": "2026-03-02T03:50:01.176353+00:00"
 }
