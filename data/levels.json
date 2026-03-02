@@ -1,66 +1,66 @@
 {
   "nearest": [
     {
-      "symbol": "BTCUSDT",
-      "price": 69738.01,
-      "change_24h": 4.14,
-      "nearest_type": "R",
-      "nearest_price": 69988.83,
-      "distance_pct": 0.36,
-      "touches": 1
-    },
-    {
       "symbol": "HBARUSDT",
-      "price": 0.10251,
-      "change_24h": 2.52,
+      "price": 0.10253,
+      "change_24h": 2.57,
       "nearest_type": "S",
       "nearest_price": 0.102875,
-      "distance_pct": 0.36,
+      "distance_pct": 0.34,
       "touches": 2
     },
     {
+      "symbol": "BTCUSDT",
+      "price": 69726.83,
+      "change_24h": 4.08,
+      "nearest_type": "R",
+      "nearest_price": 69988.83,
+      "distance_pct": 0.38,
+      "touches": 1
+    },
+    {
       "symbol": "LINKUSDT",
-      "price": 9.21,
-      "change_24h": 2.68,
+      "price": 9.2,
+      "change_24h": 2.56,
       "nearest_type": "R",
       "nearest_price": 9.25,
-      "distance_pct": 0.43,
+      "distance_pct": 0.54,
       "touches": 1
     },
     {
       "symbol": "PEPEUSDT",
       "price": 3.66e-06,
-      "change_24h": 3.68,
+      "change_24h": 3.39,
       "nearest_type": "S",
       "nearest_price": 3.63e-06,
       "distance_pct": 0.82,
       "touches": 1
     },
     {
-      "symbol": "SOLUSDT",
-      "price": 89.92,
-      "change_24h": 4.61,
-      "nearest_type": "R",
-      "nearest_price": 91.26,
-      "distance_pct": 1.49,
-      "touches": 1
-    },
-    {
       "symbol": "BNBUSDT",
-      "price": 651.81,
-      "change_24h": 3.7,
+      "price": 651.17,
+      "change_24h": 3.59,
       "nearest_type": "R",
       "nearest_price": 641.52,
-      "distance_pct": 1.58,
+      "distance_pct": 1.48,
       "touches": 2
     },
     {
+      "symbol": "SOLUSDT",
+      "price": 89.9,
+      "change_24h": 4.58,
+      "nearest_type": "R",
+      "nearest_price": 91.26,
+      "distance_pct": 1.51,
+      "touches": 1
+    },
+    {
       "symbol": "NEARUSDT",
-      "price": 1.296,
-      "change_24h": 11.82,
+      "price": 1.297,
+      "change_24h": 11.81,
       "nearest_type": "R",
       "nearest_price": 1.26,
-      "distance_pct": 2.78,
+      "distance_pct": 2.85,
       "touches": 1
     },
     {
@@ -74,20 +74,20 @@
     },
     {
       "symbol": "ETHUSDT",
-      "price": 2073.39,
-      "change_24h": 3.59,
+      "price": 2072.74,
+      "change_24h": 3.57,
       "nearest_type": "R",
       "nearest_price": 2148.39,
-      "distance_pct": 3.62,
+      "distance_pct": 3.65,
       "touches": 1
     },
     {
       "symbol": "DOTUSDT",
-      "price": 1.582,
-      "change_24h": 1.8,
+      "price": 1.58,
+      "change_24h": 1.67,
       "nearest_type": "S",
       "nearest_price": 1.653,
-      "distance_pct": 4.49,
+      "distance_pct": 4.62,
       "touches": 1
     }
   ],
