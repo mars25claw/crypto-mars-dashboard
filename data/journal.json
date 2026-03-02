@@ -49,6 +49,31 @@
       "order_id": "1412431191389904897",
       "timestamp": "2026-03-02T18:22:40.516457+00:00",
       "status": "open"
+    },
+    {
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "side": "Buy",
+      "entry_price": 3.926,
+      "sl": 3.821,
+      "qty": 5.0,
+      "leverage": 3,
+      "score": 59,
+      "breakdown": {
+        "sr": 0,
+        "vol": 3,
+        "vol_ratio": 0.4,
+        "mcb": 11,
+        "mcb_sig": 41.5,
+        "div": "none",
+        "ema": 20,
+        "trend": 15,
+        "fib": 5,
+        "breakout": 5
+      },
+      "order_id": "1412438655262924801",
+      "timestamp": "2026-03-02T18:52:20.164740+00:00",
+      "status": "open"
     }
   ]
 }
