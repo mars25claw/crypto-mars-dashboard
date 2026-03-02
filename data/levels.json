@@ -1,4 +1,95 @@
 {
-  "nearest": [],
+  "nearest": [
+    {
+      "symbol": "HBARUSDT",
+      "price": 0.09803,
+      "change_24h": -3.92,
+      "nearest_type": "R",
+      "nearest_price": 0.09825,
+      "distance_pct": 0.22,
+      "touches": 1
+    },
+    {
+      "symbol": "BTCUSDT",
+      "price": 66285.52,
+      "change_24h": -1.97,
+      "nearest_type": "S",
+      "nearest_price": 65118.0,
+      "distance_pct": 1.76,
+      "touches": 1
+    },
+    {
+      "symbol": "ETHUSDT",
+      "price": 1955.82,
+      "change_24h": -3.8,
+      "nearest_type": "S",
+      "nearest_price": 1897.24,
+      "distance_pct": 3.0,
+      "touches": 1
+    },
+    {
+      "symbol": "BNBUSDT",
+      "price": 622.27,
+      "change_24h": -1.2,
+      "nearest_type": "R",
+      "nearest_price": 642.49,
+      "distance_pct": 3.25,
+      "touches": 1
+    },
+    {
+      "symbol": "MATICUSDT",
+      "price": 0.3794,
+      "change_24h": -0.29,
+      "nearest_type": "S",
+      "nearest_price": 0.3921,
+      "distance_pct": 3.35,
+      "touches": 1
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "price": 3.46e-06,
+      "change_24h": -7.73,
+      "nearest_type": "S",
+      "nearest_price": 3.63e-06,
+      "distance_pct": 4.91,
+      "touches": 1
+    },
+    {
+      "symbol": "XLMUSDT",
+      "price": 0.1552,
+      "change_24h": -5.08,
+      "nearest_type": "S",
+      "nearest_price": 0.1474,
+      "distance_pct": 5.03,
+      "touches": 1
+    },
+    {
+      "symbol": "APTUSDT",
+      "price": 0.953,
+      "change_24h": -1.24,
+      "nearest_type": "S",
+      "nearest_price": 0.9,
+      "distance_pct": 5.56,
+      "touches": 1
+    },
+    {
+      "symbol": "LINKUSDT",
+      "price": 8.76,
+      "change_24h": -3.74,
+      "nearest_type": "R",
+      "nearest_price": 9.25,
+      "distance_pct": 5.59,
+      "touches": 1
+    },
+    {
+      "symbol": "DOTUSDT",
+      "price": 1.557,
+      "change_24h": -4.65,
+      "nearest_type": "S",
+      "nearest_price": 1.653,
+      "distance_pct": 6.17,
+      "touches": 1
+    }
+  ],
   "total_coins": 20
 }
