@@ -1962,6 +1962,33 @@
           "direction": "LONG"
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-02T11:00:19.077585+00:00",
+      "triggers": 4,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 40,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XRPUSDT",
+          "score": 43,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "LINKUSDT",
+          "score": 33,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SOLUSDT",
+          "score": 31,
+          "direction": "LONG"
+        }
+      ]
     }
   ]
 }
