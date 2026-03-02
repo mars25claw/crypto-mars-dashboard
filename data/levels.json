@@ -3,7 +3,7 @@
     {
       "symbol": "HBARUSDT",
       "price": 0.09918,
-      "change_24h": -2.02,
+      "change_24h": -1.97,
       "nearest_type": "R",
       "nearest_price": 0.09825,
       "distance_pct": 0.94,
@@ -11,20 +11,20 @@
     },
     {
       "symbol": "BTCUSDT",
-      "price": 66937.99,
-      "change_24h": -0.57,
+      "price": 66942.96,
+      "change_24h": -0.55,
       "nearest_type": "S",
       "nearest_price": 65118.0,
-      "distance_pct": 2.72,
+      "distance_pct": 2.73,
       "touches": 1
     },
     {
       "symbol": "BNBUSDT",
-      "price": 624.22,
-      "change_24h": -0.56,
+      "price": 624.33,
+      "change_24h": -0.57,
       "nearest_type": "R",
       "nearest_price": 642.49,
-      "distance_pct": 2.93,
+      "distance_pct": 2.91,
       "touches": 1
     },
     {
@@ -38,11 +38,20 @@
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1978.41,
-      "change_24h": -1.67,
+      "price": 1978.91,
+      "change_24h": -1.62,
       "nearest_type": "S",
       "nearest_price": 1897.24,
-      "distance_pct": 4.1,
+      "distance_pct": 4.13,
+      "touches": 1
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "price": 3.47e-06,
+      "change_24h": -5.19,
+      "nearest_type": "S",
+      "nearest_price": 3.63e-06,
+      "distance_pct": 4.61,
       "touches": 1
     },
     {
@@ -57,19 +66,10 @@
     {
       "symbol": "DOTUSDT",
       "price": 1.576,
-      "change_24h": -1.81,
+      "change_24h": -1.62,
       "nearest_type": "S",
       "nearest_price": 1.653,
       "distance_pct": 4.89,
-      "touches": 1
-    },
-    {
-      "symbol": "PEPEUSDT",
-      "price": 3.46e-06,
-      "change_24h": -5.72,
-      "nearest_type": "S",
-      "nearest_price": 3.63e-06,
-      "distance_pct": 4.91,
       "touches": 1
     },
     {
@@ -83,11 +83,11 @@
     },
     {
       "symbol": "APTUSDT",
-      "price": 0.958,
-      "change_24h": 0.21,
+      "price": 0.959,
+      "change_24h": 0.31,
       "nearest_type": "S",
       "nearest_price": 0.9,
-      "distance_pct": 6.05,
+      "distance_pct": 6.15,
       "touches": 1
     }
   ],
