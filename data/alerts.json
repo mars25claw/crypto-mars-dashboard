@@ -1,48 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T23:20:15.532296+00:00",
-      "triggers": 7,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "DOGEUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "UNIUSDT",
-          "score": 58,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "AVAXUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 47,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "BNBUSDT",
-          "score": 73,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T23:30:10.377015+00:00",
       "triggers": 5,
       "tradeable": 1,
@@ -4153,6 +4111,33 @@
       "triggers": 3,
       "tradeable": 0,
       "coins": [
+        {
+          "symbol": "NEARUSDT",
+          "score": 29,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 40,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "RIVERUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-03T16:30:12.971703+00:00",
+      "triggers": 4,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 45,
+          "direction": "SHORT"
+        },
         {
           "symbol": "NEARUSDT",
           "score": 29,
