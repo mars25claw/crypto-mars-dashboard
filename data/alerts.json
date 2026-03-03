@@ -1,28 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T17:50:24.237548+00:00",
-      "triggers": 3,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "DOGEUSDT",
-          "score": 47,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "BTCUSDT",
-          "score": 72,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 30,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T17:51:05.232625+00:00",
       "triggers": 4,
       "tradeable": 1,
@@ -4146,6 +4124,48 @@
         {
           "symbol": "SAHARAUSDT",
           "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "ROBOUSDT",
+          "score": 0,
+          "direction": "LONG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-03T09:00:13.482840+00:00",
+      "triggers": 7,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "XRPUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "POWERUSDT",
+          "score": 54,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SIRENUSDT",
+          "score": 32,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "CRCLUSDT",
+          "score": 56,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SAHARAUSDT",
+          "score": 37,
           "direction": "SHORT"
         },
         {
