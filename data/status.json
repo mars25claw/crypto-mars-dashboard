@@ -1,5 +1,5 @@
 {
-  "equity": 496.4,
+  "equity": 495.84,
   "available": 457.7,
   "soft_cap": 200,
   "max_positions": 3,
@@ -9,11 +9,11 @@
       "side": "long",
       "size": 3.5,
       "entry": 54.38,
-      "mark": 54.56,
-      "pnl": 0.63,
+      "mark": 54.4,
+      "pnl": 0.07,
       "leverage": "5",
       "sl": 53.27
     }
   ],
-  "updated": "2026-03-03T01:56:38.716741+00:00"
+  "updated": "2026-03-03T02:00:01.002353+00:00"
 }
