@@ -118,5 +118,31 @@
     "result": "WIN",
     "reason": "manual_close",
     "closed_at": "2026-03-02T22:10:21.461705"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "direction": "LONG",
+    "entry": 68935.34928571428,
+    "exit": 68669.1,
+    "qty": 0.014,
+    "leverage": 5,
+    "pnl_usd": -18.6374,
+    "pnl_pct": -0.386,
+    "result": "LOSS",
+    "reason": "manual_close",
+    "closed_at": "2026-03-03T00:25:24.906024+00:00"
+  },
+  {
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 1.3988,
+    "exit": 1.3491,
+    "qty": 59.0,
+    "leverage": 10,
+    "pnl_usd": -29.323,
+    "pnl_pct": -3.553,
+    "result": "LOSS",
+    "reason": "manual_close",
+    "closed_at": "2026-03-03T00:25:25.461296+00:00"
   }
 ]
