@@ -1,6 +1,6 @@
 {
-  "equity": 503.57,
-  "available": 375.72,
+  "equity": 507.56,
+  "available": 376.45,
   "soft_cap": 200,
   "max_positions": 3,
   "positions": [
@@ -9,21 +9,21 @@
       "side": "long",
       "size": 10054.7,
       "entry": 0.1263,
-      "mark": 0.1262,
-      "pnl": -1.0055,
+      "mark": 0.1266,
+      "pnl": 3.0164,
       "leverage": "10",
-      "sl": 0.1228
+      "sl": 0.1232
     },
     {
       "symbol": "DOGEUSDT",
       "side": "long",
-      "size": 61.0,
-      "entry": 0.0916,
-      "mark": 0.0917,
-      "pnl": 0.0012,
-      "leverage": "3",
-      "sl": 0.0861
+      "size": 60.0,
+      "entry": 0.0919,
+      "mark": 0.0919,
+      "pnl": -0.0048,
+      "leverage": "5",
+      "sl": 0.0883
     }
   ],
-  "updated": "2026-03-03T05:00:18.212329+00:00"
+  "updated": "2026-03-03T05:10:00.268399+00:00"
 }
