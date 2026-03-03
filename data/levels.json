@@ -20,11 +20,11 @@
     },
     {
       "symbol": "XRPUSDT",
-      "price": 1.3709,
-      "change_24h": 0.76,
+      "price": 1.3707,
+      "change_24h": 0.74,
       "nearest_type": "S",
       "nearest_price": 1.3416,
-      "distance_pct": 2.14,
+      "distance_pct": 2.12,
       "touches": 1
     },
     {
@@ -83,11 +83,11 @@
     },
     {
       "symbol": "BTCUSDT",
-      "price": 68327.16,
-      "change_24h": 2.5,
+      "price": 68319.79,
+      "change_24h": 2.49,
       "nearest_type": "S",
       "nearest_price": 65088.0,
-      "distance_pct": 4.74,
+      "distance_pct": 4.73,
       "touches": 1
     }
   ],
