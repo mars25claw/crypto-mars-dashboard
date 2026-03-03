@@ -1,11 +1,9 @@
 {
-  "wins": 1,
+  "trades": 4,
+  "wins": 2,
   "losses": 2,
-  "total_pnl": -45.4359,
-  "best_trade": 0,
-  "worst_trade": 0,
-  "trades": 7,
-  "best": 2.5245,
-  "win_rate": 14.3,
-  "worst": -29.323
+  "total_pnl": -3.95,
+  "best": 2.52,
+  "worst": -3.72,
+  "win_rate": 50.0
 }
