@@ -177,5 +177,39 @@
     "pnl": 0.01,
     "timestamp": "2026-01-01T00:00:00Z",
     "status": "test"
+  },
+  {
+    "symbol": "OPUSDT",
+    "direction": "LONG",
+    "side": "Buy",
+    "entry_price": 0.1263,
+    "sl": 0.1203,
+    "qty": 10054.7,
+    "leverage": 10,
+    "score": 87,
+    "breakdown": {
+      "sr": 0,
+      "vol": 20,
+      "vol_ratio": 2.7,
+      "mcb": 18,
+      "mcb_sig": 90.5,
+      "div": "none",
+      "ema": 20,
+      "trend": 15,
+      "fib": 0,
+      "breakout": 0,
+      "session": "Asia(ET)+1",
+      "adx": "ADX=58+5",
+      "retest": "none",
+      "sweep": "none",
+      "candle": "none",
+      "fear_greed": "Extreme Fear(14) \u2014 buy zone \ud83d\udd25",
+      "funding": "Funding 0.000% \u2014 neutral",
+      "oi": "OI neutral (+0.0%)",
+      "macro": "BTC sideways \u2014 neutral"
+    },
+    "order_id": "1412584410644619372",
+    "timestamp": "2026-03-03T04:31:32.889901+00:00",
+    "status": "open"
   }
 ]

@@ -1,8 +1,19 @@
 {
-  "equity": 505.39,
-  "available": 505.39,
+  "equity": 504.63,
+  "available": 377.64,
   "soft_cap": 200,
   "max_positions": 3,
-  "positions": [],
-  "updated": "2026-03-03T04:30:19.930939+00:00"
+  "positions": [
+    {
+      "symbol": "OPUSDT",
+      "side": "long",
+      "size": 10054.7,
+      "entry": 0.1263,
+      "mark": 0.1263,
+      "pnl": 0.0,
+      "leverage": "10",
+      "sl": 0.1203
+    }
+  ],
+  "updated": "2026-03-03T04:31:32.967653+00:00"
 }
