@@ -1,48 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T17:11:42.875596+00:00",
-      "triggers": 7,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "DOGEUSDT",
-          "score": 46,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "DOTUSDT",
-          "score": 44,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "BTCUSDT",
-          "score": 64,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 23,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 37,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "PEPEUSDT",
-          "score": 40,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "UNIUSDT",
-          "score": 65,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T17:20:13.459286+00:00",
       "triggers": 7,
       "tradeable": 2,
@@ -3895,6 +3853,53 @@
     },
     {
       "timestamp": "2026-03-03T04:30:16.722524+00:00",
+      "triggers": 8,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 55,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "POWERUSDT",
+          "score": 34,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SIRENUSDT",
+          "score": 36,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ARCUSDT",
+          "score": 33,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "CRCLUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SAHARAUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-03T04:40:15.130814+00:00",
       "triggers": 8,
       "tradeable": 0,
       "coins": [
