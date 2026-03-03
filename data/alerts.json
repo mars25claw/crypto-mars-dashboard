@@ -1,33 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T20:40:09.670988+00:00",
-      "triggers": 4,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "BTCUSDT",
-          "score": 69,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "DOGEUSDT",
-          "score": 49,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 60,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 46,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T20:50:11.849994+00:00",
       "triggers": 5,
       "tradeable": 1,
@@ -4302,6 +4275,43 @@
           "symbol": "RIVERUSDT",
           "score": 0,
           "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-03T13:20:15.667814+00:00",
+      "triggers": 6,
+      "tradeable": 1,
+      "coins": [
+        {
+          "symbol": "XRPUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 43,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "POWERUSDT",
+          "score": 38,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SIRENUSDT",
+          "score": 45,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "RIVERUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "CRCLUSDT",
+          "score": 62,
+          "direction": "LONG"
         }
       ]
     }
