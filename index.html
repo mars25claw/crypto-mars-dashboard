@@ -15,7 +15,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .login-box input:focus{border-color:#00ff88}
 .login-box button{margin-left:8px;background:#00ff88;color:#000;border:none;border-radius:8px;padding:12px 20px;font-weight:700;cursor:pointer;font-size:1rem}
 #login-err{color:#ff4444;font-size:.8rem;margin-top:12px;display:none}
-#dash{display:none;max-width:800px;margin:0 auto;padding:16px}
+#dash{display:none;max-width:820px;margin:0 auto;padding:16px}
 .hdr{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid #222;margin-bottom:20px}
 .hdr h1{font-size:1.3rem}
 .hdr-right{display:flex;align-items:center;gap:12px;font-size:.8rem;color:#888}
@@ -48,25 +48,21 @@ td{padding:8px;border-bottom:1px solid #1a1a1a}
 .tag{display:inline-block;padding:2px 6px;border-radius:4px;font-size:.7rem;font-weight:600}
 .tag-s{background:#00ff8820;color:#00ff88}
 .tag-r{background:#ff444420;color:#ff4444}
+.session-pill{display:inline-block;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:700;margin-left:8px}
+.sess-ny{background:#00ff8820;color:#00ff88}
+.sess-lon{background:#58a6ff20;color:#58a6ff}
+.sess-asia{background:#f0c04020;color:#f0c040}
+.sess-night{background:#ff444420;color:#ff4444}
 @media(max-width:600px){
   #dash{padding:10px}
   .hdr{flex-direction:column;gap:8px;text-align:center}
-  .hdr h1{font-size:1.1rem}
-  .hdr-right{flex-wrap:wrap;justify-content:center;gap:8px}
   .cards{grid-template-columns:repeat(2,1fr);gap:8px}
   .card{padding:12px}
   .card .val{font-size:1.2rem}
-  .card .label{font-size:.65rem}
-  .sec-body{padding:12px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .sec-body{padding:12px;overflow-x:auto}
   table{min-width:400px}
   .mkt{grid-template-columns:repeat(2,1fr);gap:8px}
   .near-row{flex-direction:column;gap:4px;font-size:.78rem}
-  .alert-coins{font-size:.7rem}
-}
-@media(max-width:380px){
-  .cards{grid-template-columns:1fr 1fr;gap:6px}
-  .card .val{font-size:1rem}
-  .mkt{grid-template-columns:1fr 1fr}
 }
 </style>
 </head>
@@ -81,7 +77,7 @@ td{padding:8px;border-bottom:1px solid #1a1a1a}
 </div>
 <div id="dash">
   <div class="hdr">
-    <h1>🪙 Crypto Mars</h1>
+    <h1>🪙 Crypto Mars <span id="sess-pill" class="session-pill"></span></h1>
     <div class="hdr-right">
       <span id="clock"></span>
       <span class="dot" id="dot"></span>
@@ -91,8 +87,8 @@ td{padding:8px;border-bottom:1px solid #1a1a1a}
   </div>
 
   <div class="cards">
-    <div class="card"><div class="label">💰 Trading Cap</div><div class="val green" id="c-cap">—</div></div>
-    <div class="card"><div class="label">📊 Trades</div><div class="val" id="c-trades">—</div></div>
+    <div class="card"><div class="label">💰 Equity</div><div class="val green" id="c-equity">—</div></div>
+    <div class="card"><div class="label">💵 Available</div><div class="val blue" id="c-avail">—</div></div>
     <div class="card"><div class="label">💹 Total P&L</div><div class="val" id="c-pnl">—</div></div>
     <div class="card"><div class="label">🎯 Win Rate</div><div class="val" id="c-wr">—</div></div>
     <div class="card"><div class="label">🏆 Best Trade</div><div class="val green" id="c-best">—</div></div>
@@ -130,18 +126,19 @@ td{padding:8px;border-bottom:1px solid #1a1a1a}
   </div>
 
   <div class="sec">
-    <div class="sec-hdr">⏰ Auto Schedule</div>
-    <div class="sec-body" style="font-size:.82rem;color:#aaa;line-height:2">
-      ⚡ <b>Every 10 min</b> — Sniper scan<br>
-      🧠 <b>Every 2 hrs</b> — AI trade review (Sonnet)<br>
-      👁️ <b>Every 30 min</b> — Trailing stop updates<br>
-      📐 <b>Every 12 hrs</b> — Full level recompute<br>
-      📊 <b>Daily 10 PM</b> — P&L report<br>
-      📅 <b>Sunday 10 AM</b> — Weekly review
+    <div class="sec-hdr">⏰ Auto Schedule (New York ET)</div>
+    <div class="sec-body" style="font-size:.82rem;color:#aaa;line-height:2.2">
+      ⚡ <b>Every 10 min</b> — Sniper scan (score ≥60 to trade, ≥70 during 10PM–8AM ET)<br>
+      👁️ <b>Every 2 min</b> — Trail stop monitor + breakeven lock at +0.5%<br>
+      🔌 <b>Every 5 min</b> — WS sniper watchdog<br>
+      🧠 <b>Every 2 hrs</b> — Deep AI review (Sonnet)<br>
+      📐 <b>Every 12 hrs</b> — Full S/R level recompute + scan-all<br>
+      📊 <b>Daily 4:30 PM ET</b> — P&L report<br>
+      📅 <b>Sunday 4:30 AM ET</b> — Weekly review
     </div>
   </div>
 
-  <div style="text-align:center;padding:16px;color:#333;font-size:.7rem">🪙 AJ's Confluence Engine v2 — Refreshes every 60s</div>
+  <div style="text-align:center;padding:16px;color:#333;font-size:.7rem">🪙 AJ's Confluence Engine v2 · All times in New York ET · Refreshes every 60s</div>
 </div>
 
 <script>
@@ -152,94 +149,114 @@ document.getElementById('pwd').addEventListener('keydown',e=>{if(e.key==='Enter'
 function show(){document.getElementById('login').style.display='none';document.getElementById('dash').style.display='block';init()}
 if(localStorage.getItem('cm')===H)show();
 
-function clock(){document.getElementById('clock').textContent=new Date().toLocaleString('en-IN',{timeZone:'Asia/Calcutta',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false})+' IST'}
+// Clock — always New York ET
+function clock(){
+  const et=new Date().toLocaleString('en-US',{timeZone:'America/New_York',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});
+  document.getElementById('clock').textContent=et+' ET';
+  // Session indicator
+  const h=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'})).getHours()+
+          new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'})).getMinutes()/60;
+  let sess,cls;
+  if(h>=9.5&&h<16){sess='🗽 NY Open';cls='sess-ny'}
+  else if(h>=3&&h<9.5){sess='🌍 London';cls='sess-lon'}
+  else if(h>=20||h<3){sess='🌏 Asia';cls='sess-asia'}
+  else{sess='🌙 Night ≥70';cls='sess-night'}
+  const pill=document.getElementById('sess-pill');
+  pill.textContent=sess; pill.className='session-pill '+cls;
+}
 setInterval(clock,1000);clock();
 
 async function F(p){try{const r=await fetch(`data/${p}?t=${Date.now()}`);return r.ok?await r.json():null}catch{return null}}
 const $=id=>document.getElementById(id);
 function fmt(v,d=2){if(v==null)return'—';const n=+v;return isNaN(n)?'—':'$'+n.toFixed(d)}
 function fmtP(v){if(v==null)return'—';const n=+v;return isNaN(n)?'—':n<0.01?n.toExponential(2):n<1?n.toFixed(4):n<100?n.toFixed(2):n.toFixed(0)}
-function fmtT(t){if(!t)return'';try{return new Date(t).toLocaleString('en-IN',{timeZone:'Asia/Calcutta',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false})}catch{return''}}
+function fmtT(t){if(!t)return'';try{return new Date(t).toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:true})+' ET'}catch{return''}}
 function chg(v){const n=+v;if(isNaN(n))return'<span class="muted">—</span>';return`<span class="${n>=0?'green':'red'}">${n>=0?'+':''}${n.toFixed(1)}%</span>`}
 
-let prevTrades=null;
-let prevTopCoin=null;
-let prevUpdateTime=null;
+let prevTrades=null,prevUpdateTime=null;
 
 async function load(){
   const[meta,status,stats,journal,sniper,corr,levels,alerts]=await Promise.all(
     ['meta.json','status.json','stats.json','journal.json','sniper.json','correlation.json','levels.json','alerts.json'].map(F));
 
-  // Meta
+  // Meta / staleness
   if(meta?.last_update){
     $('updated').textContent='Updated '+fmtT(meta.last_update);
     const age=(Date.now()-new Date(meta.last_update))/60000;
     $('dot').className=age>30?'dot stale':'dot';
   }
 
-  // Overview — show soft cap, not full testnet balance
-  if(status&&stats){
-    const cap=status.soft_cap||100;
-    const used=status.positions?.reduce((s,p)=>s+Math.abs(p.pnl||0),0)||0;
-    $('c-cap').textContent=`$${cap}`;
-    const t=(stats.wins||0)+(stats.losses||0);
-    $('c-trades').textContent=t;
+  // Top cards — show real equity
+  if(status){
+    const eq=+(status.equity||0);
+    const av=+(status.available||0);
+    $('c-equity').textContent=eq?fmt(eq):'—';
+    $('c-avail').textContent=av?fmt(av):'—';
+  }
+  if(stats){
     const pnl=+(stats.total_pnl||0);
+    const wins=+(stats.wins||0);
+    const losses=+(stats.losses||0);
+    const t=wins+losses;
     $('c-pnl').textContent=(pnl>=0?'+':'')+fmt(pnl);
     $('c-pnl').className='val '+(pnl>=0?'green':'red');
-    $('c-wr').textContent=t>0?Math.round(stats.wins/t*100)+'%':'—';
-    $('c-best').textContent=stats.best_trade?fmt(stats.best_trade):'—';
-    $('c-worst').textContent=stats.worst_trade?fmt(stats.worst_trade):'—';
+    $('c-wr').textContent=t>0?Math.round(wins/t*100)+'%':'—';
+    // support both key formats
+    const best=+(stats.best_trade??stats.best??0);
+    const worst=+(stats.worst_trade??stats.worst??0);
+    $('c-best').textContent=best?fmt(best):'—';
+    $('c-worst').textContent=worst?fmt(worst):'—';
     if(prevTrades!==null&&t>prevTrades&&'Notification'in window&&Notification.permission==='granted')
       new Notification('🪙 New Trade!',{body:`Trades:${t} PnL:${fmt(pnl)}`});
     prevTrades=t;
   }
 
-  // Notify on data refresh + scan changes
-  if(meta?.last_update&&meta.last_update!==prevUpdateTime){
-    if(prevUpdateTime!==null){
-      const coins=sniper?.coins||[];
-      const topCoin=coins.length?coins[0].symbol+' '+coins[0].score:'none';
-      if('Notification'in window&&Notification.permission==='granted'){
-        const msg=coins.length?coins.slice(0,3).map(c=>`${c.symbol.replace('USDT','')} ${c.score}`).join(' · '):'No triggers';
-        new Notification('🪙 Dashboard Updated',{body:msg,tag:'cm-update',renotify:true});
-      }
-    }
-    prevUpdateTime=meta.last_update;
-  }
-  if(false){
-  }
-
-  // Positions
+  // Positions — show real SL from sl-state if available
   const pos=status?.positions||[];
   $('pos-n').textContent=pos.length+' open';
   if(pos.length){
-    $('pos-body').innerHTML=`<table><tr><th>Coin</th><th>Side</th><th>Entry</th><th>Mark</th><th>PnL</th><th>Lev</th><th>SL</th></tr>`+
-      pos.map(p=>{const dir=(p.side==='Buy'||p.side==='long')?'LONG':'SHORT';const c=dir==='LONG'?'green':'red';
-        return`<tr><td><b>${p.symbol}</b></td><td class="${c}">${dir}</td><td>${fmtP(p.entry)}</td><td>${fmtP(p.mark)}</td><td class="${(p.pnl||0)>=0?'green':'red'}">${(p.pnl>=0?'+':'')+(p.pnl||0).toFixed(4)}</td><td>${p.leverage}x</td><td>${p.sl||'—'}</td></tr>`}).join('')+'</table>';
+    $('pos-body').innerHTML=`<table><tr><th>Coin</th><th>Side</th><th>Entry</th><th>Mark</th><th>PnL</th><th>Lev</th><th>SL</th><th>%</th></tr>`+
+      pos.map(p=>{
+        const dir=(p.side==='Buy'||p.side==='long')?'LONG':'SHORT';
+        const c=dir==='LONG'?'green':'red';
+        const pnl=+(p.pnl||0);
+        const pct=p.entry&&p.size?(pnl/(p.entry*p.size)*100):0;
+        const sl=p.sl&&p.sl>0?fmtP(p.sl):'<span class="red">⚠️ None</span>';
+        return`<tr>
+          <td><b>${p.symbol.replace('USDT','')}</b></td>
+          <td class="${c}">${dir}</td>
+          <td>${fmtP(p.entry)}</td>
+          <td>${fmtP(p.mark)}</td>
+          <td class="${pnl>=0?'green':'red'}">${(pnl>=0?'+':'')+pnl.toFixed(2)}</td>
+          <td>${p.leverage}x</td>
+          <td>${sl}</td>
+          <td class="${pct>=0?'green':'red'}">${(pct>=0?'+':'')+pct.toFixed(1)}%</td>
+        </tr>`;
+      }).join('')+'</table>';
   } else {
-    $('pos-body').innerHTML='<div class="empty">No positions — waiting for score ≥60 ⏳</div>';
+    $('pos-body').innerHTML='<div class="empty">No positions — watching for score ≥60 setup ⏳</div>';
   }
 
-  // Scanner — table with price + 24h change
+  // Scanner
   if(sniper){
     $('scan-time').textContent=fmtT(sniper.timestamp);
     const coins=sniper.coins||[];
     if(coins.length){
-      $('scan-body').innerHTML=`<table><tr><th>Coin</th><th>Price</th><th>24h</th><th>Score</th><th>Direction</th></tr>`+
+      $('scan-body').innerHTML=`<table><tr><th>Coin</th><th>Price</th><th>24h</th><th>Score</th><th>Direction</th><th>Vol×</th></tr>`+
         coins.map(c=>{
           const s=c.score||0;
-          const emoji=s>=60?'🟢':s>=40?'🟡':'⚪';
+          const emoji=s>=70?'🟢':s>=60?'🟡':s>=40?'⚪':'🔴';
           const dir=c.direction||'—';
           const dc=dir==='LONG'?'green':dir==='SHORT'?'red':'';
-          return`<tr><td><b>${(c.symbol||'').replace('USDT','')}</b></td><td>${fmtP(c.price)}</td><td>${chg(c.change_24h)}</td><td>${emoji} <b>${s}</b>/100</td><td class="${dc}">${dir}</td></tr>`;
+          const vol=c.vol_ratio?`${c.vol_ratio}×`:'—';
+          return`<tr><td><b>${(c.symbol||'').replace('USDT','')}</b></td><td>${fmtP(c.price)}</td><td>${chg(c.change_24h)}</td><td>${emoji} <b>${s}</b>/100</td><td class="${dc}">${dir}</td><td class="muted">${vol}</td></tr>`;
         }).join('')+'</table>';
     } else {
       $('scan-body').innerHTML='<div class="empty">No triggers — market quiet 🔇</div>';
     }
   }
 
-  // Market
+  // Market overview
   if(corr){
     const btc=+(corr.btc_change||0);
     const bias=corr.market_bias||'—';
@@ -248,35 +265,49 @@ async function load(){
       <div class="mkt-item"><div class="lbl">Bias</div><div class="v ${bias.includes('BULL')?'green':bias.includes('BEAR')?'red':'yellow'}">${bias}</div></div>
       <div class="mkt-item"><div class="lbl">🟢 Green</div><div class="v green">${corr.green||0}</div></div>
       <div class="mkt-item"><div class="lbl">🔴 Red</div><div class="v red">${corr.red||0}</div></div>
-      <div class="mkt-item"><div class="lbl">At Support</div><div class="v green" style="font-size:.8rem">${(corr.at_support||[]).map(s=>s.replace('USDT','')).join(', ')||'None'}</div></div>
-      <div class="mkt-item"><div class="lbl">At Resistance</div><div class="v red" style="font-size:.8rem">${(corr.at_resistance||[]).map(s=>s.replace('USDT','')).join(', ')||'None'}</div></div>`;
+      <div class="mkt-item"><div class="lbl">At Support</div><div class="v green" style="font-size:.78rem">${(corr.at_support||[]).map(s=>s.replace('USDT','')).join(', ')||'None'}</div></div>
+      <div class="mkt-item"><div class="lbl">At Resistance</div><div class="v red" style="font-size:.78rem">${(corr.at_resistance||[]).map(s=>s.replace('USDT','')).join(', ')||'None'}</div></div>`;
   }
 
-  // Nearest S/R Levels — top 10
+  // S/R Levels
   if(levels){
     const near=levels.nearest||[];
     $('lv-n').textContent=(near.length||0)+' / '+(levels.total_coins||0)+' coins';
     if(near.length){
       $('lv-body').innerHTML=near.map(n=>{
         const typ=n.nearest_type;
-        return`<div class="near-row"><div><b>${n.symbol.replace('USDT','')}</b> <span class="muted">${fmtP(n.price)}</span> ${chg(n.change_24h)}</div><div><span class="tag ${typ==='S'?'tag-s':'tag-r'}">${typ==='S'?'🟢 Support':'🔴 Resistance'}</span> ${fmtP(n.nearest_price)} <span class="muted">(${n.distance_pct}% away, ${n.touches}×)</span></div></div>`;
+        return`<div class="near-row">
+          <div><b>${n.symbol.replace('USDT','')}</b> <span class="muted">${fmtP(n.price)}</span> ${chg(n.change_24h)}</div>
+          <div><span class="tag ${typ==='S'?'tag-s':'tag-r'}">${typ==='S'?'🟢 Support':'🔴 Resistance'}</span> ${fmtP(n.nearest_price)} <span class="muted">(${n.distance_pct}% away, ${n.touches}×)</span></div>
+        </div>`;
       }).join('');
     } else {
       $('lv-body').innerHTML='<div class="empty">No coins near key levels</div>';
     }
   }
 
-  // Journal
+  // Trade Journal
   const trades=journal?.trades||[];
   $('j-n').textContent=trades.length+' trades';
   if(trades.length){
-    $('j-body').innerHTML=`<table><tr><th>Time</th><th>Coin</th><th>Side</th><th>Lev</th><th>Score</th><th>PnL</th><th>Status</th></tr>`+
+    $('j-body').innerHTML=`<table><tr><th>Time (ET)</th><th>Coin</th><th>Side</th><th>Lev</th><th>Score</th><th>Entry</th><th>Exit</th><th>PnL</th><th>Result</th></tr>`+
       [...trades].reverse().slice(0,20).map(t=>{
         const dir=(t.direction||t.side||'').toUpperCase();
         const dc=dir.includes('LONG')?'green':'red';
         const st=(t.status||'OPEN').toUpperCase();
-        const sc=st==='WIN'?'green':st==='LOSS'?'red':'yellow';
-        return`<tr><td>${fmtT(t.timestamp)}</td><td><b>${(t.symbol||'').replace('USDT','')}</b></td><td class="${dc}">${dir}</td><td>${t.leverage||'?'}x</td><td>${t.score||'?'}</td><td class="${(t.pnl||0)>=0?'green':'red'}">${t.pnl!=null?fmt(t.pnl):'—'}</td><td class="${sc}">${st}</td></tr>`;
+        const sc=st==='WIN'?'green':st==='LOSS'?'red':st==='OPEN'?'yellow':'muted';
+        const pnl=t.pnl??t.pnl_usd;
+        return`<tr>
+          <td style="font-size:.74rem">${fmtT(t.timestamp)}</td>
+          <td><b>${(t.symbol||'').replace('USDT','')}</b></td>
+          <td class="${dc}">${dir}</td>
+          <td>${t.leverage||'?'}x</td>
+          <td>${t.score||'?'}</td>
+          <td>${fmtP(t.entry||t.entry_price)}</td>
+          <td>${t.exit_price?fmtP(t.exit_price):'<span class="muted">Open</span>'}</td>
+          <td class="${pnl!=null?(+pnl>=0?'green':'red'):'muted'}">${pnl!=null?((+pnl>=0?'+':'')+fmt(pnl)):'—'}</td>
+          <td class="${sc}">${st}</td>
+        </tr>`;
       }).join('')+'</table>';
   } else {
     $('j-body').innerHTML='<div class="empty">No trades yet — scanning 24/7 🔍</div>';
