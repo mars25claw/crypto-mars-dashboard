@@ -2,20 +2,20 @@
   "nearest": [
     {
       "symbol": "XRPUSDT",
-      "price": 1.3517,
-      "change_24h": -0.09,
+      "price": 1.351,
+      "change_24h": -0.14,
       "nearest_type": "S",
       "nearest_price": 1.3416,
-      "distance_pct": 0.75,
+      "distance_pct": 0.7,
       "touches": 1
     },
     {
       "symbol": "INJUSDT",
-      "price": 3.006,
-      "change_24h": -0.4,
+      "price": 3.003,
+      "change_24h": -0.3,
       "nearest_type": "S",
       "nearest_price": 2.955,
-      "distance_pct": 1.7,
+      "distance_pct": 1.6,
       "touches": 1
     },
     {
@@ -38,47 +38,47 @@
     },
     {
       "symbol": "HBARUSDT",
-      "price": 0.09535,
-      "change_24h": -1.8,
+      "price": 0.0953,
+      "change_24h": -1.84,
       "nearest_type": "S",
       "nearest_price": 0.0926,
-      "distance_pct": 2.88,
+      "distance_pct": 2.83,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 67066.21,
-      "change_24h": 1.29,
+      "price": 67040.36,
+      "change_24h": 1.27,
       "nearest_type": "S",
       "nearest_price": 65088.0,
-      "distance_pct": 2.95,
+      "distance_pct": 2.91,
       "touches": 1
     },
     {
       "symbol": "DOTUSDT",
-      "price": 1.487,
-      "change_24h": -1.85,
+      "price": 1.486,
+      "change_24h": -1.91,
       "nearest_type": "R",
       "nearest_price": 1.438,
-      "distance_pct": 3.3,
+      "distance_pct": 3.23,
       "touches": 1
     },
     {
       "symbol": "BCHUSDT",
-      "price": 437.5,
-      "change_24h": 0.07,
+      "price": 437.1,
+      "change_24h": -0.05,
       "nearest_type": "S",
       "nearest_price": 422.77,
-      "distance_pct": 3.37,
+      "distance_pct": 3.28,
       "touches": 1
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1963.87,
-      "change_24h": 0.94,
+      "price": 1963.02,
+      "change_24h": 0.91,
       "nearest_type": "S",
       "nearest_price": 1895.31,
-      "distance_pct": 3.49,
+      "distance_pct": 3.45,
       "touches": 1
     },
     {
