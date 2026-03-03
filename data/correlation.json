@@ -1,10 +1,11 @@
 {
-  "timestamp": "2026-03-03T18:31:03.926172+00:00",
-  "btc_change": -0.988,
+  "timestamp": "2026-03-03T20:31:08.082046+00:00",
+  "btc_change": -0.8420000000000001,
   "market_bias": "BEARISH",
-  "green": 4,
-  "red": 20,
+  "green": 5,
+  "red": 19,
   "at_support": [
+    "XRPUSDT",
     "ATOMUSDT"
   ],
   "at_resistance": [
