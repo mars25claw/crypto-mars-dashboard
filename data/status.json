@@ -1,8 +1,19 @@
 {
-  "equity": 505.81,
-  "available": 505.81,
+  "equity": 505.8,
+  "available": 503.95,
   "soft_cap": 200,
   "max_positions": 3,
-  "positions": [],
-  "updated": "2026-03-03T05:30:01.176780+00:00"
+  "positions": [
+    {
+      "symbol": "DOGEUSDT",
+      "side": "long",
+      "size": 200.0,
+      "entry": 0.092,
+      "mark": 0.0921,
+      "pnl": 0.002,
+      "leverage": "10",
+      "sl": 0.0879
+    }
+  ],
+  "updated": "2026-03-03T05:30:18.477801+00:00"
 }
