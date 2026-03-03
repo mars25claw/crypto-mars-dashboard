@@ -1,58 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T16:30:14.287941+00:00",
-      "triggers": 9,
-      "tradeable": 4,
-      "coins": [
-        {
-          "symbol": "DOTUSDT",
-          "score": 50,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "AAVEUSDT",
-          "score": 64,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "HBARUSDT",
-          "score": 66,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "LINKUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "BTCUSDT",
-          "score": 81,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 39,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "PEPEUSDT",
-          "score": 51,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "UNIUSDT",
-          "score": 70,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T16:30:14.835601+00:00",
       "triggers": 9,
       "tradeable": 4,
@@ -4015,6 +3963,53 @@
     },
     {
       "timestamp": "2026-03-03T01:30:14.310957+00:00",
+      "triggers": 8,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 55,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 59,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 55,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "POWERUSDT",
+          "score": 48,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SIRENUSDT",
+          "score": 53,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ARCUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "CRCLUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SAHARAUSDT",
+          "score": 40,
+          "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-03T01:40:15.501366+00:00",
       "triggers": 8,
       "tradeable": 0,
       "coins": [
