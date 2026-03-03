@@ -20,20 +20,20 @@
     },
     {
       "symbol": "HBARUSDT",
-      "price": 0.09697,
-      "change_24h": -2.0,
+      "price": 0.09689,
+      "change_24h": -2.1,
       "nearest_type": "R",
       "nearest_price": 0.09813,
-      "distance_pct": 1.2,
+      "distance_pct": 1.28,
       "touches": 1
     },
     {
       "symbol": "XRPUSDT",
-      "price": 1.3628,
-      "change_24h": -2.64,
+      "price": 1.3627,
+      "change_24h": -2.66,
       "nearest_type": "S",
       "nearest_price": 1.3416,
-      "distance_pct": 1.56,
+      "distance_pct": 1.55,
       "touches": 1
     },
     {
@@ -47,47 +47,47 @@
     },
     {
       "symbol": "INJUSDT",
-      "price": 3.039,
-      "change_24h": -2.6,
+      "price": 3.038,
+      "change_24h": -2.75,
       "nearest_type": "S",
       "nearest_price": 2.955,
-      "distance_pct": 2.76,
+      "distance_pct": 2.73,
       "touches": 1
     },
     {
       "symbol": "LTCUSDT",
-      "price": 54.82,
-      "change_24h": -0.47,
+      "price": 54.83,
+      "change_24h": -0.45,
       "nearest_type": "R",
       "nearest_price": 56.67,
-      "distance_pct": 3.37,
+      "distance_pct": 3.36,
       "touches": 1
     },
     {
       "symbol": "ADAUSDT",
-      "price": 0.263,
-      "change_24h": -6.24,
+      "price": 0.2629,
+      "change_24h": -6.31,
       "nearest_type": "S",
       "nearest_price": 0.2534,
-      "distance_pct": 3.65,
+      "distance_pct": 3.61,
       "touches": 1
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1983.31,
-      "change_24h": -3.43,
+      "price": 1983.51,
+      "change_24h": -3.48,
       "nearest_type": "S",
       "nearest_price": 1895.31,
-      "distance_pct": 4.44,
+      "distance_pct": 4.45,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 68314.05,
-      "change_24h": -1.62,
+      "price": 68298.29,
+      "change_24h": -1.67,
       "nearest_type": "S",
       "nearest_price": 65088.0,
-      "distance_pct": 4.72,
+      "distance_pct": 4.7,
       "touches": 1
     }
   ],
