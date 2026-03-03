@@ -144,5 +144,18 @@
     "result": "LOSS",
     "reason": "manual_close",
     "closed_at": "2026-03-03T00:25:25.461296+00:00"
+  },
+  {
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 1.39162151899,
+    "exit": 1.3816,
+    "qty": 1027.0,
+    "leverage": 5,
+    "pnl_usd": -10.2921,
+    "pnl_pct": -0.72,
+    "result": "LOSS",
+    "reason": "sl_breach_no_exchange_order",
+    "closed_at": "2026-03-03T02:17:30.502008+00:00"
   }
 ]
