@@ -1,68 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T16:10:18.240778+00:00",
-      "triggers": 11,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "DOTUSDT",
-          "score": 45,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "AAVEUSDT",
-          "score": 58,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "HBARUSDT",
-          "score": 61,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "LINKUSDT",
-          "score": 36,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "BTCUSDT",
-          "score": 74,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ETHUSDT",
-          "score": 28,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SOLUSDT",
-          "score": 34,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 27,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 41,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "PEPEUSDT",
-          "score": 46,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "UNIUSDT",
-          "score": 58,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T16:10:35.848790+00:00",
       "triggers": 11,
       "tradeable": 3,
@@ -4101,6 +4039,58 @@
         {
           "symbol": "SAHARAUSDT",
           "score": 49,
+          "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-03T00:20:16.918660+00:00",
+      "triggers": 9,
+      "tradeable": 1,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 55,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 35,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 55,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "POWERUSDT",
+          "score": 54,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SIRENUSDT",
+          "score": 62,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ARCUSDT",
+          "score": 0,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "CRCLUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SAHARAUSDT",
+          "score": 49,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "RIVERUSDT",
+          "score": 0,
           "direction": "SHORT"
         }
       ]
