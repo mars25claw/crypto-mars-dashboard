@@ -1,5 +1,5 @@
 {
-  "equity": 480.42,
+  "equity": 481.76,
   "available": 158.96,
   "soft_cap": 200,
   "max_positions": 3,
@@ -12,18 +12,18 @@
       "mark": 54.42,
       "pnl": 0.14,
       "leverage": "5",
-      "sl": 53.4173
+      "sl": 53.4473
     },
     {
       "symbol": "NEARUSDT",
       "side": "long",
       "size": 1033.0,
       "entry": 1.3819,
-      "mark": 1.3797,
-      "pnl": -2.2392,
+      "mark": 1.381,
+      "pnl": -0.8963,
       "leverage": "5",
       "sl": 1.3545
     }
   ],
-  "updated": "2026-03-03T03:00:18.013589+00:00"
+  "updated": "2026-03-03T03:00:58.368621+00:00"
 }
