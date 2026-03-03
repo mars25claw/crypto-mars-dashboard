@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-03T00:31:33.736749+00:00",
-  "btc_change": 4.186999999999999,
+  "timestamp": "2026-03-03T02:31:37.493431+00:00",
+  "btc_change": 3.49,
   "market_bias": "BULLISH",
-  "green": 22,
-  "red": 2,
+  "green": 17,
+  "red": 7,
   "at_support": [
     "ATOMUSDT"
   ],
