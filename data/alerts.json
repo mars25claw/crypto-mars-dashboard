@@ -1,4159 +1,2256 @@
-{
-  "alerts": [
-    {
-      "timestamp": "2026-03-02T23:30:10.377015+00:00",
-      "triggers": 5,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "BTCUSDT",
-          "score": 67,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "AVAXUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 51,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T00:00:18.834835+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 49,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T00:10:15.988724+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 49,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T00:20:16.918660+00:00",
-      "triggers": 9,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 49,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T00:30:21.399983+00:00",
-      "triggers": 9,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 49,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T00:40:15.458215+00:00",
-      "triggers": 9,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 49,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T00:50:14.059946+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 49,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T01:17:44.657754+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 60,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 49,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 54,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 41,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T01:20:14.241105+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 60,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 49,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 54,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 41,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T01:30:14.310957+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 59,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 53,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T01:40:15.501366+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 59,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 53,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T01:50:30.154835+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 59,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 53,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T02:00:23.763021+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 71,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 51,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T02:10:15.296012+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 71,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 51,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T02:20:22.857639+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 71,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 51,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T02:30:14.542487+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 71,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 51,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T02:37:25.008666+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 71,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 51,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T02:40:15.238395+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 71,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 51,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T02:50:15.087608+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 71,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 51,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T03:00:15.951849+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T03:10:16.661238+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T03:20:14.544426+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T03:30:13.956242+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T03:38:12.067074+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T03:40:22.803689+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T03:50:17.085714+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T04:00:15.788565+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 36,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T04:10:15.060448+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 36,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T04:20:15.221468+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 36,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T04:30:16.722524+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 36,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T04:40:15.130814+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 36,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T04:50:14.691089+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 36,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T05:00:15.860892+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 37,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T05:20:15.951014+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 37,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T05:30:16.053402+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 37,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T05:40:14.348878+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 37,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T05:50:16.887506+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 37,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 33,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T06:00:13.293098+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 29,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 30,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T06:10:15.465039+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 29,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 30,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T06:20:13.338071+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 29,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 30,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T06:21:57.723366+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 29,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 30,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T06:30:14.445709+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 29,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 30,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T06:40:15.496141+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 29,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 30,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T06:50:15.054725+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 29,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 30,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T07:00:17.015067+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 41,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T07:10:15.959430+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 41,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T07:20:15.287054+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 41,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T07:30:14.593916+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 41,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T07:40:15.090641+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T07:50:15.842557+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 31,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T08:00:14.715086+00:00",
-      "triggers": 7,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 33,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 63,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T08:10:13.934584+00:00",
-      "triggers": 7,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 33,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 63,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T08:20:20.846771+00:00",
-      "triggers": 7,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 33,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 63,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T08:30:15.437244+00:00",
-      "triggers": 8,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 33,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 63,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T08:40:15.562535+00:00",
-      "triggers": 7,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 63,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T08:50:31.407777+00:00",
-      "triggers": 7,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 43,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 63,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T09:00:13.482840+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T09:10:14.901792+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T09:20:16.025927+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T09:30:14.925866+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T09:40:13.828874+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T09:50:13.875107+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 32,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T10:00:15.303245+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 57,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 33,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T10:10:16.144989+00:00",
-      "triggers": 9,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 57,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 33,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T10:20:12.627809+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 33,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T10:30:12.430776+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 33,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T10:40:14.108677+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 33,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T10:50:12.693319+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 33,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 44,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 56,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T11:00:13.433683+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 34,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 47,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 67,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T11:10:13.461049+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 34,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 47,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 67,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T11:20:15.942631+00:00",
-      "triggers": 8,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 34,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 55,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 47,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 67,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T11:30:16.686676+00:00",
-      "triggers": 9,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 34,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 55,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 47,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 67,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ROBOUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T11:40:13.253316+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 34,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 47,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 67,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T11:50:13.229222+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 34,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 47,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 67,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T12:00:13.254795+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T12:10:12.939270+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T12:20:13.374814+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T12:30:14.516196+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T12:40:13.724562+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T12:50:12.877746+00:00",
-      "triggers": 6,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 39,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T13:00:15.196235+00:00",
-      "triggers": 6,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 43,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 38,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 45,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T13:10:14.437906+00:00",
-      "triggers": 6,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 43,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 38,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 45,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T13:20:15.667814+00:00",
-      "triggers": 6,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 43,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 38,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 45,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T13:30:14.114362+00:00",
-      "triggers": 5,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 43,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 45,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T13:40:27.666952+00:00",
-      "triggers": 6,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 43,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 72,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 45,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T13:50:16.401170+00:00",
-      "triggers": 7,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 43,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 72,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 45,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 62,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T14:00:17.055017+00:00",
-      "triggers": 7,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 32,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 72,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 69,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T14:10:15.626912+00:00",
-      "triggers": 6,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 32,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 72,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 69,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T14:20:15.875066+00:00",
-      "triggers": 6,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 32,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 72,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 69,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T14:30:15.976833+00:00",
-      "triggers": 6,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 32,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 72,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 69,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T14:40:28.934996+00:00",
-      "triggers": 5,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 32,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 72,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 69,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T15:00:11.797751+00:00",
-      "triggers": 4,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 29,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 72,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T15:25:09.727526+00:00",
-      "triggers": 5,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 29,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "INJUSDT",
-          "score": 72,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T15:35:38.816071+00:00",
-      "triggers": 3,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 29,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T15:40:08.157739+00:00",
-      "triggers": 3,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 29,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T15:50:07.897031+00:00",
-      "triggers": 3,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "XRPUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 29,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T16:00:20.360016+00:00",
-      "triggers": 2,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 29,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T16:10:12.705452+00:00",
-      "triggers": 4,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 45,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 29,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T16:20:23.257213+00:00",
-      "triggers": 3,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 29,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-03T16:30:12.971703+00:00",
-      "triggers": 4,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 45,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 29,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 40,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "time": "2026-03-03T16:35:31.389678+00:00",
+    "symbol": "PAPER",
+    "type": "info",
+    "msg": "\ud83d\udcdd 3 paper trades opened: SBTC LONG 3x, SETH LONG 5x, SXRP SHORT 5x"
+  },
+  {
+    "timestamp": "2026-03-02T23:30:10.377015+00:00",
+    "triggers": 5,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "BTCUSDT",
+        "score": 67,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "HBARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "AVAXUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 51,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T00:00:18.834835+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 54,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 62,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 49,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T00:10:15.988724+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 54,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 62,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 49,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T00:20:16.918660+00:00",
+    "triggers": 9,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 54,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 62,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 49,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "RIVERUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T00:30:21.399983+00:00",
+    "triggers": 9,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 54,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 62,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 49,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "RIVERUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T00:40:15.458215+00:00",
+    "triggers": 9,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 54,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 62,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 49,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "RIVERUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T00:50:14.059946+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 54,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 62,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 49,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T01:17:44.657754+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 60,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 49,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 54,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 41,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T01:20:14.241105+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 60,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 49,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 54,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 41,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T01:30:14.310957+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 59,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 48,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 53,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 40,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T01:40:15.501366+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 59,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 48,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 53,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 40,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T01:50:30.154835+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 59,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 48,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 53,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 40,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T02:00:23.763021+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 71,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 51,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 32,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 44,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 43,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T02:10:15.296012+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 71,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 51,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 32,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 44,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 43,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T02:20:22.857639+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 71,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 51,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 32,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 44,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 43,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T02:30:14.542487+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 71,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 51,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 32,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 44,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 43,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T02:37:25.008666+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 71,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 51,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 32,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 44,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 43,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T02:40:15.238395+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 71,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 51,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 32,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 44,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 43,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T02:50:15.087608+00:00",
+    "triggers": 8,
+    "tradeable": 1,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 71,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 51,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 32,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 44,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 43,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T03:00:15.951849+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 37,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 48,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T03:10:16.661238+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 37,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 48,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T03:20:14.544426+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 37,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 48,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T03:30:13.956242+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 37,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 48,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T03:38:12.067074+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 37,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 48,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T03:40:22.803689+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 37,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 48,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T03:50:17.085714+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 37,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 48,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 42,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T04:00:15.788565+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 36,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T04:10:15.060448+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 36,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T04:20:15.221468+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 36,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T04:30:16.722524+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 36,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T04:40:15.130814+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 36,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T04:50:14.691089+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 34,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 36,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T05:00:15.860892+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 37,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T05:20:15.951014+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 37,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T05:30:16.053402+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 37,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T05:40:14.348878+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 37,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T05:50:16.887506+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "XRPUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 37,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 33,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T06:00:13.293098+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 29,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 30,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T06:10:15.465039+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 29,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 30,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T06:20:13.338071+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 29,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 30,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T06:21:57.723366+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 29,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 30,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T06:30:14.445709+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "XRPUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 29,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 30,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T06:40:15.496141+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 29,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 30,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T06:50:15.054725+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "XRPUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 29,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 30,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 35,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T07:00:17.015067+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "XRPUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 41,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T07:10:15.959430+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "XRPUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 41,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T07:20:15.287054+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "HBARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 41,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T07:30:14.593916+00:00",
+    "triggers": 7,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "ARCUSDT",
+        "score": 41,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T07:40:15.090641+00:00",
+    "triggers": 8,
+    "tradeable": 0,
+    "coins": [
+      {
+        "symbol": "XRPUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "NEARUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "score": 55,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "POWERUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "SIRENUSDT",
+        "score": 31,
+        "direction": "LONG"
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "SAHARAUSDT",
+        "score": 0,
+        "direction": "SHORT"
+      },
+      {
+        "symbol": "ROBOUSDT",
+        "score": 0,
+        "direction": "LONG"
+      }
+    ]
+  }
+]
