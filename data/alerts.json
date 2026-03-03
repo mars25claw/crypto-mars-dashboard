@@ -1,38 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T19:10:11.552358+00:00",
-      "triggers": 5,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "BTCUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "DOGEUSDT",
-          "score": 44,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "HBARUSDT",
-          "score": 54,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 21,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 35,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T19:20:08.965511+00:00",
       "triggers": 5,
       "tradeable": 1,
@@ -4237,6 +4205,58 @@
           "symbol": "NEARUSDT",
           "score": 34,
           "direction": "SHORT"
+        },
+        {
+          "symbol": "INJUSDT",
+          "score": 55,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "POWERUSDT",
+          "score": 47,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SIRENUSDT",
+          "score": 35,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "CRCLUSDT",
+          "score": 67,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "RIVERUSDT",
+          "score": 0,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ROBOUSDT",
+          "score": 0,
+          "direction": "LONG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-03T11:30:16.686676+00:00",
+      "triggers": 9,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "XRPUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 34,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "XLMUSDT",
+          "score": 0,
+          "direction": "LONG"
         },
         {
           "symbol": "INJUSDT",
