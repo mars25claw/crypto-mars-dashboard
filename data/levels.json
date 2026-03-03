@@ -2,26 +2,26 @@
   "nearest": [
     {
       "symbol": "ATOMUSDT",
-      "price": 1.843,
-      "change_24h": 1.66,
+      "price": 1.844,
+      "change_24h": 1.71,
       "nearest_type": "S",
       "nearest_price": 1.8287,
-      "distance_pct": 0.78,
+      "distance_pct": 0.83,
       "touches": 1
     },
     {
       "symbol": "HBARUSDT",
-      "price": 0.09696,
-      "change_24h": -1.66,
+      "price": 0.09699,
+      "change_24h": -1.6,
       "nearest_type": "R",
       "nearest_price": 0.09813,
-      "distance_pct": 1.21,
+      "distance_pct": 1.18,
       "touches": 1
     },
     {
       "symbol": "XRPUSDT",
-      "price": 1.3817,
-      "change_24h": 0.87,
+      "price": 1.3816,
+      "change_24h": 0.88,
       "nearest_type": "S",
       "nearest_price": 1.3416,
       "distance_pct": 2.9,
@@ -38,17 +38,17 @@
     },
     {
       "symbol": "LINKUSDT",
-      "price": 8.91,
-      "change_24h": 1.36,
+      "price": 8.9,
+      "change_24h": 1.25,
       "nearest_type": "R",
       "nearest_price": 9.241,
-      "distance_pct": 3.71,
+      "distance_pct": 3.83,
       "touches": 1
     },
     {
       "symbol": "DOTUSDT",
       "price": 1.496,
-      "change_24h": -5.62,
+      "change_24h": -5.67,
       "nearest_type": "R",
       "nearest_price": 1.438,
       "distance_pct": 3.88,
@@ -57,7 +57,7 @@
     {
       "symbol": "XLMUSDT",
       "price": 0.1532,
-      "change_24h": -1.98,
+      "change_24h": -1.92,
       "nearest_type": "S",
       "nearest_price": 0.14722,
       "distance_pct": 3.9,
@@ -74,20 +74,20 @@
     },
     {
       "symbol": "LTCUSDT",
-      "price": 54.35,
+      "price": 54.34,
       "change_24h": 0.67,
       "nearest_type": "R",
       "nearest_price": 56.67,
-      "distance_pct": 4.27,
+      "distance_pct": 4.29,
       "touches": 1
     },
     {
       "symbol": "BCHUSDT",
-      "price": 443.3,
-      "change_24h": -1.62,
+      "price": 443.5,
+      "change_24h": -1.44,
       "nearest_type": "S",
       "nearest_price": 422.77,
-      "distance_pct": 4.63,
+      "distance_pct": 4.67,
       "touches": 1
     }
   ],
