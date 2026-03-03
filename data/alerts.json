@@ -1,48 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-02T17:20:13.459286+00:00",
-      "triggers": 7,
-      "tradeable": 2,
-      "coins": [
-        {
-          "symbol": "DOGEUSDT",
-          "score": 42,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "DOTUSDT",
-          "score": 41,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "BTCUSDT",
-          "score": 64,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 23,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "XLMUSDT",
-          "score": 37,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "PEPEUSDT",
-          "score": 42,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "UNIUSDT",
-          "score": 65,
-          "direction": "LONG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-02T17:20:13.813552+00:00",
       "triggers": 7,
       "tradeable": 2,
@@ -3908,6 +3866,48 @@
           "score": 0,
           "direction": "SHORT"
         },
+        {
+          "symbol": "NEARUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 55,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "POWERUSDT",
+          "score": 34,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SIRENUSDT",
+          "score": 36,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ARCUSDT",
+          "score": 33,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "CRCLUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SAHARAUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-03T04:50:14.691089+00:00",
+      "triggers": 7,
+      "tradeable": 0,
+      "coins": [
         {
           "symbol": "NEARUSDT",
           "score": 0,
