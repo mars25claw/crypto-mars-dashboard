@@ -1,27 +1,27 @@
 {
   "nearest": [
     {
-      "symbol": "HBARUSDT",
-      "price": 0.09713,
-      "change_24h": -1.4,
-      "nearest_type": "R",
-      "nearest_price": 0.09813,
-      "distance_pct": 1.03,
+      "symbol": "ATOMUSDT",
+      "price": 1.848,
+      "change_24h": 2.1,
+      "nearest_type": "S",
+      "nearest_price": 1.8287,
+      "distance_pct": 1.04,
       "touches": 1
     },
     {
-      "symbol": "ATOMUSDT",
-      "price": 1.85,
-      "change_24h": 2.21,
-      "nearest_type": "S",
-      "nearest_price": 1.8287,
-      "distance_pct": 1.15,
+      "symbol": "HBARUSDT",
+      "price": 0.09711,
+      "change_24h": -1.43,
+      "nearest_type": "R",
+      "nearest_price": 0.09813,
+      "distance_pct": 1.05,
       "touches": 1
     },
     {
       "symbol": "XRPUSDT",
       "price": 1.3858,
-      "change_24h": 1.28,
+      "change_24h": 1.27,
       "nearest_type": "S",
       "nearest_price": 1.3416,
       "distance_pct": 3.19,
@@ -29,20 +29,20 @@
     },
     {
       "symbol": "LINKUSDT",
-      "price": 8.94,
+      "price": 8.93,
       "change_24h": 1.71,
       "nearest_type": "R",
       "nearest_price": 9.241,
-      "distance_pct": 3.37,
+      "distance_pct": 3.48,
       "touches": 1
     },
     {
       "symbol": "PEPEUSDT",
-      "price": 3.5e-06,
-      "change_24h": 0.57,
+      "price": 3.51e-06,
+      "change_24h": 0.86,
       "nearest_type": "S",
       "nearest_price": 3.633e-06,
-      "distance_pct": 3.8,
+      "distance_pct": 3.5,
       "touches": 1
     },
     {
@@ -65,11 +65,11 @@
     },
     {
       "symbol": "DOTUSDT",
-      "price": 1.499,
-      "change_24h": -5.49,
+      "price": 1.498,
+      "change_24h": -5.61,
       "nearest_type": "R",
       "nearest_price": 1.438,
-      "distance_pct": 4.07,
+      "distance_pct": 4.01,
       "touches": 1
     },
     {
@@ -84,7 +84,7 @@
     {
       "symbol": "BCHUSDT",
       "price": 443.9,
-      "change_24h": -1.29,
+      "change_24h": -1.31,
       "nearest_type": "S",
       "nearest_price": 422.77,
       "distance_pct": 4.76,
