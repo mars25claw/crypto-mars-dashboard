@@ -2,38 +2,38 @@
   "nearest": [
     {
       "symbol": "ATOMUSDT",
-      "price": 1.838,
+      "price": 1.837,
       "change_24h": 1.94,
       "nearest_type": "S",
       "nearest_price": 1.8287,
-      "distance_pct": 0.51,
+      "distance_pct": 0.45,
       "touches": 1
     },
     {
       "symbol": "HBARUSDT",
-      "price": 0.09762,
-      "change_24h": 0.36,
+      "price": 0.09764,
+      "change_24h": 0.39,
       "nearest_type": "R",
       "nearest_price": 0.09813,
-      "distance_pct": 0.52,
+      "distance_pct": 0.5,
       "touches": 1
     },
     {
       "symbol": "XRPUSDT",
-      "price": 1.3861,
+      "price": 1.3862,
       "change_24h": 2.17,
       "nearest_type": "S",
       "nearest_price": 1.3416,
-      "distance_pct": 3.21,
+      "distance_pct": 3.22,
       "touches": 1
     },
     {
       "symbol": "LINKUSDT",
-      "price": 8.94,
-      "change_24h": 2.76,
+      "price": 8.95,
+      "change_24h": 2.99,
       "nearest_type": "R",
       "nearest_price": 9.241,
-      "distance_pct": 3.37,
+      "distance_pct": 3.25,
       "touches": 1
     },
     {
@@ -47,11 +47,11 @@
     },
     {
       "symbol": "DOTUSDT",
-      "price": 1.497,
-      "change_24h": -2.6,
+      "price": 1.495,
+      "change_24h": -2.8,
       "nearest_type": "R",
       "nearest_price": 1.438,
-      "distance_pct": 3.94,
+      "distance_pct": 3.81,
       "touches": 1
     },
     {
@@ -65,11 +65,11 @@
     },
     {
       "symbol": "LTCUSDT",
-      "price": 54.42,
-      "change_24h": 1.95,
+      "price": 54.4,
+      "change_24h": 1.93,
       "nearest_type": "R",
       "nearest_price": 56.67,
-      "distance_pct": 4.13,
+      "distance_pct": 4.17,
       "touches": 1
     },
     {
@@ -83,11 +83,11 @@
     },
     {
       "symbol": "BCHUSDT",
-      "price": 445.0,
-      "change_24h": 0.41,
+      "price": 445.1,
+      "change_24h": 0.43,
       "nearest_type": "S",
       "nearest_price": 422.77,
-      "distance_pct": 5.0,
+      "distance_pct": 5.02,
       "touches": 1
     }
   ],
