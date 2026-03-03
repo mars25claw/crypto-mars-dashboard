@@ -235,5 +235,39 @@
     "result": "LOSS",
     "reason": "profit_target",
     "closed_at": "2026-03-03T05:10:08.113006+00:00"
+  },
+  {
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "side": "Buy",
+    "entry_price": 2.992,
+    "sl": 2.835,
+    "qty": 133.6,
+    "leverage": 5,
+    "score": 72,
+    "breakdown": {
+      "sr": 0,
+      "vol": 20,
+      "vol_ratio": 2.9,
+      "mcb": 14,
+      "mcb_sig": -8.7,
+      "div": "bullish",
+      "ema": 12,
+      "trend": 15,
+      "fib": 0,
+      "breakout": 0,
+      "session": "London(ET)+3",
+      "adx": "ADX=21+0",
+      "retest": "none",
+      "sweep": "none",
+      "candle": "none",
+      "fear_greed": "Extreme Fear(14) \u2014 buy zone \ud83d\udd25",
+      "funding": "Funding 0.000% \u2014 neutral",
+      "oi": "OI neutral (+0.0%)",
+      "macro": "BTC sideways \u2014 neutral"
+    },
+    "order_id": "1412722530669174788",
+    "timestamp": "2026-03-03T13:40:27.639351+00:00",
+    "status": "open"
   }
 ]

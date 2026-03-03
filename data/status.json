@@ -1,8 +1,19 @@
 {
-  "equity": 505.61,
-  "available": 505.61,
+  "equity": 505.39,
+  "available": 425.38,
   "soft_cap": 200,
   "max_positions": 3,
-  "positions": [],
-  "updated": "2026-03-03T13:40:00.843846+00:00"
+  "positions": [
+    {
+      "symbol": "INJUSDT",
+      "side": "long",
+      "size": 133.6,
+      "entry": 2.9939,
+      "mark": 2.994,
+      "pnl": 0.0179,
+      "leverage": "5",
+      "sl": 2.835
+    }
+  ],
+  "updated": "2026-03-03T13:40:27.723711+00:00"
 }
