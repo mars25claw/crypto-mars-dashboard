@@ -211,5 +211,31 @@
     "order_id": "1412584410644619372",
     "timestamp": "2026-03-03T04:31:32.889901+00:00",
     "status": "open"
+  },
+  {
+    "symbol": "OPUSDT",
+    "direction": "LONG",
+    "entry": 0.1263,
+    "exit": 0.1266,
+    "qty": 10054.7,
+    "leverage": 10,
+    "pnl_usd": 3.0164,
+    "pnl_pct": 0.238,
+    "result": "WIN",
+    "reason": "profit_target",
+    "closed_at": "2026-03-03T05:10:05.647509+00:00"
+  },
+  {
+    "symbol": "DOGEUSDT",
+    "direction": "LONG",
+    "entry": 0.09193,
+    "exit": 0.09185,
+    "qty": 60.0,
+    "leverage": 5,
+    "pnl_usd": -0.0048,
+    "pnl_pct": -0.087,
+    "result": "LOSS",
+    "reason": "profit_target",
+    "closed_at": "2026-03-03T05:10:08.113006+00:00"
   }
 ]
