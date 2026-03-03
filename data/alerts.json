@@ -3058,6 +3058,33 @@
           "direction": "SHORT"
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-03T21:50:24.342300+00:00",
+      "triggers": 4,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "XRPUSDT",
+          "score": 35,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 40,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "RIVERUSDT",
+          "score": 0,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "PHAUSDT",
+          "score": 43,
+          "direction": "SHORT"
+        }
+      ]
     }
   ]
 }
