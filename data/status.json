@@ -1,19 +1,8 @@
 {
-  "equity": 496.29,
-  "available": 457.7,
+  "equity": 0,
+  "available": 0,
   "soft_cap": 200,
   "max_positions": 3,
-  "positions": [
-    {
-      "symbol": "LTCUSDT",
-      "side": "long",
-      "size": 3.5,
-      "entry": 54.38,
-      "mark": 54.53,
-      "pnl": 0.525,
-      "leverage": "5",
-      "sl": 0.0
-    }
-  ],
-  "updated": "2026-03-03T00:50:57.867963+00:00"
+  "positions": [],
+  "updated": "2026-03-03T01:00:00.271078+00:00"
 }
