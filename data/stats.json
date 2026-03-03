@@ -1,9 +1,9 @@
 {
-  "trades": 5,
+  "trades": 6,
   "wins": 2,
-  "losses": 3,
-  "total_pnl": -14.2421,
+  "losses": 4,
+  "total_pnl": -14.2437,
   "best": 2.52,
   "worst": -10.2921,
-  "win_rate": 40.0
+  "win_rate": 33.3
 }

@@ -157,5 +157,18 @@
     "result": "LOSS",
     "reason": "sl_breach_no_exchange_order",
     "closed_at": "2026-03-03T02:17:30.502008+00:00"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "direction": "LONG",
+    "entry": 68410.8,
+    "exit": 68394.6,
+    "qty": 0.0001,
+    "leverage": 3,
+    "pnl_usd": -0.0016,
+    "pnl_pct": -0.024,
+    "result": "LOSS",
+    "reason": "test_trade_close",
+    "closed_at": "2026-03-03T02:39:09.512654+00:00"
   }
 ]
