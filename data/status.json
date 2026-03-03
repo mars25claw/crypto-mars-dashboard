@@ -1,29 +1,8 @@
 {
-  "equity": 505.44,
-  "available": 158.96,
+  "equity": 505.39,
+  "available": 505.39,
   "soft_cap": 200,
   "max_positions": 3,
-  "positions": [
-    {
-      "symbol": "LTCUSDT",
-      "side": "long",
-      "size": 3.5,
-      "entry": 54.38,
-      "mark": 54.31,
-      "pnl": -0.245,
-      "leverage": "5",
-      "sl": 53.4473
-    },
-    {
-      "symbol": "NEARUSDT",
-      "side": "long",
-      "size": 1033.0,
-      "entry": 1.3819,
-      "mark": 1.4043,
-      "pnl": 23.1726,
-      "leverage": "5",
-      "sl": 1.3819
-    }
-  ],
-  "updated": "2026-03-03T03:40:59.447913+00:00"
+  "positions": [],
+  "updated": "2026-03-03T03:50:01.045149+00:00"
 }

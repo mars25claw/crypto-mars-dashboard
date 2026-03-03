@@ -1,30 +1,30 @@
 {
   "nearest": [
     {
-      "symbol": "ATOMUSDT",
-      "price": 1.848,
-      "change_24h": 1.87,
-      "nearest_type": "S",
-      "nearest_price": 1.8287,
-      "distance_pct": 1.04,
+      "symbol": "HBARUSDT",
+      "price": 0.09697,
+      "change_24h": -1.96,
+      "nearest_type": "R",
+      "nearest_price": 0.09813,
+      "distance_pct": 1.2,
       "touches": 1
     },
     {
-      "symbol": "HBARUSDT",
-      "price": 0.09694,
-      "change_24h": -1.93,
-      "nearest_type": "R",
-      "nearest_price": 0.09813,
-      "distance_pct": 1.23,
+      "symbol": "ATOMUSDT",
+      "price": 1.852,
+      "change_24h": 1.93,
+      "nearest_type": "S",
+      "nearest_price": 1.8287,
+      "distance_pct": 1.26,
       "touches": 1
     },
     {
       "symbol": "XRPUSDT",
-      "price": 1.3742,
-      "change_24h": -0.02,
+      "price": 1.3744,
+      "change_24h": 0.02,
       "nearest_type": "S",
       "nearest_price": 1.3416,
-      "distance_pct": 2.37,
+      "distance_pct": 2.39,
       "touches": 1
     },
     {
@@ -38,56 +38,56 @@
     },
     {
       "symbol": "LINKUSDT",
-      "price": 8.9,
-      "change_24h": 0.79,
+      "price": 8.89,
+      "change_24h": 0.57,
       "nearest_type": "R",
       "nearest_price": 9.241,
-      "distance_pct": 3.83,
+      "distance_pct": 3.95,
       "touches": 1
     },
     {
       "symbol": "XLMUSDT",
-      "price": 0.1537,
-      "change_24h": -1.66,
+      "price": 0.1534,
+      "change_24h": -1.92,
       "nearest_type": "S",
       "nearest_price": 0.14722,
-      "distance_pct": 4.22,
+      "distance_pct": 4.03,
       "touches": 1
     },
     {
       "symbol": "INJUSDT",
       "price": 3.086,
-      "change_24h": 0.92,
+      "change_24h": 0.88,
       "nearest_type": "S",
       "nearest_price": 2.955,
       "distance_pct": 4.24,
       "touches": 1
     },
     {
-      "symbol": "LTCUSDT",
-      "price": 54.32,
-      "change_24h": 0.2,
-      "nearest_type": "R",
-      "nearest_price": 56.67,
-      "distance_pct": 4.33,
-      "touches": 1
-    },
-    {
       "symbol": "DOTUSDT",
       "price": 1.504,
-      "change_24h": -3.59,
+      "change_24h": -3.65,
       "nearest_type": "R",
       "nearest_price": 1.438,
       "distance_pct": 4.39,
       "touches": 1
     },
     {
+      "symbol": "LTCUSDT",
+      "price": 54.24,
+      "change_24h": 0.17,
+      "nearest_type": "R",
+      "nearest_price": 56.67,
+      "distance_pct": 4.48,
+      "touches": 1
+    },
+    {
       "symbol": "BCHUSDT",
-      "price": 443.8,
-      "change_24h": -1.49,
+      "price": 443.7,
+      "change_24h": -1.29,
       "nearest_type": "S",
       "nearest_price": 422.77,
-      "distance_pct": 4.74,
+      "distance_pct": 4.72,
       "touches": 1
     }
   ],
