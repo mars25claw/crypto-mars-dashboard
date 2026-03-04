@@ -64,9 +64,7 @@
     "SUIUSDT",
     "TIAUSDT"
   ],
-  "open": [
-    "BTCUSDT"
-  ],
+  "open": [],
   "level_map": {
     "BTCUSDT": {
       "support": null,
@@ -308,6 +306,6 @@
     }
   },
   "total": 34,
-  "updated": "2026-03-04T14:30:00.929082+00:00",
+  "updated": "2026-03-04T14:32:04.010421+00:00",
   "source": "AJ scan-all (12h) + rotate (6h) + core (always)"
 }
