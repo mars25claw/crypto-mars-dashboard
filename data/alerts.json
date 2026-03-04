@@ -1,48 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-03T03:20:14.544426+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-03T03:30:13.956242+00:00",
       "triggers": 7,
       "tradeable": 0,
@@ -4441,6 +4399,58 @@
         {
           "symbol": "ENSOUSDT",
           "score": 70,
+          "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-04T10:00:43.661473+00:00",
+      "triggers": 9,
+      "tradeable": 1,
+      "coins": [
+        {
+          "symbol": "BTCUSDT",
+          "score": 0,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ETHUSDT",
+          "score": 0,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SOLUSDT",
+          "score": 0,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ADAUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "AAVEUSDT",
+          "score": 44,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "SUIUSDT",
+          "score": 55,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "JELLYJELLYUSDT",
+          "score": 70,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "MYXUSDT",
+          "score": 49,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "ENSOUSDT",
+          "score": 58,
           "direction": "SHORT"
         }
       ]
