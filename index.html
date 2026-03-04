@@ -274,7 +274,26 @@ async function loadAllData(){
   dataCache={stats,status,meta,sim,journal,levels,dynwl,acct,isTest};
   const lu=meta&&meta.last_update?new Date(meta.last_update):null;
   document.getElementById('last-update-label').textContent=lu?timeAgo(lu):'—';
-  renderSummary(acct,stats,isTest);renderPositions(acct);renderTrades(journal);buildWatchlist(levels,dynwl,acct);
+  // Silently update data — WS stays alive, no DOM wipe
+  renderSummary(acct,stats,isTest);
+  renderPositions(acct);
+  renderTrades(journal);
+  buildWatchlist(levels,dynwl,acct); // smart — only adds new rows, never reconnects WS unless new symbols
+}
+
+// Lightweight silent background refresh — just data, no WS touch
+async function silentRefresh(){
+  const[stats,status,meta,mode_f,sim,journal]=await Promise.all(
+    ['stats.json','status.json','meta.json','mode.json','sim.json','journal.json'].map(fetchJSON));
+  if(!mode_f)return;
+  MODE=mode_f.mode||'TEST';updateModePill();
+  const isTest=MODE==='TEST',acct=isTest?sim:status;
+  Object.assign(dataCache,{stats,status,meta,sim,journal,acct,isTest});
+  renderSummary(acct,stats,isTest);
+  renderPositions(acct);
+  renderTrades(journal);
+  const lu=meta&&meta.last_update?new Date(meta.last_update):null;
+  if(lu)document.getElementById('last-update-label').textContent=timeAgo(lu);
 }
 
 function updateModePill(){
@@ -352,7 +371,7 @@ const CC={BTC:'#f7931a',ETH:'#627eea',SOL:'#9945ff',XRP:'#006fc7',BNB:'#f3ba2f',
 function coinC(s){return CC[s.replace('USDT','').replace('1000','')]||'#666'}
 function coinL(s){return s.replace('USDT','').replace('1000','').slice(0,3)}
 
-let wsBuilt=false;
+let wsBuilt=false,wsSymbolSet=new Set();
 function buildWatchlist(levels,dynwl,acct){
   let syms=[];
   if(dynwl&&dynwl.symbols&&dynwl.symbols.length>0)syms=[...dynwl.symbols];
@@ -360,16 +379,38 @@ function buildWatchlist(levels,dynwl,acct){
   if(acct&&acct.open_positions)Object.keys(acct.open_positions).forEach(s=>{if(!syms.includes(s))syms.unshift(s)});
   syms=[...new Set(syms)].filter(s=>s.endsWith('USDT')).slice(0,30);
   const scores=(dynwl&&dynwl.scores)||{};
-  document.getElementById('watch-list').innerHTML=syms.map(sym=>{
-    const c=coinC(sym),sc=scores[sym],scH=sc?` <span class="score-chip ${sc>=80?'high':sc>=65?'med':'low'}">${sc}</span>`:'';
-    return `<div class="watch-row" id="wr-${sym}">
-      <div class="watch-left"><div class="watch-icon" style="background:${c}15;color:${c}">${coinL(sym)}</div>
+
+  // Only rebuild DOM rows for NEW symbols — don't wipe existing ones
+  const existingIds=new Set([...document.querySelectorAll('[id^="wr-"]')].map(el=>el.id.replace('wr-','')));
+  const container=document.getElementById('watch-list');
+  if(!wsBuilt||existingIds.size===0){
+    // First build — render all rows
+    container.innerHTML=syms.map(sym=>{
+      const c=coinC(sym),sc=scores[sym],scH=sc?` <span class="score-chip ${sc>=80?'high':sc>=65?'med':'low'}">${sc}</span>`:'';
+      return `<div class="watch-row" id="wr-${sym}">
+        <div class="watch-left"><div class="watch-icon" style="background:${c}15;color:${c}">${coinL(sym)}</div>
+          <div><div class="watch-sym">${sym.replace('USDT','').replace('1000','')}${scH}</div><div class="watch-score" id="wsc-${sym}">—</div></div></div>
+        <canvas class="watch-mini-chart spark" width="56" height="26" id="sp-${sym}"></canvas>
+        <div class="watch-right"><div class="watch-price" id="wp-${sym}">—</div><div class="watch-chg" id="wc-${sym}">—</div></div></div>`}).join('');
+  }else{
+    // Subsequent refreshes — only add NEW symbols to the top (e.g. new open position)
+    const newSyms=syms.filter(s=>!existingIds.has(s));
+    newSyms.forEach(sym=>{
+      const c=coinC(sym),sc=scores[sym],scH=sc?` <span class="score-chip ${sc>=80?'high':sc>=65?'med':'low'}">${sc}</span>`:'';
+      const row=document.createElement('div');row.className='watch-row';row.id='wr-'+sym;
+      row.innerHTML=`<div class="watch-left"><div class="watch-icon" style="background:${c}15;color:${c}">${coinL(sym)}</div>
         <div><div class="watch-sym">${sym.replace('USDT','').replace('1000','')}${scH}</div><div class="watch-score" id="wsc-${sym}">—</div></div></div>
-      <canvas class="watch-mini-chart spark" width="56" height="26" id="sp-${sym}"></canvas>
-      <div class="watch-right"><div class="watch-price" id="wp-${sym}">—</div><div class="watch-chg" id="wc-${sym}">—</div></div></div>`}).join('');
-  // Only connect WS once, then just update symbols
-  if(!wsBuilt){wsSymbols=syms;connectWS();wsBuilt=true;loadRest(syms)}
-  else{const newSyms=syms.filter(s=>!wsSymbols.includes(s));if(newSyms.length){wsSymbols=syms;connectWS()}}
+        <canvas class="watch-mini-chart spark" width="56" height="26" id="sp-${sym}"></canvas>
+        <div class="watch-right"><div class="watch-price" id="wp-${sym}">—</div><div class="watch-chg" id="wc-${sym}">—</div></div>`;
+      container.prepend(row);
+    });
+  }
+
+  // WS: connect once, only reconnect if new symbols added
+  const newForWS=syms.filter(s=>!wsSymbolSet.has(s));
+  if(!wsBuilt){wsSymbols=syms;syms.forEach(s=>wsSymbolSet.add(s));connectWS();wsBuilt=true;loadRest(syms)}
+  else if(newForWS.length>0){wsSymbols=syms;newForWS.forEach(s=>wsSymbolSet.add(s));connectWS();loadRest(newForWS)}
+  // else: do nothing — WS stays alive, no reconnect
 }
 
 async function loadRest(syms){
@@ -455,8 +496,16 @@ function renderTrades(journal){
 function timeAgo(d){const s=Math.floor((Date.now()-d.getTime())/1000);if(s<60)return s+'s ago';if(s<3600)return Math.floor(s/60)+'m ago';if(s<86400)return Math.floor(s/3600)+'h ago';return Math.floor(s/86400)+'d ago'}
 function fmtTime(s){if(!s)return'—';try{return new Date(s.replace(' ET','')).toLocaleTimeString('en',{hour:'2-digit',minute:'2-digit'})}catch{return s.slice(11,16)||'—'}}
 
-function init(){sessionStorage.setItem('cm6','1');loadAllData();setInterval(loadAllData,30000);setInterval(updateAllPos,5000);
-  setInterval(()=>{if(dataCache.meta&&dataCache.meta.last_update)document.getElementById('last-update-label').textContent=timeAgo(new Date(dataCache.meta.last_update))},10000)}
+function init(){
+  sessionStorage.setItem('cm6','1');
+  loadAllData(); // full init — connects WS, builds watchlist
+  setInterval(silentRefresh,30000); // background data only — WS never touched
+  setInterval(updateAllPos,5000);   // live PnL tick from WS prices
+  setInterval(()=>{
+    if(dataCache.meta&&dataCache.meta.last_update)
+      document.getElementById('last-update-label').textContent=timeAgo(new Date(dataCache.meta.last_update));
+  },10000);
+}
 </script>
 </body>
 </html>
