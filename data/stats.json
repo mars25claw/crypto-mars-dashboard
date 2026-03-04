@@ -1,11 +1,11 @@
 {
-  "trades": 13,
+  "trades": 14,
   "wins": 4,
   "losses": 5,
   "total_pnl": -11.23,
   "best": 3.0164,
   "worst": -10.2921,
-  "win_rate": 30.8,
+  "win_rate": 28.6,
   "paper_positions": 3,
   "paper_equity": 3000.0,
   "paper_mode": true
