@@ -1,12 +1,6 @@
 {
   "alerts": [
     {
-      "time": "2026-03-03T16:35:31.389678+00:00",
-      "symbol": "PAPER",
-      "type": "info",
-      "msg": "\ud83d\udcdd 3 paper trades opened: SBTC LONG 3x, SETH LONG 5x, SXRP SHORT 5x"
-    },
-    {
       "timestamp": "2026-03-02T23:30:10.377015+00:00",
       "triggers": 5,
       "tradeable": 1,
@@ -4020,6 +4014,43 @@
         {
           "symbol": "CRCLUSDT",
           "score": 64,
+          "direction": "LONG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-04T02:00:15.062287+00:00",
+      "triggers": 6,
+      "tradeable": 2,
+      "coins": [
+        {
+          "symbol": "HBARUSDT",
+          "score": 79,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 50,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "RIVERUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "PHAUSDT",
+          "score": 55,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "CRCLUSDT",
+          "score": 66,
           "direction": "LONG"
         }
       ]
