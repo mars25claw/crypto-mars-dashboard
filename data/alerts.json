@@ -3981,6 +3981,48 @@
           "direction": "LONG"
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-04T01:50:16.169310+00:00",
+      "triggers": 7,
+      "tradeable": 2,
+      "coins": [
+        {
+          "symbol": "XRPUSDT",
+          "score": 32,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "HBARUSDT",
+          "score": 67,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "score": 50,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "RIVERUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "PHAUSDT",
+          "score": 56,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "CRCLUSDT",
+          "score": 64,
+          "direction": "LONG"
+        }
+      ]
     }
   ]
 }
