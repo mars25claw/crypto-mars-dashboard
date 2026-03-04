@@ -473,9 +473,43 @@ function drawSpark(sym){
 }
 
 let posThrottle=0;
-function updatePosLive(sym,price){const el=document.getElementById('live-'+sym);if(el)el.textContent=fmtPrice(price);
-  if(openPositions[sym]&&Date.now()-posThrottle>2000){posThrottle=Date.now();renderPositions(dataCache.acct)}}
-function updateAllPos(){if(dataCache.acct)renderPositions(dataCache.acct)}
+function updatePosLive(sym,price){
+  const el=document.getElementById('live-'+sym);if(el)el.textContent=fmtPrice(price);
+  if(openPositions[sym]&&Date.now()-posThrottle>1000){
+    posThrottle=Date.now();
+    renderPositions(dataCache.acct);
+    updateLiveEquity(); // real-time total assets
+  }
+}
+function updateAllPos(){if(dataCache.acct){renderPositions(dataCache.acct);updateLiveEquity()}}
+
+// REAL-TIME EQUITY: balance + sum(unrealized PnL from WS prices)
+function updateLiveEquity(){
+  if(!dataCache.acct)return;
+  const bal=dataCache.acct.balance||0, start=dataCache.acct.initial_balance||500;
+  const pos=dataCache.acct.open_positions||{};
+  let unrealized=0;
+  Object.keys(pos).forEach(sym=>{
+    const p=pos[sym], live=liveData[sym];
+    const cur=(live&&live.price)?live.price:(p.mark_price||p.entry);
+    const dir=p.direction||'LONG';
+    unrealized+=p.qty*(cur-p.entry)*(dir==='LONG'?1:-1);
+  });
+  const equity=bal+unrealized;
+  const totalPnl=(dataCache.acct.realized_pnl||0)+unrealized;
+  const eqColor=equity>=start?'var(--green)':'var(--red)';
+  const balEl=document.getElementById('m-balance');
+  if(balEl)balEl.innerHTML=`<span style="color:${eqColor}">$${equity.toFixed(2)}</span>`;
+  const subEl=document.getElementById('m-balance-sub');
+  if(subEl){
+    if(Object.keys(pos).length>0)subEl.textContent=`bal $${bal.toFixed(0)} + uPnL ${unrealized>=0?'+':''}$${unrealized.toFixed(2)}`;
+    else subEl.textContent=`start $${start.toFixed(0)}`;
+  }
+  // Update rings P&L with live unrealized included
+  const pnlEl=document.getElementById('rs-pnl');
+  if(pnlEl)pnlEl.innerHTML=`<span style="color:${totalPnl>=0?'var(--green)':'var(--red)'}">${totalPnl>=0?'+':''}$${totalPnl.toFixed(2)}</span>`;
+  animateRing('r-pl',214,Math.abs(totalPnl)/Math.max(start*.1,1),totalPnl>=0?'var(--green)':'var(--red)');
+}
 
 function renderTrades(journal){
   const c=document.getElementById('trade-list'),l=document.getElementById('trades-count-label');
@@ -500,7 +534,8 @@ function init(){
   sessionStorage.setItem('cm6','1');
   loadAllData(); // full init — connects WS, builds watchlist
   setInterval(silentRefresh,30000); // background data only — WS never touched
-  setInterval(updateAllPos,5000);   // live PnL tick from WS prices
+  setInterval(updateAllPos,3000);   // re-render positions with latest WS prices
+  setInterval(updateLiveEquity,1000); // real-time equity every 1s
   setInterval(()=>{
     if(dataCache.meta&&dataCache.meta.last_update)
       document.getElementById('last-update-label').textContent=timeAgo(new Date(dataCache.meta.last_update));
