@@ -1,9 +1,9 @@
 {
-  "trades": 1,
+  "trades": 3,
   "wins": 1,
   "losses": 0,
   "total_pnl": 1.577443,
-  "win_rate": 100.0,
+  "win_rate": 33.3,
   "profit_factor": 99,
   "max_drawdown": 0.0,
   "best": 1.5774,
