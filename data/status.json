@@ -1,9 +1,19 @@
 {
-  "equity": 503.64,
-  "available": 479.19,
+  "equity": 503.49,
+  "available": 451.73,
   "soft_cap": 200,
   "max_positions": 3,
   "positions": [
+    {
+      "symbol": "HBARUSDT",
+      "side": "short",
+      "size": 1951.0,
+      "entry": 0.0981,
+      "mark": 0.0981,
+      "pnl": -0.039,
+      "leverage": "7",
+      "sl": 0.0992
+    },
     {
       "symbol": "INJUSDT",
       "side": "long",
@@ -15,5 +25,5 @@
       "sl": 2.9562
     }
   ],
-  "updated": "2026-03-04T02:20:00.155262+00:00"
+  "updated": "2026-03-04T02:20:36.167272+00:00"
 }

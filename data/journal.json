@@ -385,5 +385,39 @@
     "order_id": "1412886511413239810",
     "timestamp": "2026-03-04T00:32:04.581171+00:00",
     "status": "open"
+  },
+  {
+    "symbol": "HBARUSDT",
+    "direction": "SHORT",
+    "side": "Sell",
+    "entry_price": 0.09736,
+    "sl": 0.09915,
+    "qty": 1951.0,
+    "leverage": 7,
+    "score": 79,
+    "breakdown": {
+      "sr": 18,
+      "vol": 20,
+      "vol_ratio": 4.6,
+      "mcb": 7,
+      "mcb_sig": -32.8,
+      "div": "none",
+      "ema": 20,
+      "trend": 8,
+      "fib": 0,
+      "breakout": 5,
+      "session": "Asia(ET)+1",
+      "adx": "ADX=28+0",
+      "retest": "none",
+      "sweep": "none",
+      "candle": "bearish_engulfing(bearish)",
+      "fear_greed": "Extreme Fear(10) \u2014 avoid shorts",
+      "funding": "Funding 0.000% \u2014 neutral",
+      "oi": "OI neutral (+0.0%)",
+      "macro": "Macro mixed"
+    },
+    "order_id": "1412913804177186817",
+    "timestamp": "2026-03-04T02:20:32.918384+00:00",
+    "status": "open"
   }
 ]
