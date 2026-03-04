@@ -425,6 +425,7 @@ async function loadAllData(){
   renderPositions(acct, isTest);
   renderTrades(journal, isTest);
   buildWatchlist(levels, dynwl, acct);
+  ensurePosCovered();  // guarantee open position symbols are in WS stream
 }
 
 // ════════════════════════════════════════════════
@@ -526,8 +527,8 @@ function renderPositions(acct, isTest){
 
   container.innerHTML = keys.map(sym=>{
     const p    = positions[sym];
-    const live = liveData[sym];
-    const cur  = live ? live.price : p.entry;
+    const live = liveData[sym] || liveData[sym.toUpperCase()];
+    const cur  = (live && live.price && live.price !== p.entry) ? live.price : (p.mark_price || p.entry);
     const dir  = p.direction||'LONG';
     const pnlU = p.qty*(cur-p.entry)*(dir==='LONG'?1:-1);
     const pnlPct=((cur-p.entry)/p.entry*100*(dir==='LONG'?1:-1)).toFixed(2);
@@ -571,11 +572,15 @@ function coinColor(sym){ return COIN_COLORS[sym.replace('USDT','')] || '#888'; }
 function coinLetter(sym){ return sym.replace('USDT','').slice(0,2); }
 
 function buildWatchlist(levels, dynwl, acct){
-  // Combine TOP + dynamic watchlist
+  // Combine TOP + dynamic watchlist + open position symbols (CRITICAL — always subscribed)
   let syms = [...TOP_COINS];
   if(dynwl && dynwl.extras) dynwl.extras.forEach(s=>{ if(!syms.includes(s)) syms.push(s); });
   if(levels) Object.keys(levels).forEach(s=>{ if(!syms.includes(s)) syms.splice(5,0,s); });
-  syms = [...new Set(syms)].slice(0,25);
+  // Always include open position symbols even if not in watchlist
+  if(acct && acct.open_positions){
+    Object.keys(acct.open_positions).forEach(s=>{ if(!syms.includes(s)) syms.unshift(s); });
+  }
+  syms = [...new Set(syms)].slice(0,30);
   wsSymbols = syms;
 
   // Scores from dynamic watchlist
@@ -758,16 +763,36 @@ function drawSparkline(sym){
 // ════════════════════════════════════════════════
 //  LIVE POSITION UPDATE
 // ════════════════════════════════════════════════
+let posRenderThrottle = 0;
 function updatePosLive(sym, price){
+  // Always update the inline price element if visible
   const el = document.getElementById('live-'+sym);
-  if(el) el.textContent = '$'+price.toFixed(4);
-  // Re-render positions if this symbol is open
+  if(el) el.textContent = formatPrice(price);
+  // If this symbol has an open position, re-render the full card
+  // but throttle to max once per second to avoid thrashing
   if(openPositions[sym]){
-    renderPositions(dataCache.acct, dataCache.isTest);
+    const now = Date.now();
+    if(now - posRenderThrottle > 1000){
+      posRenderThrottle = now;
+      renderPositions(dataCache.acct, dataCache.isTest);
+    }
   }
 }
 function updateAllLivePos(){
   if(dataCache.acct) renderPositions(dataCache.acct, dataCache.isTest);
+}
+
+// Ensure WS covers any open position symbols (call after data load)
+function ensurePosCovered(){
+  if(!dataCache.acct || !dataCache.acct.open_positions) return;
+  const posSyms = Object.keys(dataCache.acct.open_positions);
+  const missing  = posSyms.filter(s=>!wsSymbols.includes(s));
+  if(missing.length > 0){
+    missing.forEach(s=>wsSymbols.unshift(s));
+    // reconnect WS with full list
+    connectWS(wsSymbols);
+    loadRestPrices(missing); // immediate REST fetch for missing syms
+  }
 }
 
 // ════════════════════════════════════════════════
