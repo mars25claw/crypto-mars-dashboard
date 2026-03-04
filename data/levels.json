@@ -2,11 +2,11 @@
   "nearest": [
     {
       "symbol": "HBARUSDT",
-      "price": 0.09807,
-      "change_24h": 1.25,
+      "price": 0.09809,
+      "change_24h": 1.24,
       "nearest_type": "R",
       "nearest_price": 0.09813,
-      "distance_pct": 0.06,
+      "distance_pct": 0.04,
       "touches": 1
     },
     {
@@ -21,7 +21,7 @@
     {
       "symbol": "XRPUSDT",
       "price": 1.353,
-      "change_24h": -1.5,
+      "change_24h": -1.48,
       "nearest_type": "S",
       "nearest_price": 1.3416,
       "distance_pct": 0.84,
@@ -47,8 +47,8 @@
     },
     {
       "symbol": "ETHUSDT",
-      "price": 1960.9,
-      "change_24h": -2.39,
+      "price": 1960.87,
+      "change_24h": -2.41,
       "nearest_type": "S",
       "nearest_price": 1895.31,
       "distance_pct": 3.34,
@@ -56,29 +56,29 @@
     },
     {
       "symbol": "ADAUSDT",
-      "price": 0.2627,
+      "price": 0.2626,
       "change_24h": -3.95,
       "nearest_type": "S",
       "nearest_price": 0.2534,
-      "distance_pct": 3.54,
+      "distance_pct": 3.5,
       "touches": 1
     },
     {
       "symbol": "LTCUSDT",
-      "price": 54.67,
-      "change_24h": 0.72,
+      "price": 54.66,
+      "change_24h": 0.7,
       "nearest_type": "R",
       "nearest_price": 56.67,
-      "distance_pct": 3.66,
+      "distance_pct": 3.68,
       "touches": 1
     },
     {
       "symbol": "BTCUSDT",
-      "price": 67732.2,
-      "change_24h": -0.94,
+      "price": 67734.0,
+      "change_24h": -0.96,
       "nearest_type": "S",
       "nearest_price": 65088.0,
-      "distance_pct": 3.9,
+      "distance_pct": 3.91,
       "touches": 1
     },
     {
