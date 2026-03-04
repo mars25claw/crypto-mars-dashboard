@@ -1,12 +1,12 @@
 {
-  "trades": 17,
-  "wins": 4,
-  "losses": 5,
-  "total_pnl": -11.23,
-  "best": 3.0164,
-  "worst": -10.2921,
-  "win_rate": 23.5,
-  "paper_positions": 3,
-  "paper_equity": 3000.0,
-  "paper_mode": true
+  "trades": 4,
+  "wins": 1,
+  "losses": 2,
+  "total_pnl": -1466.687436,
+  "win_rate": 25.0,
+  "profit_factor": 0.02,
+  "max_drawdown": 280.9005808332471,
+  "best": 35.3557,
+  "worst": -791.7132,
+  "mode": "TEST"
 }
