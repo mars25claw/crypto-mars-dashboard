@@ -1,6 +1,376 @@
 {
   "trades": [
     {
+      "sym": "LINKUSDT",
+      "direction": "LONG",
+      "entry": 9.2897861,
+      "entry_ideal": 9.287,
+      "sl": 9.370001,
+      "sl_initial": 9.097002,
+      "tp": 9.584,
+      "qty": 53.9763,
+      "leverage": 10,
+      "notional": 501.4283,
+      "margin": 50.1428,
+      "fee_entry": 0.300857,
+      "score": 89,
+      "atr": 0.126666,
+      "reason": "[TEST] 89/100 LONG none NY(ET)+3",
+      "breakdown": {
+        "sr": 16,
+        "vol_adj": "candle 20m old \u2192 annualized 2.2x",
+        "vol": 16,
+        "vol_ratio": 2.2,
+        "mcb": 11,
+        "mcb_sig": 44.0,
+        "div": "none",
+        "ema_align": "bullish_stack",
+        "ema": 20,
+        "trend": 15,
+        "fib": 0,
+        "breakout": 0,
+        "session": "NY(ET)+3",
+        "adx_val": 27.8,
+        "adx": "ADX=28+0",
+        "retest": "none",
+        "sweep": "none",
+        "candle": "shooting_star(bearish)",
+        "fear_greed": "Extreme Fear(10) \u2014 buy zone \ud83d\udd25",
+        "funding": "Funding 0.006% \u2014 neutral",
+        "oi": "OI neutral (+0.0%)",
+        "macro": "BTC sideways \u2014 neutral"
+      },
+      "opened_at": "2026-03-04 10:20:14 ET",
+      "rr_planned": 1.53,
+      "slippage_entry": 0.0027861,
+      "sl_moves": [
+        {
+          "from": 9.097002,
+          "to": 9.2897861,
+          "price": 9.35,
+          "reason": "trail_breakeven",
+          "time": "2026-03-04 10:26:28 ET"
+        },
+        {
+          "from": 9.2897861,
+          "to": 9.33623503,
+          "price": 9.41,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:29:53 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.424,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:30:01 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.42,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:30:25 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:30:57 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.41,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:31:02 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.43,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:31:37 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.43,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:32:08 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.41,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:32:40 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.39,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:33:12 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.39,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:33:14 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.39,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:33:43 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.39,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:34:15 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:34:46 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.386,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:35:01 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:35:18 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:35:50 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.39,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:36:21 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.39,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:36:53 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.42,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:37:56 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.39,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:38:27 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.39,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:38:59 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.39,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:39:30 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.393,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:40:02 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:40:02 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.41,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:40:34 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:41:06 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:42:08 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.39,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:42:39 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:43:11 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:43:43 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:44:14 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:44:41 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.392,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:45:01 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:45:39 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:46:11 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.41,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:46:43 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.41,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:47:14 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.4,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:47:46 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.33623503,
+          "price": 9.41,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 10:48:18 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.340001,
+          "price": 9.53,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 11:02:09 ET"
+        },
+        {
+          "from": 9.340001,
+          "to": 9.350001,
+          "price": 9.54,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 11:03:10 ET"
+        },
+        {
+          "from": 9.350001,
+          "to": 9.370001,
+          "price": 9.56,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 11:03:41 ET"
+        }
+      ],
+      "tp_moves": [],
+      "audit_flags": [
+        "\u26a0\ufe0f R:R 1.56:1 is acceptable but AJ prefers \u22652:1 for high confidence"
+      ],
+      "score_audit": {
+        "declared": 89,
+        "calculated_base": 78,
+        "bonus": 11,
+        "rr": 1.56,
+        "sl_atr_mult": 1.5,
+        "component_sum": "S/R:16 + Vol:16 + MCB:11 + EMA:20 + Trend:15 = 78 base + 11 bonus = 89"
+      },
+      "close_price": 9.367189,
+      "close_ideal": 9.37,
+      "gross_pnl": 4.1779,
+      "net_pnl": 3.8746,
+      "total_fees": 0.604221,
+      "return_pct": 0.83,
+      "return_lev": 8.33,
+      "close_reason": "SL_HIT",
+      "closed_at": "2026-03-04 11:22:10 ET",
+      "slippage_exit": 0.002811,
+      "held_seconds": 0
+    },
+    {
       "sym": "BTCUSDT",
       "direction": "LONG",
       "entry": 71407.91595,

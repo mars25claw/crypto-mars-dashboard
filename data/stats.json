@@ -1,12 +1,12 @@
 {
   "trades": 3,
-  "wins": 1,
+  "wins": 2,
   "losses": 0,
-  "total_pnl": 1.577443,
-  "win_rate": 33.3,
+  "total_pnl": 5.452001,
+  "win_rate": 66.7,
   "profit_factor": 99,
   "max_drawdown": 0.0,
-  "best": 1.5774,
+  "best": 3.8746,
   "worst": 1.5774,
   "mode": "TEST"
 }
