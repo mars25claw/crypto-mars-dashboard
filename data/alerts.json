@@ -1,48 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-03T03:10:16.661238+00:00",
-      "triggers": 7,
-      "tradeable": 0,
-      "coins": [
-        {
-          "symbol": "NEARUSDT",
-          "score": 37,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 48,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 34,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 42,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-03T03:20:14.544426+00:00",
       "triggers": 7,
       "tradeable": 0,
@@ -4432,6 +4390,43 @@
           "symbol": "ADAUSDT",
           "score": 0,
           "direction": "SHORT"
+        },
+        {
+          "symbol": "JELLYJELLYUSDT",
+          "score": 77,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "MYXUSDT",
+          "score": 55,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "ENSOUSDT",
+          "score": 70,
+          "direction": "SHORT"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-04T09:50:14.374763+00:00",
+      "triggers": 6,
+      "tradeable": 2,
+      "coins": [
+        {
+          "symbol": "BTCUSDT",
+          "score": 0,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "ETHUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "ADAUSDT",
+          "score": 0,
+          "direction": "LONG"
         },
         {
           "symbol": "JELLYJELLYUSDT",
