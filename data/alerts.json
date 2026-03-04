@@ -1,58 +1,6 @@
 {
   "alerts": [
     {
-      "timestamp": "2026-03-03T00:30:21.399983+00:00",
-      "triggers": 9,
-      "tradeable": 1,
-      "coins": [
-        {
-          "symbol": "HBARUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "NEARUSDT",
-          "score": 35,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "ATOMUSDT",
-          "score": 55,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "POWERUSDT",
-          "score": 54,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SIRENUSDT",
-          "score": 62,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "ARCUSDT",
-          "score": 0,
-          "direction": "LONG"
-        },
-        {
-          "symbol": "CRCLUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "SAHARAUSDT",
-          "score": 49,
-          "direction": "SHORT"
-        },
-        {
-          "symbol": "RIVERUSDT",
-          "score": 0,
-          "direction": "SHORT"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-03T00:40:15.458215+00:00",
       "triggers": 9,
       "tradeable": 1,
@@ -4036,6 +3984,48 @@
         {
           "symbol": "HBARUSDT",
           "score": 39,
+          "direction": "LONG"
+        },
+        {
+          "symbol": "LINKUSDT",
+          "score": 40,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "SUIUSDT",
+          "score": 0,
+          "direction": "LONG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-04T07:10:06.645765+00:00",
+      "triggers": 7,
+      "tradeable": 0,
+      "coins": [
+        {
+          "symbol": "BTCUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "DOTUSDT",
+          "score": 40,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "APTUSDT",
+          "score": 25,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "AAVEUSDT",
+          "score": 0,
+          "direction": "SHORT"
+        },
+        {
+          "symbol": "HBARUSDT",
+          "score": 41,
           "direction": "LONG"
         },
         {
