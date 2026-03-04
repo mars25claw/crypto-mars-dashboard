@@ -1,6 +1,16 @@
 {
   "symbols": [
     "ATOMUSDT",
+    "ZROUSDT",
+    "BNBUSDT",
+    "FILUSDT",
+    "1000BONKUSDT",
+    "POLUSDT",
+    "ZECUSDT",
+    "ONDOUSDT",
+    "JUPUSDT",
+    "TAOUSDT",
+    "TRUMPUSDT",
     "BTCUSDT",
     "ETHUSDT",
     "SOLUSDT",
@@ -24,20 +34,33 @@
     "BCHUSDT",
     "SUIUSDT",
     "TIAUSDT",
-    "SAHARAUSDT",
-    "FARTCOINUSDT",
-    "PIPPINUSDT",
-    "ZECUSDT",
-    "XAUTUSDT",
-    "POWERUSDT",
-    "BNBUSDT",
-    "HYPEUSDT",
-    "RIVERUSDT",
-    "1000PEPEUSDT"
+    "RIVERUSDT"
   ],
-  "scores": {},
+  "scores": {
+    "ZROUSDT": 88,
+    "BNBUSDT": 72,
+    "FILUSDT": 72,
+    "1000BONKUSDT": 70,
+    "POLUSDT": 68,
+    "ZECUSDT": 67,
+    "ONDOUSDT": 66,
+    "JUPUSDT": 64,
+    "TAOUSDT": 61,
+    "TRUMPUSDT": 61
+  },
   "directions": {},
-  "extras": [],
+  "extras": [
+    "ZROUSDT",
+    "BNBUSDT",
+    "FILUSDT",
+    "1000BONKUSDT",
+    "POLUSDT",
+    "ZECUSDT",
+    "ONDOUSDT",
+    "JUPUSDT",
+    "TAOUSDT",
+    "TRUMPUSDT"
+  ],
   "core": [
     "BTCUSDT",
     "ETHUSDT",
@@ -71,50 +94,120 @@
     "ATOMUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 55,
+      "direction": "LONG",
+      "has_sr": true
+    },
+    "ZROUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 88,
+      "direction": "LONG",
+      "has_sr": true
+    },
+    "BNBUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 72,
+      "direction": "LONG",
+      "has_sr": true
+    },
+    "FILUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 72,
+      "direction": "LONG",
+      "has_sr": true
+    },
+    "1000BONKUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 70,
+      "direction": "LONG",
+      "has_sr": true
+    },
+    "POLUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 68,
+      "direction": "LONG",
+      "has_sr": true
+    },
+    "ZECUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 67,
+      "direction": "LONG",
+      "has_sr": true
+    },
+    "ONDOUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 66,
+      "direction": "LONG",
+      "has_sr": true
+    },
+    "JUPUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 64,
+      "direction": "LONG",
+      "has_sr": true
+    },
+    "TAOUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 61,
+      "direction": "LONG",
+      "has_sr": true
+    },
+    "TRUMPUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 61,
+      "direction": "LONG",
       "has_sr": true
     },
     "BTCUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 67,
+      "direction": "LONG",
       "has_sr": true
     },
     "ETHUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 86,
+      "direction": "LONG",
       "has_sr": true
     },
     "SOLUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 73,
+      "direction": "LONG",
       "has_sr": true
     },
     "XRPUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 55,
+      "direction": "LONG",
       "has_sr": true
     },
     "ADAUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 47,
+      "direction": "LONG",
       "has_sr": true
     },
     "DOGEUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 71,
+      "direction": "LONG",
       "has_sr": true
     },
     "DOTUSDT": {
@@ -141,22 +234,22 @@
     "HBARUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 55,
+      "direction": "LONG",
       "has_sr": true
     },
     "LINKUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 55,
+      "direction": "LONG",
       "has_sr": true
     },
     "UNIUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 50,
+      "direction": "LONG",
       "has_sr": true
     },
     "NEARUSDT": {
@@ -169,8 +262,8 @@
     "XLMUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 70,
+      "direction": "LONG",
       "has_sr": true
     },
     "PEPEUSDT": {
@@ -183,113 +276,57 @@
     "OPUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 55,
+      "direction": "LONG",
       "has_sr": true
     },
     "AVAXUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 55,
+      "direction": "LONG",
       "has_sr": true
     },
     "ARBUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 70,
+      "direction": "LONG",
       "has_sr": true
     },
     "INJUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 69,
+      "direction": "LONG",
       "has_sr": true
     },
     "LTCUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 74,
+      "direction": "LONG",
       "has_sr": true
     },
     "BCHUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 55,
+      "direction": "LONG",
       "has_sr": true
     },
     "SUIUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 63,
+      "direction": "LONG",
       "has_sr": true
     },
     "TIAUSDT": {
       "support": null,
       "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "SAHARAUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "FARTCOINUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "PIPPINUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "ZECUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "XAUTUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "POWERUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "BNBUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "HYPEUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
+      "score": 62,
+      "direction": "LONG",
       "has_sr": true
     },
     "RIVERUSDT": {
@@ -298,16 +335,9 @@
       "score": 0,
       "direction": "?",
       "has_sr": true
-    },
-    "1000PEPEUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
     }
   },
-  "total": 34,
-  "updated": "2026-03-04T21:00:00.272580+00:00",
+  "total": 35,
+  "updated": "2026-03-04T21:10:00.672429+00:00",
   "source": "AJ scan-all (12h) + rotate (6h) + core (always)"
 }
