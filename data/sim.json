@@ -15,7 +15,7 @@
       "direction": "LONG",
       "entry": 56.937076,
       "entry_ideal": 56.92,
-      "sl": 55.921043,
+      "sl": 56.937076,
       "sl_initial": 55.921043,
       "tp": 58.97,
       "qty": 8.9289,
@@ -57,7 +57,15 @@
       "opened_at": "2026-03-04 13:43:26 ET",
       "rr_planned": 2.0,
       "slippage_entry": 0.017076,
-      "sl_moves": [],
+      "sl_moves": [
+        {
+          "from": 55.921043,
+          "to": 56.937076,
+          "price": 57.27,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 14:15:01 ET"
+        }
+      ],
       "tp_moves": [],
       "audit_flags": [
         "\u26a0\ufe0f Volume 1.0\u00d7 \u2014 below AJ's ideal 1.5\u00d7"
