@@ -1,7 +1,6 @@
 {
   "symbols": [
     "LTCUSDT",
-    "1000PEPEUSDT",
     "BTCUSDT",
     "ETHUSDT",
     "SOLUSDT",
@@ -33,7 +32,8 @@
     "POWERUSDT",
     "BNBUSDT",
     "HYPEUSDT",
-    "RIVERUSDT"
+    "RIVERUSDT",
+    "1000PEPEUSDT"
   ],
   "scores": {},
   "directions": {},
@@ -65,18 +65,10 @@
     "TIAUSDT"
   ],
   "open": [
-    "LTCUSDT",
-    "1000PEPEUSDT"
+    "LTCUSDT"
   ],
   "level_map": {
     "LTCUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "1000PEPEUSDT": {
       "support": null,
       "resistance": null,
       "score": 0,
@@ -306,9 +298,16 @@
       "score": 0,
       "direction": "?",
       "has_sr": true
+    },
+    "1000PEPEUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 0,
+      "direction": "?",
+      "has_sr": true
     }
   },
   "total": 34,
-  "updated": "2026-03-04T16:30:00.530112+00:00",
+  "updated": "2026-03-04T16:40:00.796047+00:00",
   "source": "AJ scan-all (12h) + rotate (6h) + core (always)"
 }

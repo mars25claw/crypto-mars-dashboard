@@ -1,6 +1,90 @@
 {
   "trades": [
     {
+      "sym": "1000PEPEUSDT",
+      "direction": "LONG",
+      "entry": 0.00364309,
+      "entry_ideal": 0.003642,
+      "sl": 0.00369774,
+      "sl_initial": 0.003532,
+      "tp": 0.003953,
+      "qty": 137604.6965,
+      "leverage": 10,
+      "notional": 501.3067,
+      "margin": 50.1307,
+      "fee_entry": 0.300784,
+      "score": 100,
+      "atr": 7.3e-05,
+      "reason": "[TEST] 100/100 LONG none NY(ET)+3",
+      "breakdown": {
+        "sr": 16,
+        "sr_level": 0.003632,
+        "vol_adj": "candle 25m old \u2192 annualized 2.8x",
+        "vol": 20,
+        "vol_ratio": 2.8,
+        "mcb": 4,
+        "mcb_sig": 15.3,
+        "div": "none",
+        "ema_align": "partial_bull",
+        "ema": 14,
+        "trend": 15,
+        "fib": 0,
+        "breakout": 5,
+        "session": "NY(ET)+3",
+        "adx_val": 21.2,
+        "adx": "ADX=21+0",
+        "retest": "\ud83c\udfaf Breakout retest @ $0.0036 +10",
+        "sweep": "\ud83e\uddf2 bullish sweep @ $0.0036 +8",
+        "candle": "bullish_engulfing(bullish)",
+        "fear_greed": "Extreme Fear(10) \u2014 buy zone \ud83d\udd25",
+        "funding": "Funding 0.008% \u2014 neutral",
+        "oi": "OI neutral (+0.0%)",
+        "macro": "BTC sideways \u2014 neutral"
+      },
+      "opened_at": "2026-03-04 11:25:11 ET",
+      "rr_planned": 2.79,
+      "slippage_entry": 1.09e-06,
+      "sl_moves": [
+        {
+          "from": 0.003532,
+          "to": 0.00366131,
+          "price": 0.00371,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-04 11:38:06 ET"
+        },
+        {
+          "from": 0.00366131,
+          "to": 0.00369774,
+          "price": 0.003788,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-04 11:38:08 ET"
+        }
+      ],
+      "tp_moves": [],
+      "audit_flags": [
+        "\u26a0\ufe0f Price is 999.00% from S/R level \u2014 too far from level, wait for price to arrive"
+      ],
+      "score_audit": {
+        "declared": 100,
+        "calculated_base": 69,
+        "bonus": 31,
+        "rr": 2.83,
+        "sl_atr_mult": 1.51,
+        "component_sum": "S/R:16 + Vol:20 + MCB:4 + EMA:14 + Trend:15 = 69 base + 31 bonus = 100"
+      },
+      "close_price": 0.0036729,
+      "close_ideal": 0.003674,
+      "gross_pnl": 4.1017,
+      "net_pnl": 3.7984,
+      "total_fees": 0.604029,
+      "return_pct": 0.82,
+      "return_lev": 8.18,
+      "close_reason": "SL_HIT",
+      "closed_at": "2026-03-04 11:38:10 ET",
+      "slippage_exit": 1.1e-06,
+      "held_seconds": 0
+    },
+    {
       "sym": "LINKUSDT",
       "direction": "LONG",
       "entry": 9.2897861,
