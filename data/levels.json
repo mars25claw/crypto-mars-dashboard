@@ -1,94 +1,94 @@
 {
   "nearest": [
     {
-      "symbol": "ARKMUSDT",
-      "price": 0.111,
-      "change_24h": 4.72,
-      "nearest_type": "S",
-      "nearest_price": 0.111,
-      "distance_pct": 0.0,
-      "touches": 1
-    },
-    {
-      "symbol": "BTCUSDT",
-      "price": 71027.88,
-      "change_24h": 5.76,
+      "symbol": "ENAUSDT",
+      "price": 0.1193,
+      "change_24h": 7.67,
       "nearest_type": "R",
-      "nearest_price": 70983.0,
-      "distance_pct": 0.06,
-      "touches": 1
-    },
-    {
-      "symbol": "CRVUSDT",
-      "price": 0.261,
-      "change_24h": 5.88,
-      "nearest_type": "S",
-      "nearest_price": 0.2606,
-      "distance_pct": 0.15,
-      "touches": 1
-    },
-    {
-      "symbol": "ICPUSDT",
-      "price": 2.594,
-      "change_24h": 8.04,
-      "nearest_type": "R",
-      "nearest_price": 2.602,
-      "distance_pct": 0.31,
+      "nearest_price": 0.1194,
+      "distance_pct": 0.08,
       "touches": 1
     },
     {
       "symbol": "ATOMUSDT",
-      "price": 1.897,
-      "change_24h": 5.04,
+      "price": 1.905,
+      "change_24h": 5.07,
       "nearest_type": "S",
       "nearest_price": 1.907,
-      "distance_pct": 0.53,
+      "distance_pct": 0.1,
       "touches": 1
     },
     {
-      "symbol": "JUPUSDT",
-      "price": 0.1863,
-      "change_24h": 6.4,
-      "nearest_type": "S",
-      "nearest_price": 0.185,
-      "distance_pct": 0.7,
-      "touches": 2
-    },
-    {
-      "symbol": "BERAUSDT",
-      "price": 0.553,
-      "change_24h": -3.32,
-      "nearest_type": "S",
-      "nearest_price": 0.549,
-      "distance_pct": 0.72,
-      "touches": 2
-    },
-    {
-      "symbol": "SIGNUSDT",
-      "price": 0.02935,
-      "change_24h": 5.08,
+      "symbol": "ICPUSDT",
+      "price": 2.605,
+      "change_24h": 8.63,
       "nearest_type": "R",
-      "nearest_price": 0.02914,
-      "distance_pct": 0.72,
-      "touches": 2
+      "nearest_price": 2.602,
+      "distance_pct": 0.12,
+      "touches": 1
+    },
+    {
+      "symbol": "CRVUSDT",
+      "price": 0.2612,
+      "change_24h": 5.75,
+      "nearest_type": "S",
+      "nearest_price": 0.2606,
+      "distance_pct": 0.23,
+      "touches": 1
+    },
+    {
+      "symbol": "BTCUSDT",
+      "price": 71185.77,
+      "change_24h": 6.03,
+      "nearest_type": "R",
+      "nearest_price": 70983.0,
+      "distance_pct": 0.28,
+      "touches": 1
     },
     {
       "symbol": "METUSDT",
-      "price": 0.1756,
-      "change_24h": 1.33,
+      "price": 0.1764,
+      "change_24h": 1.73,
       "nearest_type": "S",
       "nearest_price": 0.1769,
-      "distance_pct": 0.74,
+      "distance_pct": 0.28,
       "touches": 1
     },
     {
       "symbol": "LTCUSDT",
-      "price": 56.17,
-      "change_24h": 4.48,
+      "price": 56.22,
+      "change_24h": 4.67,
       "nearest_type": "R",
       "nearest_price": 56.68,
-      "distance_pct": 0.91,
+      "distance_pct": 0.82,
       "touches": 1
+    },
+    {
+      "symbol": "ARKMUSDT",
+      "price": 0.112,
+      "change_24h": 5.66,
+      "nearest_type": "S",
+      "nearest_price": 0.111,
+      "distance_pct": 0.89,
+      "touches": 1
+    },
+    {
+      "symbol": "SIGNUSDT",
+      "price": 0.02876,
+      "change_24h": 2.68,
+      "nearest_type": "R",
+      "nearest_price": 0.0285,
+      "distance_pct": 0.9,
+      "touches": 1
+    },
+    {
+      "symbol": "JUPUSDT",
+      "price": 0.187,
+      "change_24h": 6.31,
+      "nearest_type": "S",
+      "nearest_price": 0.185,
+      "distance_pct": 1.07,
+      "touches": 2
     }
   ],
   "total_coins": 76
