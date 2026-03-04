@@ -566,21 +566,33 @@ function renderPositions(acct, isTest){
 // ════════════════════════════════════════════════
 //  WATCHLIST BUILD + WS CONNECT
 // ════════════════════════════════════════════════
+// TOP_COINS is a fallback only — real list comes from data/watchlist.json (built from AJ scan)
 const TOP_COINS = ['BTCUSDT','ETHUSDT','SOLUSDT','XRPUSDT','BNBUSDT','DOGEUSDT','ADAUSDT','AVAXUSDT','LINKUSDT','NEARUSDT','INJUSDT','SUIUSDT','DOTUSDT','AAVEUSDT','APTUSDT'];
 const COIN_COLORS = {BTC:'#f7931a',ETH:'#627eea',SOL:'#9945ff',XRP:'#006fc7',BNB:'#f3ba2f',DOGE:'#ba9f33',ADA:'#0d1e2d',AVAX:'#e84142',LINK:'#2a5ada',NEAR:'#00ec97',INJ:'#00b2ff',SUI:'#6fbcf0',DOT:'#e6007a',AAVE:'#b6509e',APT:'#00b2fe'};
 function coinColor(sym){ return COIN_COLORS[sym.replace('USDT','')] || '#888'; }
 function coinLetter(sym){ return sym.replace('USDT','').slice(0,2); }
 
 function buildWatchlist(levels, dynwl, acct){
-  // Combine TOP + dynamic watchlist + open position symbols (CRITICAL — always subscribed)
-  let syms = [...TOP_COINS];
-  if(dynwl && dynwl.extras) dynwl.extras.forEach(s=>{ if(!syms.includes(s)) syms.push(s); });
-  if(levels) Object.keys(levels).forEach(s=>{ if(!syms.includes(s)) syms.splice(5,0,s); });
-  // Always include open position symbols even if not in watchlist
+  // PRIMARY: use symbols from watchlist.json (built by AJ scan-all every 12h + rotate every 6h)
+  // This means the WS list rotates dynamically — NOT hardcoded
+  let syms = [];
+
+  // 1. From AJ scan — watchlist.json has symbols array already sorted/filtered
+  if(dynwl && dynwl.symbols && dynwl.symbols.length > 0){
+    syms = [...dynwl.symbols];
+  } else {
+    // Fallback: build from parts if symbols array missing
+    if(dynwl && dynwl.extras) syms = [...dynwl.extras];
+    TOP_COINS.forEach(s=>{ if(!syms.includes(s)) syms.push(s); });
+    if(levels) Object.keys(levels).forEach(s=>{ if(!syms.includes(s)) syms.push(s); });
+  }
+
+  // 2. Always include open position symbols (guaranteed WS coverage)
   if(acct && acct.open_positions){
     Object.keys(acct.open_positions).forEach(s=>{ if(!syms.includes(s)) syms.unshift(s); });
   }
-  syms = [...new Set(syms)].slice(0,30);
+
+  syms = [...new Set(syms)].filter(s=>s.endsWith('USDT')).slice(0,35);
   wsSymbols = syms;
 
   // Scores from dynamic watchlist
