@@ -1,6 +1,5 @@
 {
   "symbols": [
-    "LTCUSDT",
     "BTCUSDT",
     "ETHUSDT",
     "SOLUSDT",
@@ -21,6 +20,7 @@
     "ATOMUSDT",
     "ARBUSDT",
     "INJUSDT",
+    "LTCUSDT",
     "BCHUSDT",
     "SUIUSDT",
     "TIAUSDT",
@@ -64,17 +64,8 @@
     "SUIUSDT",
     "TIAUSDT"
   ],
-  "open": [
-    "LTCUSDT"
-  ],
+  "open": [],
   "level_map": {
-    "LTCUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
     "BTCUSDT": {
       "support": null,
       "resistance": null,
@@ -215,6 +206,13 @@
       "direction": "?",
       "has_sr": true
     },
+    "LTCUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 0,
+      "direction": "?",
+      "has_sr": true
+    },
     "BCHUSDT": {
       "support": null,
       "resistance": null,
@@ -308,6 +306,6 @@
     }
   },
   "total": 34,
-  "updated": "2026-03-04T17:20:01.030330+00:00",
+  "updated": "2026-03-04T17:22:45.265852+00:00",
   "source": "AJ scan-all (12h) + rotate (6h) + core (always)"
 }

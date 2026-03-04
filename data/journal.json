@@ -1,6 +1,83 @@
 {
   "trades": [
     {
+      "sym": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 56.496944,
+      "entry_ideal": 56.48,
+      "sl": 56.496944,
+      "sl_initial": 55.507903,
+      "tp": 58.97,
+      "qty": 8.87,
+      "leverage": 10,
+      "notional": 501.1279,
+      "margin": 50.1128,
+      "fee_entry": 0.300677,
+      "score": 94,
+      "atr": 0.648065,
+      "reason": "[TEST] 94/100 LONG none NY(ET)+3",
+      "breakdown": {
+        "sr": 20,
+        "sr_level": 56.64,
+        "vol_adj": "candle 26m old \u2192 annualized 2.4x",
+        "vol": 16,
+        "vol_ratio": 2.4,
+        "mcb": 8,
+        "mcb_sig": 23.6,
+        "div": "none",
+        "ema_align": "bullish_stack",
+        "ema": 20,
+        "trend": 8,
+        "fib": 3,
+        "breakout": 5,
+        "session": "NY(ET)+3",
+        "adx_val": 31.8,
+        "adx": "ADX=32+3",
+        "retest": "none",
+        "sweep": "none",
+        "candle": "none",
+        "fear_greed": "Extreme Fear(10) \u2014 buy zone \ud83d\udd25",
+        "funding": "Funding 0.007% \u2014 neutral",
+        "oi": "OI neutral (+0.0%)",
+        "macro": "BTC sideways \u2014 neutral"
+      },
+      "opened_at": "2026-03-04 10:26:33 ET",
+      "rr_planned": 2.5,
+      "slippage_entry": 0.016944,
+      "sl_moves": [
+        {
+          "from": 55.507903,
+          "to": 56.496944,
+          "price": 56.87,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 12:15:01 ET"
+        }
+      ],
+      "tp_moves": [],
+      "audit_flags": [
+        "\u26a0\ufe0f Price is 999.00% from S/R level \u2014 too far from level, wait for price to arrive"
+      ],
+      "score_audit": {
+        "declared": 94,
+        "calculated_base": 72,
+        "bonus": 22,
+        "rr": 2.56,
+        "sl_atr_mult": 1.5,
+        "component_sum": "S/R:20 + Vol:16 + MCB:8 + EMA:20 + Trend:8 = 72 base + 22 bonus = 94"
+      },
+      "close_price": 56.463056,
+      "close_ideal": 56.48,
+      "gross_pnl": -0.3006,
+      "net_pnl": -0.6011,
+      "total_fees": 0.601173,
+      "return_pct": -0.06,
+      "return_lev": -0.6,
+      "close_reason": "SL_HIT",
+      "closed_at": "2026-03-04 12:22:05 ET",
+      "slippage_exit": 0.016944,
+      "held_seconds": 0
+    },
+    {
       "sym": "ETHUSDT",
       "direction": "LONG",
       "entry": 2146.953893,
