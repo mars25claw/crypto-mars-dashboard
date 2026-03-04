@@ -15,7 +15,7 @@
       "direction": "LONG",
       "entry": 9.2897861,
       "entry_ideal": 9.287,
-      "sl": 9.33623503,
+      "sl": 9.370001,
       "sl_initial": 9.097002,
       "tp": 9.584,
       "qty": 53.9763,
@@ -333,6 +333,27 @@
           "price": 9.41,
           "reason": "AJ_TRAIL",
           "time": "2026-03-04 10:48:18 ET"
+        },
+        {
+          "from": 9.33623503,
+          "to": 9.340001,
+          "price": 9.53,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 11:02:09 ET"
+        },
+        {
+          "from": 9.340001,
+          "to": 9.350001,
+          "price": 9.54,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 11:03:10 ET"
+        },
+        {
+          "from": 9.350001,
+          "to": 9.370001,
+          "price": 9.56,
+          "reason": "AJ_TRAIL",
+          "time": "2026-03-04 11:03:41 ET"
         }
       ],
       "tp_moves": [],
