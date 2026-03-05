@@ -1,5 +1,6 @@
 {
   "symbols": [
+    "LTCUSDT",
     "ZROUSDT",
     "BNBUSDT",
     "FILUSDT",
@@ -30,7 +31,6 @@
     "ATOMUSDT",
     "ARBUSDT",
     "INJUSDT",
-    "LTCUSDT",
     "BCHUSDT",
     "SUIUSDT",
     "TIAUSDT",
@@ -87,8 +87,17 @@
     "SUIUSDT",
     "TIAUSDT"
   ],
-  "open": [],
+  "open": [
+    "LTCUSDT"
+  ],
   "level_map": {
+    "LTCUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 74,
+      "direction": "LONG",
+      "has_sr": true
+    },
     "ZROUSDT": {
       "support": null,
       "resistance": null,
@@ -299,13 +308,6 @@
       "direction": "LONG",
       "has_sr": true
     },
-    "LTCUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 74,
-      "direction": "LONG",
-      "has_sr": true
-    },
     "BCHUSDT": {
       "support": null,
       "resistance": null,
@@ -336,6 +338,6 @@
     }
   },
   "total": 35,
-  "updated": "2026-03-05T01:30:01.129932+00:00",
+  "updated": "2026-03-05T01:40:00.737713+00:00",
   "source": "AJ scan-all (12h) + rotate (6h) + core (always)"
 }
