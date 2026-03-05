@@ -1,6 +1,5 @@
 {
   "symbols": [
-    "BTCUSDT",
     "FORMUSDT",
     "BARDUSDT",
     "FARTCOINUSDT",
@@ -11,6 +10,7 @@
     "VVVUSDT",
     "ENAUSDT",
     "ASTERUSDT",
+    "BTCUSDT",
     "ETHUSDT",
     "SOLUSDT",
     "XRPUSDT",
@@ -98,17 +98,8 @@
     "SUIUSDT",
     "TIAUSDT"
   ],
-  "open": [
-    "BTCUSDT"
-  ],
+  "open": [],
   "level_map": {
-    "BTCUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
     "FORMUSDT": {
       "support": null,
       "resistance": null,
@@ -177,6 +168,13 @@
       "resistance": null,
       "score": 53,
       "direction": "LONG",
+      "has_sr": true
+    },
+    "BTCUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 0,
+      "direction": "?",
       "has_sr": true
     },
     "ETHUSDT": {
@@ -349,6 +347,6 @@
     }
   },
   "total": 35,
-  "updated": "2026-03-05T13:09:17.604698+00:00",
+  "updated": "2026-03-05T13:29:18.150050+00:00",
   "source": "AJ scan-all (12h) + rotate (6h) + core (always)"
 }

@@ -1,6 +1,255 @@
 {
   "trades": [
     {
+      "sym": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 71817.768869,
+      "entry_ideal": 71796.23,
+      "sl": 72437.017183,
+      "sl_initial": 70675.097182,
+      "tp": 94509.356667,
+      "qty": 0.0071,
+      "leverage": 5,
+      "notional": 509.9062,
+      "margin": 101.9812,
+      "fee_entry": 0.305944,
+      "score": 74,
+      "atr": 747.421878,
+      "reason": "[TEST] 74/100 LONG hidden_bullish Asia(ET)+1",
+      "breakdown": {
+        "sr": 7,
+        "sr_level": 70983.0,
+        "sr_dist_pct": 1.145668681233529,
+        "vol": 5,
+        "vol_ratio": 0.9,
+        "mcb": 18,
+        "mcb_sig": 16.0,
+        "div": "hidden_bullish",
+        "ema_align": "bullish_stack",
+        "ema": 20,
+        "trend": 8,
+        "trend_dir": "mixed",
+        "fib": 3,
+        "breakout": 0,
+        "session": "Asia(ET)+1",
+        "adx_val": 34.3,
+        "adx": "ADX=34+3",
+        "retest": "none",
+        "sweep": "none",
+        "candle": "hammer(bullish)",
+        "fear_greed": "Fear(22) \u2014 good long entry",
+        "funding": "Funding -0.005% \u2014 neutral",
+        "funding_pct": -0.005395,
+        "oi": "OI neutral (+0.0%)",
+        "macro": "BTC sideways \u2014 neutral"
+      },
+      "opened_at": "2026-03-05 02:55:08 ET",
+      "rr_planned": 19.86,
+      "slippage_entry": 21.538869,
+      "sl_moves": [
+        {
+          "from": 70675.097182,
+          "to": 71817.768869,
+          "price": 72181.47,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 03:44:31 ET"
+        },
+        {
+          "from": 71817.768869,
+          "to": 72176.85771335,
+          "price": 72538.71,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 04:05:20 ET"
+        },
+        {
+          "from": 72176.85771335,
+          "to": 72229.207183,
+          "price": 73350.34,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:26:47 ET"
+        },
+        {
+          "from": 72229.207183,
+          "to": 72238.847183,
+          "price": 73359.98,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:32:43 ET"
+        },
+        {
+          "from": 72238.847183,
+          "to": 72238.857183,
+          "price": 73359.99,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:32:46 ET"
+        },
+        {
+          "from": 72238.857183,
+          "to": 72245.137183,
+          "price": 73366.27,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:32:47 ET"
+        },
+        {
+          "from": 72245.137183,
+          "to": 72266.437183,
+          "price": 73387.57,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:32:48 ET"
+        },
+        {
+          "from": 72266.437183,
+          "to": 72276.167183,
+          "price": 73397.3,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:32:50 ET"
+        },
+        {
+          "from": 72276.167183,
+          "to": 72298.167183,
+          "price": 73419.3,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:32:53 ET"
+        },
+        {
+          "from": 72298.167183,
+          "to": 72333.517183,
+          "price": 73454.65,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:32:54 ET"
+        },
+        {
+          "from": 72333.517183,
+          "to": 72337.097183,
+          "price": 73458.23,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:06 ET"
+        },
+        {
+          "from": 72337.097183,
+          "to": 72338.857183,
+          "price": 73459.99,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:38 ET"
+        },
+        {
+          "from": 72338.857183,
+          "to": 72339.607183,
+          "price": 73460.74,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:39 ET"
+        },
+        {
+          "from": 72339.607183,
+          "to": 72350.307183,
+          "price": 73471.44,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:41 ET"
+        },
+        {
+          "from": 72350.307183,
+          "to": 72355.037183,
+          "price": 73476.17,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:42 ET"
+        },
+        {
+          "from": 72355.037183,
+          "to": 72373.537183,
+          "price": 73494.67,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:43 ET"
+        },
+        {
+          "from": 72373.537183,
+          "to": 72377.857183,
+          "price": 73498.99,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:45 ET"
+        },
+        {
+          "from": 72377.857183,
+          "to": 72378.857183,
+          "price": 73499.99,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:46 ET"
+        },
+        {
+          "from": 72378.857183,
+          "to": 72383.857183,
+          "price": 73504.99,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:48 ET"
+        },
+        {
+          "from": 72383.857183,
+          "to": 72383.867183,
+          "price": 73505.0,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:50 ET"
+        },
+        {
+          "from": 72383.867183,
+          "to": 72393.847183,
+          "price": 73514.98,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:34:55 ET"
+        },
+        {
+          "from": 72393.847183,
+          "to": 72403.997183,
+          "price": 73525.13,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:52:55 ET"
+        },
+        {
+          "from": 72403.997183,
+          "to": 72421.717183,
+          "price": 73542.85,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:52:55 ET"
+        },
+        {
+          "from": 72421.717183,
+          "to": 72437.007183,
+          "price": 73558.14,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:55:27 ET"
+        },
+        {
+          "from": 72437.007183,
+          "to": 72437.017183,
+          "price": 73558.15,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 05:55:28 ET"
+        }
+      ],
+      "tp_moves": [],
+      "audit_flags": [
+        "\u26a0\ufe0f Price is 1.15% from S/R level \u2014 too far from level, wait for price to arrive",
+        "\u26a0\ufe0f Volume 0.9\u00d7 below average",
+        "\u26a0\ufe0f Night session (2.9166666666666665:00 ET) \u2014 lower liquidity, monitor closely"
+      ],
+      "score_audit": {
+        "declared": 74,
+        "calculated_base": 58,
+        "bonus": 16,
+        "rr": 20.26,
+        "sl_atr_mult": 1.5,
+        "component_sum": "S/R:7 + Vol:5 + MCB:18 + EMA:20 + Trend:8 = 58 base + 16 bonus = 74"
+      },
+      "close_price": 72415.28607785,
+      "close_ideal": 72437.017183,
+      "gross_pnl": 4.2424,
+      "net_pnl": 3.9339,
+      "total_fees": 0.614433,
+      "return_pct": 0.83,
+      "return_lev": 4.16,
+      "close_reason": "SL_HIT",
+      "closed_at": "2026-03-05 08:25:11 ET",
+      "slippage_exit": 21.73110515,
+      "held_seconds": 0
+    },
+    {
       "sym": "LTCUSDT",
       "direction": "LONG",
       "entry": 56.867055,
