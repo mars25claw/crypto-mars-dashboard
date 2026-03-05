@@ -24,16 +24,16 @@
     "BCHUSDT",
     "SUIUSDT",
     "TIAUSDT",
-    "HYPEUSDT",
-    "1000PEPEUSDT",
-    "PHAUSDT",
-    "ZECUSDT",
-    "BARDUSDT",
-    "FARTCOINUSDT",
     "BNBUSDT",
-    "POWERUSDT",
-    "PIPPINUSDT",
+    "HYPEUSDT",
+    "FARTCOINUSDT",
     "XAUTUSDT",
+    "ZECUSDT",
+    "1000PEPEUSDT",
+    "BARDUSDT",
+    "PHAUSDT",
+    "PIPPINUSDT",
+    "POWERUSDT",
     "RIVERUSDT"
   ],
   "scores": {},
@@ -237,35 +237,14 @@
       "direction": "?",
       "has_sr": true
     },
+    "BNBUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 0,
+      "direction": "?",
+      "has_sr": true
+    },
     "HYPEUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "1000PEPEUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "PHAUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "ZECUSDT": {
-      "support": null,
-      "resistance": null,
-      "score": 0,
-      "direction": "?",
-      "has_sr": true
-    },
-    "BARDUSDT": {
       "support": null,
       "resistance": null,
       "score": 0,
@@ -279,14 +258,35 @@
       "direction": "?",
       "has_sr": true
     },
-    "BNBUSDT": {
+    "XAUTUSDT": {
       "support": null,
       "resistance": null,
       "score": 0,
       "direction": "?",
       "has_sr": true
     },
-    "POWERUSDT": {
+    "ZECUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 0,
+      "direction": "?",
+      "has_sr": true
+    },
+    "1000PEPEUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 0,
+      "direction": "?",
+      "has_sr": true
+    },
+    "BARDUSDT": {
+      "support": null,
+      "resistance": null,
+      "score": 0,
+      "direction": "?",
+      "has_sr": true
+    },
+    "PHAUSDT": {
       "support": null,
       "resistance": null,
       "score": 0,
@@ -300,7 +300,7 @@
       "direction": "?",
       "has_sr": true
     },
-    "XAUTUSDT": {
+    "POWERUSDT": {
       "support": null,
       "resistance": null,
       "score": 0,
@@ -316,6 +316,6 @@
     }
   },
   "total": 35,
-  "updated": "2026-03-05T02:20:00.947939+00:00",
+  "updated": "2026-03-05T02:30:01.015620+00:00",
   "source": "AJ scan-all (12h) + rotate (6h) + core (always)"
 }
