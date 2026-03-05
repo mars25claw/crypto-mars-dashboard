@@ -15,7 +15,7 @@
       "direction": "LONG",
       "entry": 71817.768869,
       "entry_ideal": 71796.23,
-      "sl": 70675.097182,
+      "sl": 71817.768869,
       "sl_initial": 70675.097182,
       "tp": 94509.356667,
       "qty": 0.0071,
@@ -56,7 +56,15 @@
       "opened_at": "2026-03-05 02:55:08 ET",
       "rr_planned": 19.86,
       "slippage_entry": 21.538869,
-      "sl_moves": [],
+      "sl_moves": [
+        {
+          "from": 70675.097182,
+          "to": 71817.768869,
+          "price": 72181.47,
+          "reason": "STREAMER_TRAIL",
+          "time": "2026-03-05 03:44:31 ET"
+        }
+      ],
       "tp_moves": [],
       "audit_flags": [
         "\u26a0\ufe0f Price is 1.15% from S/R level \u2014 too far from level, wait for price to arrive",
