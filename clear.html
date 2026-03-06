@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Clear</title>
+<meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate">
+<style>body{background:#080810;color:#dde1f0;font-family:system-ui;display:flex;justify-content:center;align-items:center;min-height:100vh;flex-direction:column;gap:12px;text-align:center}
+.t{font-size:20px;font-weight:700}.s{color:#555570;font-size:13px}</style>
+</head><body>
+<div class="t" id="t">🧹 Clearing…</div>
+<div class="s" id="s">Removing old service workers and cache</div>
+<script>
+async function go(){
+  var done = [];
+  if('serviceWorker' in navigator){
+    var regs = await navigator.serviceWorker.getRegistrations();
+    for(var r of regs){ await r.unregister(); done.push('SW'); }
+  }
+  if('caches' in window){
+    var keys = await caches.keys();
+    for(var k of keys){ await caches.delete(k); done.push('cache:'+k); }
+  }
+  localStorage.clear();
+  sessionStorage.clear();
+  document.getElementById('t').textContent = '✅ Done! (' + done.length + ' items cleared)';
+  document.getElementById('s').textContent = 'Redirecting to login…';
+  setTimeout(function(){ location.replace('/login?t=1772762012'); }, 1500);
+}
+go();
+</script>
+</body></html>
